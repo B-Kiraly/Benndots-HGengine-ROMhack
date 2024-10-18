@@ -4724,7 +4724,7 @@ levelup SPECIES_SNUBBULL
     learnset MOVE_PAYBACK, 41
     learnset MOVE_TAKE_DOWN, 44
     learnset MOVE_OUTRAGE, 48
-    learnset MOVE_DOUBLE_EDGE 52
+    learnset MOVE_DOUBLE_EDGE, 52
     terminatelearnset
 
 
@@ -4748,7 +4748,7 @@ levelup SPECIES_GRANBULL
     learnset MOVE_PAYBACK, 41
     learnset MOVE_TAKE_DOWN, 44
     learnset MOVE_OUTRAGE, 48
-    learnset MOVE_DOUBLE_EDGE 52
+    learnset MOVE_DOUBLE_EDGE, 52
     terminatelearnset
 
 
