@@ -1,6 +1,70 @@
-# hg-engine
-## About
- A huge upgrade to the battle engine in HeartGold
+# Benndot's HG-Engine Edits
+
+## About HG-Engine
+ HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
+
+It also offers a massive amount of customizability, allowing users to tweak just about every facet of gameplay to their liking. 
+
+## My Edits
+
+Beyond all the base features that HG-Engine provides out of the box, I have made changes to the following aspects of the game.
+
+-Pokemon Base Stats (The distribution of stats that species of pokemon has, determining it's battle style and difficulty of use)
+-Wild Encounters (which wild pokemon can be encountered and where)
+-Level up learnsets (The selection of moves that a species of Pokemon learns and when they learn them)
+-Evolutionary methods (How different species of Pokemon evolve and into which species they evolve when they do.)
+-Pokemart inventories (Which items are available for purchase in the pokemarts that are spread throughout the game's world and at what point in the player's progress do they become available.)
+-Other Pokemon data attributes (Various changes to species size and weights, and also a few changes to species' available abilities)
+
+## Base Stats 
+
+I have gone through and completely reworked just about Pokemon in the game, though Pokemon outside of the main obtainable roster have not been edited. 
+
+The changes made aren't generally too dramatic. I've tailored these new stats to my general impression of the Pokemon species' biology and abilities. Unlike some other reworks, my goal here wasn't really to rework weak Pokemon to be competitively viable and increase parity. 
+
+Some examples of trends in my stat tweak reasoning:
+
+-Gimmick Pokemon are made less gimmicky. 
+-Shelled / Exoskeleton-ed Pokemon have buffed defenses in many cases. 
+-Blubbery Pokemon tend to be less physically defensive, though sometimes more specially defensive. 
+
+In general I think I've made Pokemon on average a little bit tankier, and a little bit less hard hitting, though there are plenty of exceptions. 
+
+It's by no means a hard science but I put a nice amount of thought into it and I think most of the results are balanced and interesting. 
+
+## Encounters (My changes)
+
+In my version of the game, just about every native evolutionary line in the Pokedex of the first 2 generations can be encountered in the wild. A few select extras have also been added where I thought appropriate. I really didn't go overboard with it, however.
+
+I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and grass types in Ilex Forest, More rugged kinds of Pokemon in mountainous areas. I'm pretty happy with how consistent and organized I kept it. There's a nice variety of options wherever you go. More rare 1-2% encounters and a greater variety of Pokemon per route in general due to the density of making all main dex Pokemon availabe. 
+
+## Level Up Learnsets 
+
+I've gone through and edited many Pokemon. For the most part, I've only removed moves that have not been implemented (as of October 2024). A good handful have gotten a partial of full-on moveset rework though. 
+
+The Pokemon that I have reworked: 
+-Sunkern
+-Sunflora
+-Noctowl
+-Ledian
+
+## Evolutions and evolution methods (My changes, NOT YET IMPLEMENTED)
+
+I intend to add a few extra evolution options to existing Pokemon for the fun of it. Ones that make sense in my head, due to similarities between apparently unrelated Pokemon. 
+
+I also intend to change the evolution
+
+These changes have been made (partially) in a previous project. They need to be transferred over, expanded upon and completed. 
+
+Ekans: Branching evolutions to Arbok and Seviper. 
+
+Geodude: Branching evolutions to Graveler and Carkol
+
+Eevee: Simplified stone evolutions for Leafeon, Glaceon and Sylveon. 
+
+Dunsparse: Special condition evoluton into Drampa
+
+Cubone: Branching evolution with Marowak and Kangaskhan? 
 
 ### Disclaimer
  This repository and its assets are a [community endeavor](CREDITS.md).  By its nature, using it and subsequently profiting off of it is profiting on the backs of all of our work, all of which is intended to be used to further hobbies and for everyone to have fun.  You have my blessing to use code and assets from this repository as you please as long as there is *no money involved*, including optional donations through whichever platform to play your hack.  The creations that stem from this repository must be freely accessible and not hidden at all behind any paywall, including those that prompt the player to pay optionally (Ko-Fi's style comes to mind here).  The [Credits](CREDITS.md) should also be replicated in your hack's repository and/or the post to your hack--we all sit on the shoulders of giants here.
@@ -31,105 +95,7 @@
 
 *A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
 
-## Setup Instructions (Linux with apt)
-1. In a Terminal window, run the following commands:
-    * ```sudo apt-get install libpng-dev build-essential cmake python3-pip git automake autoconf gcc-arm-none-eabi```
-    * ```pip3 install ndspy```
-2. On distros where `mono` is not preinstalled (Ubuntu-based ones come to mind), install it with `sudo apt-get install mono-devel`
-3. Continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-
-## Setup Instructions (macOS)
-1. If you don't have it already, install `brew` by running the following in Terminal: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
-2. In a Terminal window, run the following commands:
-    * ```xcode-select --install```
-    * ```brew install python3 libpng automake autoconf cmake zlib pkg-config```
-    * ```brew install --cask gcc-arm-embedded```
-    * ```python3 -m pip install ndspy```
-    * ```export PKG_CONFIG_PATH=$(brew --prefix zlib)/lib/pkgconfig```
-3. Download and install Mono using the download and instructions [**here**](https://www.mono-project.com/docs/getting-started/install/mac/).
-4. Continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-
-
-## Setup Instructions (Windows on WSL)
-1. Open the Windows Command Prompt as Administrator (look up "Command Prompt" on your Start Menu, Right Click -> Run as Administrator). Once you have done that, execute the following command: ```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all```
-    * Once this process finishes, you will have to restart your PC by entering "Y"
-    * If Windows is not cooperating and has issues logging in when your PC reboots, do not worry! You likely just need to enable virtualization in your BIOS. For instructions on that, look [**here**](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html).
-2. Go to the Microsoft Store and search "Ubuntu". Go to any one of the version's pages in the store and click the blue "Get" button.  It shouldn't matter which you choose.
-    * Once Ubuntu finishes installing, launch it from its page in the Microsoft Store so it can finish setting itself up.
-    * Once Ubuntu finishes setting itself up, it will ask you to enter a username (in lowercase letters only) and password. After doing so, you can close Ubuntu.
-3. Open the "Run" window by pressing the `Windows key` and `R` at the same time, then type in `wsl` and press Enter. This is how you should open WSL from now on.
-    *  Note that you can also delete the folder path at the top of the File Explorer and just type in `wsl` to open WSL at the file explorer.
-4. In WSL, type in ```sudo apt update```, and after it finishes processing, type in ```sudo apt upgrade```. This will take quite a while, so find something else to do in the meantime. These two commands together will update all of the packages that came pre-installed with Ubuntu.
-    * At some point during the process, you'll be asked to confirm whether you want WSL to restart automatically during package updates. We'll select "Yes" and press Enter. The process will then proceed.
-5. In WSL, run the following commands:
-    * ```sudo apt-get install build-essential git libpng-dev gdebi-core python3 python3-pip cmake automake autoconf mono-devel gcc-arm-none-eabi```
-        * You will be asked to confirm the installation, so press "y" followed by Enter to do so.
-    * ```pip3 install ndspy```
-6. Once the last process has finished, continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-
-
-## Setup Instructions (Windows on MSYS2)
-1. Install MSYS2 from [the website](https://www.msys2.org/#installation).
-2. Open up the base MSYS2 with the light purple background.
-3. Execute the commands:
-    * ```pacman -Syu```
-    * ```pacman -S gcc base-devel cmake python git automake autoconf mingw-w64-x86_64-mono mingw-w64-x86_64-arm-none-eabi-gcc p7zip zlib-devel```
-    * ```export PATH=$PATH:/mingw64/bin```
-    * ```echo export PATH='$'PATH:/mingw64/bin >> ~/.bashrc```
-    * ```python3 -m ensurepip --upgrade```
-    * ```python3 -m pip install ndspy```
-4. Download [libpng](https://sourceforge.net/projects/libpng/files/latest/download) and install it.  Decompress it to a folder, and then open MSYS2 in that source folder and run:
-    * ```./configure --prefix=/usr```
-    * ```make check```
-    * ```make install```
-5. Once that process has finished, continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-
-
-## Further Setup Instructions (All Platforms) (Continued from Individual Sections)
-1. In Terminal/WSL, run the following commands:
-    * ```mkdir -p ~/git && cd ~/git```
-    * ```git clone --recursive https://github.com/BluRosie/hg-engine.git```
-2. Continue to [Build Instructions](#build-instructions-all-platforms-continued-from-further-setup-instructions)
-
-## Setup Instructions (Docker)
-If you are using Docker, there is no need for complicated setup or anything.  You just have to clone the git repository:
-* ```mkdir -p ~/git && cd ~/git```
-* ```git clone --recursive https://github.com/BluRosie/hg-engine.git```
-* ```cd hg-engine```
-
-Docker handles all of the setup for you with relative replicability across platforms.  This abstracts a bit of it away from the user and is slightly slower, but such is the price of simplicity.
-
-To set up for the first time, all that needs to be run is:
-```docker build . -t hg-engine```
-
-To build, you can then run a simple shell script to build the `test.nds`:
-```./docker-makerom.cmd```
-
-This script is written in such a way that it works on every platform (including from `cmd` on Windows).
-
-There is no need to continue to [Build Instructions](#build-instructions-all-platforms-continued-from-further-setup-instructions) for anything.  Docker handles it all for you.
-
-You will still have to `make clean` and `make clean_code` manually when changing code or other things that won't build for some reason.  But this makes setup really convenient.
-
-## Build Instructions (All Platforms) (Continued from Further Setup Instructions)
-
-1. Get your ROM, rename it to **rom.nds** and place it in `~/git/hg-engine`.
-    * \[Windows\] You can easily find where this is on MSYS2 or WSL by running the command `explorer.exe .` from the WSL terminal.  This will open the File Explorer to the folder where hg-engine is located.
-        * For WSL this will likely be in the Linux drive that has newly been appended to the bottom of your files.  From there, it will likely be at `Linux\Ubuntu\home\[USERNAME]\git\hg-engine`.
-        * For MSYS2 this will likely be in the `C:\msys64\home\[USERNAME]\git\hg-engine` directory.
-2. In Terminal/WSL, type `make`.  It will start with building all the tools necessary, then move to the code, then the rest of the files in the folders.
-    * `make` is initially very slow.  It can be sped up by specifying a certain amount of threads through the `-j#` flag, where # is a number.  The ideal amount of threads is typically the number that is given from `nproc`--so my `make` command, with `nproc` giving me `8`, is typically `make -j8`.
-    * If you are a macOS user who is on arm64 (an Apple M Processor), you may have issues running this command due to `libpng` linker issues caused by an expected architecture mismatch. You can get around this issue by going to `Applications/Utilities/`, right clicking on Terminal, Clicking "Get Info", and clicking the "Open using Rosetta" checkbox so it becomes blue. Close Terminal if you had it open, then open it again and run the following:
-        * ```cd ~/git/hg-engine```
-        * ```make tools/nitrogfx```
-        * ```make tools/ENCODE_IMG```
-    * Make sure to undo your changes to Terminal after you are done so it will run as a native arm64 application again (uncheck the checkbox from before).
-3. After the process completes, a new file will appear in the `hg-engine` folder named **test.nds**.
-   * It is important to note that this alone will not add new Pokémon to the wild, trainers, etc...; it simply makes them available in your game. It is up to you to place them.
-   * You can edit various game data such as trainers, dex entries, Pokémon stats, and more in the files in `armips/data`.
-
 # Credits
-* [CREDITS.md](CREDITS.md).
 * [**Bubble (Base Mega Code)**][TEMPLATE]
 * [**Skeli (FR template)**][CFRU]
 * [**PokeDiamond decompilation projects (nitrogfx, msgenc)**][diamond]
