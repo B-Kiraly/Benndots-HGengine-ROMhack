@@ -1464,7 +1464,7 @@ mondata SPECIES_MACHAMP, "Machamp"
 
 
 mondata SPECIES_BELLSPROUT, "Bellsprout"
-    basestats 34, 34, 34, 54, 54, 54
+    basestats 39, 49, 39, 55, 49, 49
     types TYPE_GRASS, TYPE_POISON
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -1480,12 +1480,12 @@ mondata SPECIES_BELLSPROUT, "Bellsprout"
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_BELLSPROUT, "Even though its body is extremely\nskinny, it is blindingly fast\nwhen catching its prey."
     mondexclassification SPECIES_BELLSPROUT, "Flower Pokémon"
-    mondexheight SPECIES_BELLSPROUT, "2’04”"
-    mondexweight SPECIES_BELLSPROUT, "8.8 lbs."
+    mondexheight SPECIES_BELLSPROUT, "2’10”"
+    mondexweight SPECIES_BELLSPROUT, "10.8 lbs."
 
 
 mondata SPECIES_WEEPINBELL, "Weepinbell"
-    basestats 64, 54, 34, 34, 54, 54
+    basestats 99, 59, 49, 25, 59, 59
     types TYPE_GRASS, TYPE_POISON
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -1501,12 +1501,12 @@ mondata SPECIES_WEEPINBELL, "Weepinbell"
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_WEEPINBELL, "Even though it is filled with acid,\nit does not melt because it also\noozes a protective fluid."
     mondexclassification SPECIES_WEEPINBELL, "Flycatcher Pokémon"
-    mondexheight SPECIES_WEEPINBELL, "3’03”"
-    mondexweight SPECIES_WEEPINBELL, "14.1 lbs."
+    mondexheight SPECIES_WEEPINBELL, "3’09”"
+    mondexweight SPECIES_WEEPINBELL, "55.1 lbs."
 
 
 mondata SPECIES_VICTREEBEL, "Victreebel"
-    basestats 94, 94, 54, 74, 94, 74
+    basestats 129, 89, 59, 35, 89, 69
     types TYPE_GRASS, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -1948,7 +1948,7 @@ mondata SPECIES_CLOYSTER, "Cloyster"
 
 mondata SPECIES_GASTLY, "Gastly"
     basestats 52, 28, 22, 87, 81, 56
-    types TYPE_GHOST, TYPE_POISON
+    types TYPE_GHOST, TYPE_DARK
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -1969,7 +1969,7 @@ mondata SPECIES_GASTLY, "Gastly"
 
 mondata SPECIES_HAUNTER, "Haunter"
     basestats 73, 58, 42, 98, 87, 63
-    types TYPE_GHOST, TYPE_POISON
+    types TYPE_GHOST, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -1990,7 +1990,7 @@ mondata SPECIES_HAUNTER, "Haunter"
 
 mondata SPECIES_GENGAR, "Gengar"
     basestats 85, 77, 57, 102, 98, 89
-    types TYPE_GHOST, TYPE_POISON
+    types TYPE_GHOST, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -6840,7 +6840,7 @@ mondata SPECIES_TORKOAL, "Torkoal"
 
 
 mondata SPECIES_SPOINK, "Spoink"
-    basestats 60, 25, 35, 60, 70, 80
+    basestats 62, 42, 36, 65, 58, 58
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -6861,7 +6861,7 @@ mondata SPECIES_SPOINK, "Spoink"
 
 
 mondata SPECIES_GRUMPIG, "Grumpig"
-    basestats 80, 45, 65, 80, 90, 110
+    basestats 86, 74, 58, 84, 88, 88
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -6877,7 +6877,7 @@ mondata SPECIES_GRUMPIG, "Grumpig"
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GRUMPIG, "It can perform odd dance steps to\ninfluence foes. Its style of dancing\nbecame hugely popular overseas."
     mondexclassification SPECIES_GRUMPIG, "Manipulate Pokémon"
-    mondexheight SPECIES_GRUMPIG, "2’11”"
+    mondexheight SPECIES_GRUMPIG, "3’11”"
     mondexweight SPECIES_GRUMPIG, "157.6 lbs."
 
 
@@ -7607,7 +7607,7 @@ mondata SPECIES_SNORUNT, "Snorunt"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY
+    abilities ABILITY_SNOW_CLOAK, ABILITY_SLUSH_RUSH
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_SNORUNT, "It’s said that if they are seen at\nmidnight, they’ll cause heavy snow.\nThey eat snow and ice to survive."
@@ -7628,7 +7628,7 @@ mondata SPECIES_GLALIE, "Glalie"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY
+    abilities ABILITY_REFRIGERATE, ABILITY_ICE_BODY
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_GLALIE, "It can instantly freeze moisture in\nthe atmosphere. It uses this power\nto freeze its foes."
@@ -9665,7 +9665,7 @@ mondata SPECIES_SNOVER, "Snover"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_SNOW_WARNING, ABILITY_NONE
+    abilities ABILITY_SOLAR_POWER, ABILITY_ANGER_POINT
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_SNOVER, "During cold seasons, it migrates to the\nmountain’s lower reaches. It returns to\nthe snow-covered summit in the spring."
@@ -9675,7 +9675,7 @@ mondata SPECIES_SNOVER, "Snover"
 
 
 mondata SPECIES_ABOMASNOW, "Abomasnow"
-    basestats 126, 114, 87, 64, 71, 68
+    basestats 126, 114, 78, 59, 79, 69
     types TYPE_GRASS, TYPE_ICE
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -9686,7 +9686,7 @@ mondata SPECIES_ABOMASNOW, "Abomasnow"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_SNOW_WARNING, ABILITY_NONE
+    abilities ABILITY_SOLAR_POWER, ABILITY_ANGER_POINT
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_ABOMASNOW, "It lives a quiet life on mountains that\nare perpetually covered in snow.\nIt hides itself by whipping up blizzards."
@@ -10064,7 +10064,7 @@ mondata SPECIES_FROSLASS, "Froslass"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    abilities ABILITY_SNOW_CLOAK, ABILITY_REFRIGERATE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_FROSLASS, "Legends in snowy regions say that\na woman who was lost on an icy\nmountain was reborn as FROSLASS."

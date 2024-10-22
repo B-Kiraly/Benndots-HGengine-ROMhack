@@ -17,8 +17,8 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_DRAGON_SCALE
-.halfword FIVE_BADGES
+.halfword ITEM_REPEL
+.halfword ZERO_BADGES
 
 .halfword ITEM_GREAT_BALL
 .halfword ONE_BADGE
@@ -26,8 +26,8 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ULTRA_BALL
 .halfword THREE_BADGES
 
-.halfword ITEM_CHARCOAL
-.halfword THREE_BADGES
+.halfword ITEM_POTION
+.halfword ZERO_BADGES
 
 .halfword ITEM_SUPER_POTION
 .halfword ONE_BADGE
@@ -63,7 +63,7 @@ EIGHT_BADGES equ 6
 .halfword ZERO_BADGES
 
 .halfword ITEM_SUPER_REPEL
-.halfword ZERO_BADGES
+.halfword THREE_BADGES
 
 .halfword ITEM_HEART_SCALE
 .halfword THREE_BADGES
@@ -285,13 +285,13 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_DAWN_STONE
 .halfword ITEM_OVAL_STONE
 .halfword ITEM_KINGS_ROCK
-.halfword ITEM_LINKING_CORD
+.halfword ITEM_DRAGON_SCALE
 .halfword ITEM_RAZOR_CLAW
 .halfword ITEM_RAZOR_FANG
 .halfword ITEM_PRISM_SCALE
-.halfword ITEM_SACHET
+.halfword ITEM_TWISTED_SPOON
 .halfword ITEM_UP_GRADE
-.halfword ITEM_WHIPPED_DREAM
+.halfword ITEM_METAL_COAT
 .halfword 0xFFFF
 
 .close

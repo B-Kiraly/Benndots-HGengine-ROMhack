@@ -708,7 +708,7 @@ evodata SPECIES_PRIMEAPE
     terminateevodata
 
 evodata SPECIES_GROWLITHE
-    evolution EVO_STONE, ITEM_FIRE_STONE, SPECIES_ARCANINE
+    evolution EVO_LEVEL, 30, SPECIES_ARCANINE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -840,7 +840,7 @@ evodata SPECIES_MACHAMP
     terminateevodata
 
 evodata SPECIES_BELLSPROUT
-    evolution EVO_LEVEL, 21, SPECIES_WEEPINBELL
+    evolution EVO_LEVEL, 24, SPECIES_WEEPINBELL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5112,7 +5112,7 @@ evodata SPECIES_AMBIPOM
     terminateevodata
 
 evodata SPECIES_DRIFLOON
-    evolution EVO_LEVEL, 28, SPECIES_DRIFBLIM
+    evolution EVO_LEVEL, 38, SPECIES_DRIFBLIM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5520,7 +5520,7 @@ evodata SPECIES_MANTYKE
     terminateevodata
 
 evodata SPECIES_SNOVER
-    evolution EVO_LEVEL, 40, SPECIES_ABOMASNOW
+    evolution EVO_LEVEL, 35, SPECIES_ABOMASNOW
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

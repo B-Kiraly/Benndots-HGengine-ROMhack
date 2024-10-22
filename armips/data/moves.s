@@ -1996,9 +1996,9 @@ movedata MOVE_SMOG, "Smog"
 movedata MOVE_SLUDGE, "Sludge"
     battleeffect MOVE_EFFECT_POISON_HIT
     pss SPLIT_SPECIAL
-    basepower 70
+    basepower 75
     type TYPE_POISON
-    accuracy 95
+    accuracy 90
     pp 16
     effectchance 33
     target MOVE_TARGET_SELECTED
@@ -3007,7 +3007,7 @@ movedata MOVE_BELLY_DRUM, "Belly Drum"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 10
+    pp 8
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
@@ -3022,8 +3022,8 @@ movedata MOVE_SLUDGE_BOMB, "Sludge Bomb"
     pss SPLIT_SPECIAL
     basepower 95
     type TYPE_POISON
-    accuracy 90
-    pp 10
+    accuracy 85
+    pp 12
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
@@ -8844,10 +8844,10 @@ movedata MOVE_SECRET_SWORD, "Secret Sword"
 movedata MOVE_GLACIATE, "Glaciate"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 70
     type TYPE_ICE
-    accuracy 95
-    pp 10
+    accuracy 98
+    pp 8
     effectchance 100
     target MOVE_TARGET_BOTH
     priority 0
@@ -8956,10 +8956,10 @@ movedata MOVE_SNARL, "Snarl"
 movedata MOVE_ICICLE_CRASH, "Icicle Crash"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 85
+    basepower 110
     type TYPE_ICE
-    accuracy 90
-    pp 10
+    accuracy 80
+    pp 12
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
@@ -11901,10 +11901,10 @@ movedata MOVE_FREEZY_FROST, "Freezy Frost"
 movedata MOVE_SPARKLY_SWIRL, "Sparkly Swirl"
     battleeffect MOVE_EFFECT_CURE_PARTY_STATUS_HIT
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 100
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 85
-    pp 5
+    accuracy 90
+    pp 6
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -13357,11 +13357,11 @@ movedata MOVE_STONE_AXE, "Stone Axe"
 movedatalongname MOVE_SPRINGTIDE_STORM, "SpringtideStorm", "Springtide Storm"
     battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 130
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 80
-    pp 5
-    effectchance 30
+    accuracy 75
+    pp 8
+    effectchance 50
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -13981,7 +13981,7 @@ movedata MOVE_KOWTOW_CLEAVE, "Kowtow Cleave"
 movedata MOVE_FLOWER_TRICK, "Flower Trick"
     battleeffect MOVE_EFFECT_ALWAYS_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 55
     type TYPE_GRASS
     accuracy 0
     pp 10

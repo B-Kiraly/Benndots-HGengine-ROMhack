@@ -5,7 +5,7 @@
 
 It also offers a massive amount of customizability, allowing users to tweak just about every facet of gameplay to their liking. 
 
-## My Edits
+## My Edits (Overview)
 
 Beyond all the base features that HG-Engine provides out of the box, I have made changes to the following aspects of the game.
 
@@ -41,32 +41,58 @@ It's by no means a hard science but I put a nice amount of thought into it and I
 
 ## Encounters (My changes)
 
-In my version of the game, just about every native evolutionary line in the Pokedex of the first 2 generations can be encountered in the wild. A few select extras have also been added where I thought appropriate. I really didn't go overboard with it, however.
+In my version of the game, just about every native evolutionary line in the Pokedex of the first 2 generations can be encountered in the wild. A few select extras from other regions/generations have also been added where I thought appropriate. I really didn't go overboard with it, however.
 
 I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and grass types in Ilex Forest, More rugged kinds of Pokemon in mountainous areas. I'm pretty happy with how consistent and organized I kept it. There's a nice variety of options wherever you go. More rare 1-2% encounters and a greater variety of Pokemon per route in general due to the density of making all main dex Pokemon availabe. 
 
+While this information is reliably true for ground encounters, I was a bit more haphazard early on when writing in water encounters. It's possible that there are non-native Pokemon species in certain areas that I missed in editing. It shouldn't be much, if anything, however. 
+
+### Non-native Species Added to Johto
+
+-Carbink
+-Stunky 
+-Mawile
+-Sableye
+-Surskit
+-Wingull
+-Relicanth
+-Snover
+-Togedemaru (via Pikachu evolution)
+-Drampa (via Dunsparse evolution)
+-Drifloon
+-Spoink
+
 ## Level Up Learnsets (My changes)
 
-I've gone through and edited many Pokemon. For the most part, I've only removed moves that have not been implemented (as of October 2024). A good handful have gotten a partial of full-on moveset rework though. 
+I've gone through and edited many Pokemon. A large number of the Pokemon species intended to be present in the game have received extensive updates to their learnsets. However, many still haven't been touched and need to be overhauled (as of October 2024). Few to no Pokemon in the game should possess any moves that aren't currently implemented in HG-engine. 
 
 ### The Pokemon that I have reworked heavily (Incomplete list): 
+-Pikachu (including Togedemaru)
 -Octillery 
 -Sunkern
 -Sunflora
 -Noctowl
 -Ledian
 -Granbull
+-Bellsprout
 -Surskit
 -Masquerain
 -Tauros
 -Miltank
--Togedemaru
 -Swinub
 -Sneasel
 -Ninetails 
+-Arcanine
 -Qwilfish
 -Stuntank
--Most of the eevee line (excluding leafeon & glaceon)
+-Bellsprout
+-Oddish
+-Pelipper
+-Psyduck
+-Dewgong
+-Grumpig
+-Drifloon
+-Eevee line 
 
 *Pokemon in the same evolutionary line mentioned separately have diverging movesets from one another
 
@@ -104,6 +130,13 @@ Since there is none by default for friendship, stone, move knowledge, and party 
 
 I'd like to create a higher tier version of each category with a higher level requirement (probably level 35) to cover the handful of Pokemon for which level 20 is too early to reasonably be fully evolved. 
 
+## Pokemart stock & value changes 
+
+-Added heart scales to normal pokemart inventories (For easy move tutor usage)
+-Added items that I use for evolutionary purposes to department store inventories. (twisted spoons, charcoal, dragon scale, metal coat)
+-Revives, Ethers and elixirs are much cheaper
+-Full Heals are slightly cheaper
+
 ### Party Requirements (Partially implemented)
 
 There are several more evolution requirements that involve having the right Pokemon in your party upon level up. 
@@ -112,18 +145,36 @@ Along with the classic example of Mantine & Remoraid, now added to the list is K
 
 In the future, I'd like to figure out how to make more than 1 Pokemon requirements as an evo method (ex: Requiring 2 magnemites in party in order to evolve)
 
+## Where to find my edits 
+
+All the files I've edited and tweaked exist inside of this repository and can be referenced for further details. In this section I'll be giving you the exact paths and files needed in order to find the information. 
+
+(Encounters) For which Pokemon can be encountered where: armips/data/encounters.s 
+
+(Base Stats, Abilities, Sizes) For changes that I've made to Pokemon's base stats, size data and abilities: armips/data/mondata.s
+
+(Learnsets) For changes that I've made to the lists of moves that each Pokemon can learn as they level up: armips/data/levelupdata.s
+
+(Evolution Data) For changes that I've made to Pokemon's evolutions and how they evolve: armips/data/evodata.s
+
+(Evolution Methods) For changes that I've made to how the methods used to evolve a Pokemon work: src/individual/GetMonEvolutionInternal.c
+
+(Move Data) For changes that I've made to the stats and details of the battle moves themselves: armips/data/moves.s
+
+(Mart Inventories) For changes to what is carried in PokeMarts and department stores: armips/asm/custom/mart_items.s+
+
+(Item Data) For changes to the price of items and what they do: data/itemdata/itemdata.c
+
 ## TODO
 
--Test latest changes ('october-twenty-second rom')
--Stuff all legendaries somewhere so they’re capturable (mt. silver?)
--Create new Evo Methods 
+-Work on more species learnsets that I haven't fully constructed
+-Create new usable Evo Methods 
 -Edit more HG Engine encounter data (Mostly done, some caves could use tweaking. Surfing is only slightly edited, kanto is pretty much entirely unedited)
 -Custom trainer editing?
 
 ## Ideas
 
 -Amp ability jigglypuff line? 
--Add Stunky (where?). Add Joltik (dark cave?)
 
 
 ## Base HG-Engine Features:

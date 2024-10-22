@@ -1508,7 +1508,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_RESTORE] =
 {
-    .price = 3000,
+    .price = 1600,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -1768,7 +1768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_HEAL] =
 {
-    .price = 600,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1833,7 +1833,7 @@ const ITEMDATA __data[] =
 
 [ITEM_REVIVE] =
 {
-    .price = 1500,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1898,7 +1898,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REVIVE] =
 {
-    .price = 4000,
+    .price = 2000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2483,7 +2483,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ETHER] =
 {
-    .price = 1200,
+    .price = 800,
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -2548,7 +2548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ETHER] =
 {
-    .price = 2000,
+    .price = 1200,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -2613,7 +2613,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ELIXIR] =
 {
-    .price = 3000,
+    .price = 1600,
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
