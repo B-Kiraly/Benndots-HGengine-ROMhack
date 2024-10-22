@@ -1759,7 +1759,7 @@ movedata MOVE_CONFUSE_RAY, "Confuse Ray"
     basepower 0
     type TYPE_GHOST
     accuracy 98
-    pp 10
+    pp 8
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -2367,7 +2367,7 @@ movedata MOVE_SPORE, "Spore"
     basepower 0
     type TYPE_GRASS
     accuracy 98
-    pp 15
+    pp 12
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -2975,7 +2975,7 @@ movedata MOVE_FEINT_ATTACK, "Feint Attack"
     basepower 60
     type TYPE_DARK
     accuracy 0
-    pp 20
+    pp 12
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -3533,7 +3533,7 @@ movedata MOVE_PAIN_SPLIT, "Pain Split"
     battleeffect MOVE_EFFECT_AVERAGE_HP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_DARK
     accuracy 0
     pp 20
     effectchance 0
@@ -5212,7 +5212,7 @@ movedata MOVE_SIGNAL_BEAM, "Signal Beam"
 movedata MOVE_SHADOW_PUNCH, "Shadow Punch"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 50
     type TYPE_GHOST
     accuracy 0
     pp 20
@@ -5327,7 +5327,7 @@ movedata MOVE_AERIAL_ACE, "Aerial Ace"
     basepower 60
     type TYPE_FLYING
     accuracy 0
-    pp 20
+    pp 12
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -8508,10 +8508,10 @@ movedata MOVE_ELECTROWEB, "Electroweb"
 movedata MOVE_WILD_CHARGE, "Wild Charge"
     battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 100
     type TYPE_ELECTRIC
-    accuracy 100
-    pp 15
+    accuracy 80
+    pp 18
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -8716,10 +8716,10 @@ movedata MOVE_PSYSTRIKE, "Psystrike"
 movedata MOVE_TAIL_SLAP, "Tail Slap"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 16
     type TYPE_NORMAL
-    accuracy 85
-    pp 10
+    accuracy 96
+    pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9805,10 +9805,10 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
 movedata MOVE_NUZZLE, "Nuzzle"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 20
+    basepower 25
     type TYPE_ELECTRIC
     accuracy 100
-    pp 20
+    pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
@@ -11517,10 +11517,10 @@ movedata MOVE_TEARFUL_LOOK, "Tearful Look"
 movedata MOVE_ZING_ZAP, "Zing Zap"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 85
     type TYPE_ELECTRIC
-    accuracy 100
-    pp 10
+    accuracy 90
+    pp 12
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0

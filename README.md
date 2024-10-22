@@ -10,11 +10,18 @@ It also offers a massive amount of customizability, allowing users to tweak just
 Beyond all the base features that HG-Engine provides out of the box, I have made changes to the following aspects of the game.
 
 -Pokemon Base Stats (The distribution of stats that species of pokemon has, determining it's battle style and difficulty of use)
+
 -Wild Encounters (which wild pokemon can be encountered and where)
+
 -Level up learnsets (The selection of moves that a species of Pokemon learns and when they learn them)
+
 -Evolutionary methods (How different species of Pokemon evolve and into which species they evolve when they do.)
+
 -Pokemart inventories (Which items are available for purchase in the pokemarts that are spread throughout the game's world and at what point in the player's progress do they become available.)
+
 -Other Pokemon data attributes (Various changes to species size and weights, and also a few changes to species' available abilities)
+
+-Various battle move statistical rebalances 
 
 ## Base Stats 
 
@@ -38,50 +45,88 @@ In my version of the game, just about every native evolutionary line in the Poke
 
 I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and grass types in Ilex Forest, More rugged kinds of Pokemon in mountainous areas. I'm pretty happy with how consistent and organized I kept it. There's a nice variety of options wherever you go. More rare 1-2% encounters and a greater variety of Pokemon per route in general due to the density of making all main dex Pokemon availabe. 
 
-## Level Up Learnsets 
+## Level Up Learnsets (My changes)
 
 I've gone through and edited many Pokemon. For the most part, I've only removed moves that have not been implemented (as of October 2024). A good handful have gotten a partial of full-on moveset rework though. 
 
-The Pokemon that I have reworked: 
+### The Pokemon that I have reworked heavily (Incomplete list): 
+-Octillery 
 -Sunkern
 -Sunflora
 -Noctowl
 -Ledian
+-Granbull
+-Surskit
+-Masquerain
+-Tauros
+-Miltank
+-Togedemaru
+-Swinub
+-Sneasel
+-Ninetails 
+-Qwilfish
+-Stuntank
+-Most of the eevee line (excluding leafeon & glaceon)
 
-## Evolutions and evolution methods (My changes, NOT YET IMPLEMENTED)
+*Pokemon in the same evolutionary line mentioned separately have diverging movesets from one another
+
+## Evolutions and evolution methods (My changes)
 
 I intend to add a few extra evolution options to existing Pokemon for the fun of it. Ones that make sense in my head, due to similarities between apparently unrelated Pokemon. 
 
-I also intend to change the evolution
+I also intend to change some evolution methods and requirements. 
 
 These changes have been made (partially) in a previous project. They need to be transferred over, expanded upon and completed. 
 
-Ekans: Branching evolutions to Arbok and Seviper. 
+### Evolutionary Line Changes
 
-Geodude: Branching evolutions to Graveler and Carkol
+Ekans: Branching evolutions to Arbok and Seviper. (implemented)
 
-Eevee: Simplified stone evolutions for Leafeon, Glaceon and Sylveon. 
+Geodude: Branching evolutions to Graveler and Carkol (implemented)
 
-Dunsparse: Special condition evoluton into Drampa
+Dunsparse: Special condition evoluton into Drampa (implemented)
 
-Cubone: Branching evolution with Marowak and Kangaskhan? 
+Cubone: Branching evolution with Marowak and Kangaskhan (implemented, mostly)
 
-### Disclaimer
- This repository and its assets are a [community endeavor](CREDITS.md).  By its nature, using it and subsequently profiting off of it is profiting on the backs of all of our work, all of which is intended to be used to further hobbies and for everyone to have fun.  You have my blessing to use code and assets from this repository as you please as long as there is *no money involved*, including optional donations through whichever platform to play your hack.  The creations that stem from this repository must be freely accessible and not hidden at all behind any paywall, including those that prompt the player to pay optionally (Ko-Fi's style comes to mind here).  The [Credits](CREDITS.md) should also be replicated in your hack's repository and/or the post to your hack--we all sit on the shoulders of giants here.
+Eeveelutions: Umbreon and Espeon were changed. The former now needs to be given a Dusk Stone, while the latter now needs to be given a Dawn Stone. (I'd like to add time of day requirements, but they don't exist in the engine's default methods so that won't be done for the time being.)
 
-## Table of Contents
-- [Features](#features)
-- [Setup Instructions (Linux with apt)](#setup-instructions-linux-with-apt)
-- [Setup Instructions (macOS)](#setup-instructions-macos)
-- [Setup Instructions (Windows on WSL)](#setup-instructions-windows-on-wsl)
-- [Setup Instructions (Windows on MSYS2)](#setup-instructions-windows-on-msys2)
-- [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-- [Setup Instructions (Docker)](#setup-instructions-docker)
-- [Build Instructions](#build-instructions-all-platforms-continued-from-further-setup-instructions)
-- [Credits](#credits)
+Gengar: Haunter evolves via Dusk Stone. 
+
+Pikachu: Added a 'metal coat' induced evolution into a reworked version of Togedemaru
+
+Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
+
+### Special Evoluton Conditions Additional Level Requirement (Implemented, mostly!!)
+
+I think all evo methods should have some minimum level condition. 
+
+Since there is none by default for friendship, stone, move knowledge, and party requirement evolutions by default, I have added them in myself. For friendship, I kept it low to 10 for the sake of baby Pokemon. I may create a separate category for them at some point. For the vast majority of the rest I've added a minimum level of 20. 
+
+I'd like to create a higher tier version of each category with a higher level requirement (probably level 35) to cover the handful of Pokemon for which level 20 is too early to reasonably be fully evolved. 
+
+### Party Requirements (Partially implemented)
+
+There are several more evolution requirements that involve having the right Pokemon in your party upon level up. 
+
+Along with the classic example of Mantine & Remoraid, now added to the list is Koffing (Koffing), Diglett (Diglett), Magnemite (Magnemite), Cubone (Kangaskhan), Slowpoke (Shellder).
+
+In the future, I'd like to figure out how to make more than 1 Pokemon requirements as an evo method (ex: Requiring 2 magnemites in party in order to evolve)
+
+## TODO
+
+-Test latest changes ('october-twenty-second rom')
+-Stuff all legendaries somewhere so they’re capturable (mt. silver?)
+-Create new Evo Methods 
+-Edit more HG Engine encounter data (Mostly done, some caves could use tweaking. Surfing is only slightly edited, kanto is pretty much entirely unedited)
+-Custom trainer editing?
+
+## Ideas
+
+-Amp ability jigglypuff line? 
+-Add Stunky (where?). Add Joltik (dark cave?)
 
 
-## Features:
+## Base HG-Engine Features:
 * Dex Expansion (through Gen 6 almost entirely implemented)
 * Ability Expansion (through Gen 6 almost entirely implemented)
 * Move Expansion with future generation moves
@@ -93,7 +138,10 @@ Cubone: Branching evolution with Marowak and Kangaskhan?
 * Updated Effects for Existing [Moves](https://github.com/users/BluRosie/projects/3) and [Abilities](https://github.com/users/BluRosie/projects/2)
 * 30 PC Boxes
 
-*A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
+*A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  
+
+## Disclaimer
+ This repository and its assets are a [community endeavor](CREDITS.md).  By its nature, using it and subsequently profiting off of it is profiting on the backs of all of our work, all of which is intended to be used to further hobbies and for everyone to have fun.  You have my blessing to use code and assets from this repository as you please as long as there is *no money involved*, including optional donations through whichever platform to play your hack.  The creations that stem from this repository must be freely accessible and not hidden at all behind any paywall, including those that prompt the player to pay optionally (Ko-Fi's style comes to mind here). 
 
 # Credits
 * [**Bubble (Base Mega Code)**][TEMPLATE]
@@ -101,6 +149,46 @@ Cubone: Branching evolution with Marowak and Kangaskhan?
 * [**PokeDiamond decompilation projects (nitrogfx, msgenc)**][diamond]
 * [**Mikelan98, Nomura (ARM9 Expansion Subroutine )**][ARM9]
 * Rafael Vuijk (ndstool)
+
+Contributors: Aero, BluRose, Brioche, Charliexox, DavveDP, Dog-Broad, Drayano, Koekenpann, kumakuma1, lhearachel, maxchristy, Mixone, mozzydippers, PandaPanda-Panda, TixoRebel, TurtleIsaac, YGlitzer
+
+[AdAstra](https://github.com/AdAstra-LD/) - `debugsyscall` implementation
+
+Adcroc1 - helping significantly with sprite formatting
+
+BagBoy - dex entries
+
+Barro - swav2swar
+
+Bubble791 - strong basis for where this came from
+
+Chritchy - sprite translation errors bug fix
+
+Dr. Seuss, Zeak6464 - [Pokémon cries from gen 8](https://www.pokecommunity.com/showthread.php?t=432636)
+
+FroggestSpirit - [SDATTool](https://github.com/froggestspirit/SDATTool)
+
+HamsterSkull, wolfang62, nintendoplz, Kyle-Dove, 2and2makes5, PokeGirl4Ever, Fernandojl, Silver-Skie, TyranitarDark, Getsuei-H, Milomilotic11, Kyt66, kdiamo11, ChocoSrawloid, StyleDude, Gallanty, Gizamimi-Pichu, Kid1513, princess-phoenix, Ezerart, DarkusShadow, Anarlaurendil, Lasse00, Boonzeet on deviantart - Overworlds
+
+KazoWAR - BTX-Editor (which is pngtobtx0)
+
+Kingcom - [armips](https://github.com/Kingcom/armips)
+
+MaMe and maple - a lot of mega sprites touched up
+
+Mikelan98 - initial graphics compilation, BDHCAM routine
+
+RH-Hideout Team - cries from gen 9
+
+Shy - platinum Battle BG Insertion tutorial
+
+Smogon Sprite Project, TraviS, LennyBitao, MyMarshlands, DarkusShadow, CarmaNekko, kiriaura, Gnomowladny, Krune, n-kin, JaegerLucciano23, joshr691, Jefelin, MultiDiegoDani, onigin_pixelart, Prodigal96, zerudez, leparagon, arinoelle, diegotoon20, gardow, greyenna, conyjams, kingofthe-x-roads, RayquazaFlygon, metalflygon08 on DeviantArt, and MaMe, maple, Layell, SelenaFF, Sopita Yorita, zlolxd - Pokémon Sprites
+
+WesleyFG and [The Sounds Resource](https://www.sounds-resource.com/3ds/pokemonsunmoon/) - [Pokémon cries from gens 5 through 7](https://www.pokecommunity.com/showthread.php?t=390701)
+
+XLuma - helping get this buildable initially
+
+Game Freak - amazing Pokémon games from way back when
 
 [MONEXPAND]: https://github.com/BluRosie/hgss-monexpansion
 [CFRU]: https://github.com/Skeli789/Complete-Fire-Red-Upgrade

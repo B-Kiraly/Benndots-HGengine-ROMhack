@@ -17,8 +17,8 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_LONELY_MINT
-.halfword ZERO_BADGES
+.halfword ITEM_DRAGON_SCALE
+.halfword FIVE_BADGES
 
 .halfword ITEM_GREAT_BALL
 .halfword ONE_BADGE
@@ -26,8 +26,8 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ULTRA_BALL
 .halfword THREE_BADGES
 
-.halfword ITEM_ADAMANT_MINT
-.halfword ZERO_BADGES
+.halfword ITEM_CHARCOAL
+.halfword THREE_BADGES
 
 .halfword ITEM_SUPER_POTION
 .halfword ONE_BADGE
@@ -71,7 +71,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_MAX_REPEL
 .halfword FIVE_BADGES
 
-.halfword ITEM_POKE_DOLL
+.halfword ITEM_POKE_BALL
 .halfword ZERO_BADGES
 
 /** Special Mart Index - This is not in byte order

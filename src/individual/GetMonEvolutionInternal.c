@@ -83,19 +83,19 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
             case EVO_NONE:
                 break;
             case EVO_FRIENDSHIP:
-                if (friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
+                if (level >= 10 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_FRIENDSHIP;
                 }
                 break;
             case EVO_FRIENDSHIP_DAY:
-                if (IsNighttime() == 0 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
+                if (level >= 10 && IsNighttime() == 0 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_FRIENDSHIP_DAY;
                 }
                 break;
             case EVO_FRIENDSHIP_NIGHT:
-                if (IsNighttime() == 1 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
+                if (level >= 10 && IsNighttime() == 1 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_FRIENDSHIP_NIGHT;
                 }
@@ -152,7 +152,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 *method_ret = EVO_LEVEL_SHEDINJA;
                 break;
             case EVO_BEAUTY:
-                if (evoTable[i].param <= beauty) {
+                if (level >= 25 && evoTable[i].param <= beauty) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_BEAUTY;
                 }
@@ -162,25 +162,25 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
             case EVO_STONE_FEMALE:
                 break;
             case EVO_ITEM_DAY:
-                if (IsNighttime() == 0 && evoTable[i].param == heldItem) {
+                if (level >= 20 && IsNighttime() == 0 && evoTable[i].param == heldItem) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_ITEM_DAY;
                 }
                 break;
             case EVO_ITEM_NIGHT:
-                if (IsNighttime() == 1 && evoTable[i].param == heldItem) {
+                if (level >= 20 && IsNighttime() == 1 && evoTable[i].param == heldItem) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_ITEM_NIGHT;
                 }
                 break;
             case EVO_HAS_MOVE:
-                if (MonHasMove(pokemon, evoTable[i].param) == TRUE) {
+                if (level >= 20 && MonHasMove(pokemon, evoTable[i].param) == TRUE) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_HAS_MOVE;
                 }
                 break;
             case EVO_OTHER_PARTY_MON:
-                if (party != NULL && PartyHasMon(party, evoTable[i].param) == 1) {
+                if (level >= 20 && party != NULL && PartyHasMon(party, evoTable[i].param) == 1) {
                     target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_OTHER_PARTY_MON;
                 }
@@ -390,22 +390,22 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
     case EVOCTX_ITEM_CHECK:
     case EVOCTX_ITEM_USE:
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
-            if (evoTable[i].method == EVO_STONE && usedItem == evoTable[i].param) {
+            if (evoTable[i].method == EVO_STONE && level >= 20 && usedItem == evoTable[i].param) {
                 target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
             }
-            if (evoTable[i].method == EVO_STONE_MALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_MALE && usedItem == evoTable[i].param) {
+            if (evoTable[i].method == EVO_STONE_MALE && level >= 20 && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_MALE && usedItem == evoTable[i].param) {
                 target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
             }
-            if (evoTable[i].method == EVO_STONE_FEMALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && usedItem == evoTable[i].param) {
+            if (evoTable[i].method == EVO_STONE_FEMALE && level >= 20 && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && usedItem == evoTable[i].param) {
                 target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
             }
-            if (evoTable[i].method == EVO_TRADE_ITEM && heldItem == evoTable[i].param && usedItem == ITEM_LINKING_CORD) {
+            if (evoTable[i].method == EVO_TRADE_ITEM && level >= 20 && heldItem == evoTable[i].param && usedItem == ITEM_LINKING_CORD) {
                 target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;

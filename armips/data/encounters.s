@@ -82,23 +82,23 @@ encounter SPECIES_NONE, 0, 0
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_TENTACOOL, 10, 10
 encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_CHINCHOU, 10, 14
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_TENTACOOL, 20, 20
 encounter SPECIES_CHINCHOU, 20, 20
 encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_RELICANTH, 20, 20
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
 encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_TENTACRUEL, 32, 48
+encounter SPECIES_LANTURN, 28, 42
+encounter SPECIES_RELICANTH, 30, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -611,14 +611,14 @@ encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_RELICANTH, 18, 24
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_RELICANTH, 30, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -851,7 +851,7 @@ superrodrate 75
 walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 6
 
 // morning encounter slots
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_STUNKY
 pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_WOOPER
@@ -865,7 +865,7 @@ pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_LARVITAR
 
 // day encounter slots
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_STUNKY
 pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_WOOPER
@@ -879,7 +879,7 @@ pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_LARVITAR
 
 // night encounter slots
-pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_STUNKY
 pokemon SPECIES_RATTATA
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_WOOPER
@@ -2181,7 +2181,7 @@ encounter SPECIES_POLIWAG, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 
 // swarm grass
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_CELEBI
 // swarm surf
 pokemon SPECIES_PSYDUCK
 // swarm good rod
@@ -4072,14 +4072,14 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 15, 15, 16, 16, 16, 16, 20, 18, 15, 15, 20, 12
+walklevels 15, 15, 15, 15, 16, 16, 20, 18, 15, 15, 20, 12
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
-pokemon SPECIES_SANDSHREW
+pokemon SPECIES_DIGLETT
 pokemon SPECIES_WINGULL
 pokemon SPECIES_RATICATE
 pokemon SPECIES_FLAAFFY
@@ -4093,7 +4093,7 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
-pokemon SPECIES_SANDSHREW
+pokemon SPECIES_DIGLETT
 pokemon SPECIES_WINGULL
 pokemon SPECIES_RATICATE
 pokemon SPECIES_FLAAFFY
