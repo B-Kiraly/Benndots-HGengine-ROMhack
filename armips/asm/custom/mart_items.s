@@ -17,8 +17,8 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_REPEL
-.halfword ZERO_BADGES
+.halfword ITEM_EVIOLITE
+.halfword EIGHT_BADGES
 
 .halfword ITEM_GREAT_BALL
 .halfword ONE_BADGE
@@ -63,7 +63,7 @@ EIGHT_BADGES equ 6
 .halfword ZERO_BADGES
 
 .halfword ITEM_SUPER_REPEL
-.halfword THREE_BADGES
+.halfword ZERO_BADGES
 
 .halfword ITEM_HEART_SCALE
 .halfword THREE_BADGES

@@ -1965,7 +1965,7 @@ movedata MOVE_LICK, "Lick"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 30
-    type TYPE_GHOST
+    type TYPE_POISON
     accuracy 95
     pp 25
     effectchance 33
@@ -7772,10 +7772,10 @@ movedata MOVE_FLAME_BURST, "Flame Burst"
 movedata MOVE_SLUDGE_WAVE, "Sludge Wave"
     battleeffect MOVE_EFFECT_POISON_HIT
     pss SPLIT_SPECIAL
-    basepower 95
+    basepower 100
     type TYPE_POISON
     accuracy 100
-    pp 10
+    pp 8
     effectchance 10
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
@@ -9053,10 +9053,10 @@ movedata MOVE_MAT_BLOCK, "Mat Block"
 movedata MOVE_BELCH, "Belch"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 80
     type TYPE_POISON
-    accuracy 90
-    pp 10
+    accuracy 95
+    pp 16
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9064,7 +9064,7 @@ movedata MOVE_BELCH, "Belch"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BELCH, "The user lets out a\ndamaging belch at the\ntarget. The user must\neat a held Berry to\nuse this move."
+    movedescription MOVE_BELCH, "The user lets out a\ndamaging belch at the\ntarget."
 
 movedata MOVE_ROTOTILLER, "Rototiller"
     battleeffect MOVE_EFFECT_HIT
@@ -9116,7 +9116,7 @@ movedata MOVE_FELL_STINGER, "Fell Stinger"
 
 movedata MOVE_PHANTOM_FORCE, "Phantom Force"
     battleeffect MOVE_EFFECT_SHADOW_FORCE
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 90
     type TYPE_GHOST
     accuracy 100
@@ -11488,7 +11488,7 @@ movedata MOVE_MOONGEIST_BEAM, "Moongeist Beam"
     basepower 100
     type TYPE_GHOST
     accuracy 100
-    pp 5
+    pp 6
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0

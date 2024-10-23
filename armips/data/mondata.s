@@ -1107,8 +1107,8 @@ mondata SPECIES_DUGTRIO, "Dugtrio"
 
 
 mondata SPECIES_MEOWTH, "Meowth"
-    basestats 50, 55, 34, 84, 42, 38
-    types TYPE_NORMAL, TYPE_NORMAL
+    basestats 51, 55, 39, 73, 51, 37
+    types TYPE_NORMAL, TYPE_DARK
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -1123,13 +1123,13 @@ mondata SPECIES_MEOWTH, "Meowth"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_MEOWTH, "It is fascinated by round objects.\nIt can’t stop playing with them\nuntil it tires and falls asleep."
     mondexclassification SPECIES_MEOWTH, "Scratch Cat Pokémon"
-    mondexheight SPECIES_MEOWTH, "2'01”"
-    mondexweight SPECIES_MEOWTH, "9.3 lbs."
+    mondexheight SPECIES_MEOWTH, "2'07”"
+    mondexweight SPECIES_MEOWTH, "21.3 lbs."
 
 
 mondata SPECIES_PERSIAN, "Persian"
     basestats 74, 92, 63, 103, 72, 57
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -1145,7 +1145,7 @@ mondata SPECIES_PERSIAN, "Persian"
     mondexentry SPECIES_PERSIAN, "Many adore it for its sophisticated air.\nHowever, it will lash out and\nscratch for little reason."
     mondexclassification SPECIES_PERSIAN, "Classy Cat Pokémon"
     mondexheight SPECIES_PERSIAN, "3’03”"
-    mondexweight SPECIES_PERSIAN, "70.5 lbs."
+    mondexweight SPECIES_PERSIAN, "75.5 lbs."
 
 
 mondata SPECIES_PSYDUCK, "Psyduck"
@@ -1947,8 +1947,8 @@ mondata SPECIES_CLOYSTER, "Cloyster"
 
 
 mondata SPECIES_GASTLY, "Gastly"
-    basestats 52, 28, 22, 87, 81, 56
-    types TYPE_GHOST, TYPE_GHOST
+    basestats 108, 39, 39, 65, 95, 82
+    types TYPE_GHOST, TYPE_POISON
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -1963,13 +1963,13 @@ mondata SPECIES_GASTLY, "Gastly"
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GASTLY, "With its gas-like body, it can sneak\ninto any place it desires. However,\nit can be blown away by wind."
     mondexclassification SPECIES_GASTLY, "Gas Pokémon"
-    mondexheight SPECIES_GASTLY, "4’03”"
+    mondexheight SPECIES_GASTLY, "5’03”"
     mondexweight SPECIES_GASTLY, "0.2 lbs."
 
 
 mondata SPECIES_HAUNTER, "Haunter"
-    basestats 73, 58, 42, 98, 87, 63
-    types TYPE_GHOST, TYPE_GHOST
+    basestats 68, 81, 52, 113, 68, 75
+    types TYPE_GHOST, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -1984,13 +1984,13 @@ mondata SPECIES_HAUNTER, "Haunter"
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_HAUNTER, "In total darkness, where nothing is\nvisible, HAUNTER lurks, silently\nstalking its next victim."
     mondexclassification SPECIES_HAUNTER, "Gas Pokémon"
-    mondexheight SPECIES_HAUNTER, "5’03”"
-    mondexweight SPECIES_HAUNTER, "0.2 lbs."
+    mondexheight SPECIES_HAUNTER, "3’03”"
+    mondexweight SPECIES_HAUNTER, "16.2 lbs."
 
 
 mondata SPECIES_GENGAR, "Gengar"
-    basestats 85, 77, 57, 102, 98, 89
-    types TYPE_GHOST, TYPE_GHOST
+    basestats 89, 93, 69, 83, 93, 89
+    types TYPE_GHOST, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -4215,7 +4215,7 @@ mondata SPECIES_SLOWKING, "Slowking"
 
 
 mondata SPECIES_MISDREAVUS, "Misdreavus"
-    basestats 58, 41, 53, 103, 91, 82
+    basestats 62, 44, 48, 102, 80, 85
     types TYPE_GHOST, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9024,7 +9024,7 @@ mondata SPECIES_LOPUNNY, "Lopunny"
 
 
 mondata SPECIES_MISMAGIUS, "Mismagius"
-    basestats 79, 55, 62, 108, 128, 104
+    basestats 79, 56, 62, 114, 111, 119
     types TYPE_GHOST, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9040,7 +9040,7 @@ mondata SPECIES_MISMAGIUS, "Mismagius"
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_MISMAGIUS, "Its cries sound like incantations\nto torment the foe. It appears\nwhere you least expect it."
     mondexclassification SPECIES_MISMAGIUS, "Magical Pokémon"
-    mondexheight SPECIES_MISMAGIUS, "2’11”"
+    mondexheight SPECIES_MISMAGIUS, "3’11”"
     mondexweight SPECIES_MISMAGIUS, "9.7 lbs."
 
 
@@ -23555,7 +23555,7 @@ mondata SPECIES_DUGTRIO_ALOLAN, "-----"
     colorflip BODY_COLOR_BROWN, 1
 
 mondata SPECIES_MEOWTH_ALOLAN, "-----"
-    basestats 55, 50, 32, 75, 50, 40
+    basestats 57, 53, 37, 67, 53, 39
     types TYPE_DARK, TYPE_DARK
     catchrate 196
     baseexp 58
@@ -23571,7 +23571,7 @@ mondata SPECIES_MEOWTH_ALOLAN, "-----"
     colorflip BODY_COLOR_GRAY, 0
 
 mondata SPECIES_PERSIAN_ALOLAN, "-----"
-    basestats 80, 78, 62, 90, 84, 67
+    basestats 85, 77, 65, 81, 85, 69
     types TYPE_DARK, TYPE_DARK
     catchrate 90
     baseexp 154

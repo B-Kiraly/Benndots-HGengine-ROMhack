@@ -1,27 +1,37 @@
-# Benndot's HG-Engine Edits
+# Benndot's Pokemon Heartgold and Soulsilver
 
 ## About HG-Engine
  HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
 
 It also offers a massive amount of customizability, allowing users to tweak just about every facet of gameplay to their liking. 
 
-## My Edits (Overview)
+## This Project (Overview)
 
-Beyond all the base features that HG-Engine provides out of the box, I have made changes to the following aspects of the game.
+This is a fun little personal project that I've wanted to create for a long time. An attempt at making my own 'definitive' version of one of my favorite games ever. That's 'definitive' by my own definition, and my idea of definitive for this game is pretty eccentric! A lot of what this project consists of is me bringing to life various ideas I've had for Pokemon or gameplay over the years. Some of these are small tweaks to Pokemon stats (I've at least 'tweaked' basically every available Pokemon), but some involve complete reworks of Pokemon and evolutionary lines. It's definitely not an overhaul made for everyone! That said, I think the changes I've made are generally really cool, they make sense, and only improve on the gameplay experience. 
 
--Pokemon Base Stats (The distribution of stats that species of pokemon has, determining it's battle style and difficulty of use)
+## My Added Features
 
--Wild Encounters (which wild pokemon can be encountered and where)
+Here's an overview of the changes/features present in my ROM hack.
 
--Level up learnsets (The selection of moves that a species of Pokemon learns and when they learn them)
+-Reworked base stats for all available species. Stat distributions are mostly based on vibes and the Pokemon's appearance rather than having a particular gimmick or gameplay strategy in mind.
 
--Evolutionary methods (How different species of Pokemon evolve and into which species they evolve when they do.)
+-Reworked the level up learnsets (aka the moves that Pokemon learn as they level up) of MANY available Pokemon. While I have completed many dozens, the majority have received little to no editing. The ones that haven't been touched have their HG-Engine default learnsets, which should be their Gamefreak gen 9 (if I'm not mistaken). I've put some real love into the learnsets that I have worked on, and adore how the majority of them have come out. 
 
--Pokemart inventories (Which items are available for purchase in the pokemarts that are spread throughout the game's world and at what point in the player's progress do they become available.)
+-Several Pokemon species have been re-typed. Every typing change that I've made makes as much or more sense than their Gamefreak typing, in my opinion. 
 
--Other Pokemon data attributes (Various changes to species size and weights, and also a few changes to species' available abilities)
+-Several Pokemon species have been giving a new evolution, and/or way of evolving. More details in the evolution changes section in this readme. 
 
--Various battle move statistical rebalances 
+-Reworked every route and dungeon in Johto to change which Pokemon are available where (and at what frequency). My biggest priority was matching the Pokemon species to the environment well, though the variety of Pokemon and spreading of types throughout the region came out really well regardless.  
+
+-Many Pokemon have gotten changes to their species weights and heights. (Changes not reflected in dex entries because that's handled elsewhere. I'd have to figure that out and implement my changes.)
+
+-New type relationships. I reworked how types affect each other to switch things up. I focused heavily both on balance and having these interactions make sense. 
+
+-Evolution methods have been tweaked slightly. I have placed minimum level requirements on Friendship (level 10) and Stone/Item-based (level 20) evolutions. 
+
+-Reworked many battle moves. I've made most moves in general slightly less accurate, and tweaked the power and secondary effect rate of many. Also increased the PP of many moves. 
+
+-Changes to PokeMart and department store inventories and costs. I made PP restoration items added in HG-Engine cheaper, as well as revives and full heals. I added heart scales and eviolite to Poke mart inventories (after hitting certain milestones) for better accessibility. 
 
 ## Base Stats 
 
@@ -43,7 +53,7 @@ It's by no means a hard science but I put a nice amount of thought into it and I
 
 In my version of the game, just about every native evolutionary line in the Pokedex of the first 2 generations can be encountered in the wild. A few select extras from other regions/generations have also been added where I thought appropriate. I really didn't go overboard with it, however.
 
-I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and grass types in Ilex Forest, More rugged kinds of Pokemon in mountainous areas. I'm pretty happy with how consistent and organized I kept it. There's a nice variety of options wherever you go. More rare 1-2% encounters and a greater variety of Pokemon per route in general due to the density of making all main dex Pokemon availabe. 
+I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and grass types in Ilex Forest, More rugged kinds of Pokemon in mountainous areas. I'm pretty happy with how consistent and organized I kept it. There's a nice variety of options wherever you go. More rare 1-2% encounters and a greater variety of Pokemon per route in general due to the density of making all main dex Pokemon available. 
 
 While this information is reliably true for ground encounters, I was a bit more haphazard early on when writing in water encounters. It's possible that there are non-native Pokemon species in certain areas that I missed in editing. It shouldn't be much, if anything, however. 
 
@@ -87,8 +97,11 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 -Arcanine
 -Qwilfish
 -Stuntank
+-Gastly (Now standalone)
+-Haunter line
 -Bellsprout
 -Oddish
+-Lickitung
 -Pelipper
 -Psyduck
 -Dewgong
@@ -99,6 +112,15 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 -Eevee line 
 
 *Pokemon in the same evolutionary line mentioned separately have diverging movesets from one another
+
+## Typing Changes (Incomplete)
+
+Oddish & Gloom: Mono Grass
+Seel & Dewgong: Normal / Ice
+Lickitung & Lickilicky: Normal / Poison
+Sunflora: Grass / Fire
+Haunter & Gengar: Ghost / Dark
+Sableye: Rock / Ghost
 
 ## Evolutions and evolution methods (My changes)
 
@@ -120,9 +142,11 @@ Cubone: Branching evolution with Marowak and Kangaskhan (implemented, mostly)
 
 Eeveelutions: Umbreon and Espeon were changed. The former now needs to be given a Dusk Stone, while the latter now needs to be given a Dawn Stone. (I'd like to add time of day requirements, but they don't exist in the engine's default methods so that won't be done for the time being.)
 
-Gengar: Haunter evolves via Dusk Stone. 
+Gengar: Haunter evolves via Dusk Stone. Gastly is now a separate species with no evolution. 
 
 Pikachu: Added a 'metal coat' induced evolution into a reworked version of Togedemaru
+
+Rhyhorn: Is mostly intended to be a non-evolving Pokemon (I'm a bit of a Rhydon-Rhyperior, but they're still accessible by evolving Rhyhorn with a moon stone)
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
@@ -136,10 +160,11 @@ I'd like to create a higher tier version of each category with a higher level re
 
 ## Pokemart stock & value changes 
 
--Added heart scales to normal pokemart inventories (For easy move tutor usage)
+-Added heart scales and eviolite to normal pokemart inventories (For easy move tutor usage)
 -Added items that I use for evolutionary purposes to department store inventories. (twisted spoons, charcoal, dragon scale, metal coat)
 -Revives, Ethers and elixirs are much cheaper
 -Full Heals are slightly cheaper
+-Eviolite has been made more expensive for purchase ($1000)
 
 ### Party Requirements (Partially implemented)
 
@@ -169,9 +194,12 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 (Item Data) For changes to the price of items and what they do: data/itemdata/itemdata.c
 
-## TODO
+## TODO List
 
+-Rework shellder, exeggcute lines to not be stone evos
+-Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
 -Work on more species learnsets that I haven't fully constructed
+-Add more missing info to this documentation (pokemon typing changes, move changes, new type relationship system, etc)
 -Create new usable Evo Methods 
 -Edit more HG Engine encounter data (Mostly done, some caves could use tweaking. Surfing is only slightly edited, kanto is pretty much entirely unedited)
 -Custom trainer editing?
@@ -180,6 +208,13 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 -Amp ability jigglypuff line? 
 
+## Important Notes / Limitations
+
+HG-Engine has some limits in its current form that effect gameplay in some small ways.
+
+Currently it doesn't support evolution-trigger move learning, which means that I've had to hard code those moves to the expected level of evolution. For that reason I recommend evolving most Pokemon at their earliest level in order to not miss out on a potentially important move.
+
+I recommend Melon DS on Windows to emulate this game on. The Desmume emulation has some glitches with these ROMs. Usually it's relatively minor visual glitches, but occasionally they can be game breaking. 
 
 ## Base HG-Engine Features:
 * Dex Expansion (through Gen 6 almost entirely implemented)

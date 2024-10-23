@@ -7296,7 +7296,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 29, 28, 22, 22, 25, 25, 25, 25, 25, 30, 20, 40
+walklevels 29, 28, 22, 22, 25, 25, 25, 25, 24, 25, 20, 40
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
@@ -7304,7 +7304,7 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_PARASECT
+pokemon SPECIES_HAUNTER
 pokemon SPECIES_SABLEYE
 pokemon SPECIES_MAWILE
 pokemon SPECIES_DUNSPARCE
@@ -7318,7 +7318,7 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_PARASECT
+pokemon SPECIES_HAUNTER
 pokemon SPECIES_SABLEYE
 pokemon SPECIES_MAWILE
 pokemon SPECIES_DUNSPARCE
@@ -7332,7 +7332,7 @@ pokemon SPECIES_GOLBAT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_PARASECT
+pokemon SPECIES_HAUNTER
 pokemon SPECIES_SABLEYE
 pokemon SPECIES_MAWILE
 pokemon SPECIES_DUNSPARCE
