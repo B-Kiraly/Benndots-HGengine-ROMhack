@@ -1948,7 +1948,7 @@ mondata SPECIES_CLOYSTER, "Cloyster"
 
 mondata SPECIES_GASTLY, "Gastly"
     basestats 52, 28, 22, 87, 81, 56
-    types TYPE_GHOST, TYPE_DARK
+    types TYPE_GHOST, TYPE_GHOST
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -1969,7 +1969,7 @@ mondata SPECIES_GASTLY, "Gastly"
 
 mondata SPECIES_HAUNTER, "Haunter"
     basestats 73, 58, 42, 98, 87, 63
-    types TYPE_GHOST, TYPE_DARK
+    types TYPE_GHOST, TYPE_GHOST
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -1990,7 +1990,7 @@ mondata SPECIES_HAUNTER, "Haunter"
 
 mondata SPECIES_GENGAR, "Gengar"
     basestats 85, 77, 57, 102, 98, 89
-    types TYPE_GHOST, TYPE_DARK
+    types TYPE_GHOST, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -2047,8 +2047,8 @@ mondata SPECIES_DROWZEE, "Drowzee"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DROWZEE, "If you think that you had a good dream\nbut you can’t remember it,\na DROWZEE has probably eaten it."
     mondexclassification SPECIES_DROWZEE, "Hypnosis Pokémon"
-    mondexheight SPECIES_DROWZEE, "3’09”"
-    mondexweight SPECIES_DROWZEE, "102.4 lbs."
+    mondexheight SPECIES_DROWZEE, "4’02”"
+    mondexweight SPECIES_DROWZEE, "122.4 lbs."
 
 
 mondata SPECIES_HYPNO, "Hypno"
@@ -23012,7 +23012,7 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
 
 mondata SPECIES_MEGA_SABLEYE, "-----"
     basestats 50, 85, 125, 20, 85, 115
-    types TYPE_DARK, TYPE_GHOST
+    types TYPE_ROCK, TYPE_GHOST
     catchrate 45
     baseexp 98
     evyields 0, 1, 1, 0, 0, 0

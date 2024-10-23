@@ -7403,7 +7403,7 @@ superrodrate 75
 walklevels 34, 35, 30, 30, 30, 30, 36, 36, 31, 30, 35, 45
 
 // morning encounter slots
-pokemon SPECIES_WATCHOG
+pokemon SPECIES_DUGTRIO
 pokemon SPECIES_GLOOM
 pokemon SPECIES_SNOVER
 pokemon SPECIES_SNOVER
@@ -7417,7 +7417,7 @@ pokemon SPECIES_SNORLAX
 pokemon SPECIES_SNORLAX
 
 // day encounter slots
-pokemon SPECIES_WATCHOG
+pokemon SPECIES_DUGTRIO
 pokemon SPECIES_GLOOM
 pokemon SPECIES_SNOVER
 pokemon SPECIES_SNOVER
@@ -7431,7 +7431,7 @@ pokemon SPECIES_SNORLAX
 pokemon SPECIES_SNORLAX
 
 // night encounter slots
-pokemon SPECIES_WATCHOG
+pokemon SPECIES_DUGTRIO
 pokemon SPECIES_GLOOM
 pokemon SPECIES_SNOVER
 pokemon SPECIES_SNOVER

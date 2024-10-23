@@ -67,6 +67,7 @@ While this information is reliably true for ground encounters, I was a bit more 
 I've gone through and edited many Pokemon. A large number of the Pokemon species intended to be present in the game have received extensive updates to their learnsets. However, many still haven't been touched and need to be overhauled (as of October 2024). Few to no Pokemon in the game should possess any moves that aren't currently implemented in HG-engine. 
 
 ### The Pokemon that I have reworked heavily (Incomplete list): 
+
 -Pikachu (including Togedemaru)
 -Octillery 
 -Sunkern
@@ -79,6 +80,7 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 -Masquerain
 -Tauros
 -Miltank
+-Diglett
 -Swinub
 -Sneasel
 -Ninetails 
@@ -92,6 +94,8 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 -Dewgong
 -Grumpig
 -Drifloon
+-Mawile
+-Sableye
 -Eevee line 
 
 *Pokemon in the same evolutionary line mentioned separately have diverging movesets from one another
