@@ -143,7 +143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    .price = 1200,
+    .price = 700,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +208,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    .price = 600,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1573,7 +1573,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_POTION] =
 {
-    .price = 2500,
+    .price = 1200,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -1768,7 +1768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_HEAL] =
 {
-    .price = 500,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2483,7 +2483,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ETHER] =
 {
-    .price = 800,
+    .price = 600,
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -2548,7 +2548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ETHER] =
 {
-    .price = 1200,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -2613,7 +2613,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ELIXIR] =
 {
-    .price = 1600,
+    .price = 1400,
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -2678,7 +2678,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ELIXIR] =
 {
-    .price = 4500,
+    .price = 2800,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,

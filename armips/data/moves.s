@@ -252,9 +252,9 @@ movedata MOVE_SWORDS_DANCE, "Swords Dance"
 movedata MOVE_CUT, "Cut"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 55
     type TYPE_NORMAL
-    accuracy 95
+    accuracy 90
     pp 30
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -364,9 +364,9 @@ movedata MOVE_SLAM, "Slam"
 movedata MOVE_VINE_WHIP, "Vine Whip"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 45
     type TYPE_GRASS
-    accuracy 97
+    accuracy 95
     pp 25
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -716,9 +716,9 @@ movedata MOVE_LEER, "Leer"
 movedata MOVE_BITE, "Bite"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 65
     type TYPE_DARK
-    accuracy 95
+    accuracy 85
     pp 25
     effectchance 25
     target MOVE_TARGET_SELECTED
@@ -844,9 +844,9 @@ movedata MOVE_ACID, "Acid"
 movedata MOVE_EMBER, "Ember"
     battleeffect MOVE_EFFECT_BURN_HIT
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 45
     type TYPE_FIRE
-    accuracy 100
+    accuracy 90
     pp 25
     effectchance 10
     target MOVE_TARGET_SELECTED
@@ -894,7 +894,7 @@ movedata MOVE_WATER_GUN, "Water Gun"
     pss SPLIT_SPECIAL
     basepower 50
     type TYPE_WATER
-    accuracy 100
+    accuracy 90
     pp 25
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -2076,10 +2076,10 @@ movedata MOVE_CLAMP, "Clamp"
 movedata MOVE_SWIFT, "Swift"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_SPECIAL
-    basepower 60
+    basepower 50
     type TYPE_NORMAL
     accuracy 0
-    pp 20
+    pp 25
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
@@ -2124,18 +2124,18 @@ movedata MOVE_SPIKE_CANNON, "Spike Cannon"
 movedata MOVE_CONSTRICT, "Constrict"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 30
     type TYPE_NORMAL
-    accuracy 100
-    pp 35
-    effectchance 20
+    accuracy 95
+    pp 25
+    effectchance 60
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x15
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_CONSTRICT, "The foe is attacked\nwith long, creeping\ntentacles or vines.\nIt may also lower the\ntarget’s Speed."
+    movedescription MOVE_CONSTRICT, "The foe is attacked\nwith long, creeping\ntentacles or vines.\nIt usually lowers the\ntarget’s Speed."
 
 movedata MOVE_AMNESIA, "Amnesia"
     battleeffect MOVE_EFFECT_SP_DEF_UP_2
@@ -4007,7 +4007,7 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_ROCK_SMASH, "The user hits with a\npunch that usually lowers\nthe target’s Defense.\nIt can also smash\ncracked boulders."
+    movedescription MOVE_ROCK_SMASH, "The user hits with a\npunch that usually\nlowers target Defense.\nIt can also smash\ncracked boulders."
 
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect MOVE_EFFECT_WHIRLPOOL

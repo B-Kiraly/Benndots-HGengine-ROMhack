@@ -1,7 +1,13 @@
 # Benndot's Pokemon Heartgold and Soulsilver
 
+This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
+
+Current version: V9
+Current Task: Test playthrough
+Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested.
+
 ## About HG-Engine
- HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
+HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
 
 It also offers a massive amount of customizability, allowing users to tweak just about every facet of gameplay to their liking. 
 
@@ -113,6 +119,10 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 
 *Pokemon in the same evolutionary line mentioned separately have diverging movesets from one another
 
+## Matchup Changes
+
+![Oops, didn't work](./images/type-chart.png "The Type Chart")
+
 ## Typing Changes (Incomplete)
 
 Oddish & Gloom: Mono Grass
@@ -121,6 +131,7 @@ Lickitung & Lickilicky: Normal / Poison
 Sunflora: Grass / Fire
 Haunter & Gengar: Ghost / Dark
 Sableye: Rock / Ghost
+Zubat & Golbat & Crobat: Dark / Flying
 
 ## Evolutions and evolution methods (My changes)
 
@@ -196,17 +207,19 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
--Rework shellder, exeggcute lines to not be stone evos
--Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
--Work on more species learnsets that I haven't fully constructed
--Add more missing info to this documentation (pokemon typing changes, move changes, new type relationship system, etc)
--Create new usable Evo Methods 
--Edit more HG Engine encounter data (Mostly done, some caves could use tweaking. Surfing is only slightly edited, kanto is pretty much entirely unedited)
--Custom trainer editing?
+* Rework shellder, exeggcute lines to not be stone evos
+* Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
+* Work on more species learnsets that I haven't fully constructed (Zubat line, sentret line)
+* Add more missing info to this documentation
+* Finish/finalized wild pokemon encounters (Caves and bodies of water remaining mostly at this point)
+* Custom trainer editing? New evo methods?
 
 ## Ideas
 
--Amp ability jigglypuff line? 
+* Amp ability jigglypuff line? 
+* Add luvdisc fishing encounters (evolves into alomomola)
+* Add Fineon-Lumineon?
+* Add non-water type sea creatures from later generations? 
 
 ## Important Notes / Limitations
 

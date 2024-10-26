@@ -884,22 +884,23 @@ levelup SPECIES_WIGGLYTUFF
 
 
 levelup SPECIES_ZUBAT
-    learnset MOVE_ABSORB, 1
+    learnset MOVE_BITE, 1
     learnset MOVE_SUPERSONIC, 1
     learnset MOVE_ASTONISH, 5
     learnset MOVE_SUPERSONIC, 5
     learnset MOVE_WING_ATTACK, 13
+    learnset MOVE_ASTONISH, 15
     learnset MOVE_MEAN_LOOK, 18
-    learnset MOVE_POISON_FANG, 19
-    learnset MOVE_BITE, 21
+    learnset MOVE_LEECH_LIFE, 19
     learnset MOVE_AIR_CUTTER, 22
     learnset MOVE_SWIFT, 23
+    learnset MOVE_CRUNCH, 30
     learnset MOVE_QUICK_GUARD, 30
     learnset MOVE_CONFUSE_RAY, 31
     learnset MOVE_HAZE, 35
-    learnset MOVE_VENOSHOCK, 38
-    learnset MOVE_LEECH_LIFE, 43
+    learnset MOVE_POISON_FANG, 38
     learnset MOVE_AIR_SLASH, 45
+    learnset MOVE_HYPER_VOICE, 50
     terminatelearnset
 
 

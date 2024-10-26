@@ -601,10 +601,10 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 7, 14
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_GOLDEEN, 7, 10
+encounter SPECIES_GOLDEEN, 11, 13
+encounter SPECIES_POLIWAG, 7, 9
+encounter SPECIES_POLIWAG, 10, 12
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
@@ -861,8 +861,8 @@ pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_KRABBY
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_LARVITAR
+pokemon SPECIES_ELEKID
+pokemon SPECIES_ELEKID
 
 // day encounter slots
 pokemon SPECIES_STUNKY
@@ -875,8 +875,8 @@ pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_KRABBY
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_LARVITAR
+pokemon SPECIES_ELEKID
+pokemon SPECIES_ELEKID
 
 // night encounter slots
 pokemon SPECIES_STUNKY
@@ -889,8 +889,8 @@ pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_KRABBY
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_LARVITAR
-pokemon SPECIES_LARVITAR
+pokemon SPECIES_ELEKID
+pokemon SPECIES_ELEKID
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -914,9 +914,9 @@ encounter SPECIES_NONE, 0, 0
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_QWILFISH, 5, 10
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_QWILFISH, 6, 11
+encounter SPECIES_REMORAID, 7, 11
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
@@ -1641,10 +1641,10 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 8, 12
-encounter SPECIES_MAGIKARP, 8, 12
 encounter SPECIES_GOLDEEN, 9, 13
-encounter SPECIES_SHELLDER, 7, 14
-encounter SPECIES_CHINCHOU, 7, 14
+encounter SPECIES_SHELLDER, 7, 12
+encounter SPECIES_CHINCHOU, 7, 9
+encounter SPECIES_CHINCHOU, 10, 12
 
 // good rod encounters
 encounter SPECIES_GOLDEEN, 15, 25
@@ -2200,48 +2200,48 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 11, 10, 11, 11, 10, 10, 10, 12, 12, 9, 9, 7
+walklevels 11, 10, 11, 11, 10, 10, 10, 12, 12, 9, 10, 8
 
 // morning encounter slots
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_VOLTORB
 pokemon SPECIES_RATTATA
-monwithform SPECIES_MEOWTH, 1
+pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_DITTO
 pokemon SPECIES_FARFETCHD
+pokemon SPECIES_DITTO
+pokemon SPECIES_GRIMER
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GRIMER
-pokemon SPECIES_ELEKID
+pokemon SPECIES_HAPPINY
 pokemon SPECIES_HAPPINY
 
 // day encounter slots
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_VOLTORB
 pokemon SPECIES_RATTATA
-monwithform SPECIES_MEOWTH, 1
+pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_DITTO
 pokemon SPECIES_FARFETCHD
+pokemon SPECIES_DITTO
+pokemon SPECIES_GRIMER
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GRIMER
-pokemon SPECIES_ELEKID
+pokemon SPECIES_HAPPINY
 pokemon SPECIES_HAPPINY
 
 // night encounter slots
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_VOLTORB
 pokemon SPECIES_RATTATA
-monwithform SPECIES_MEOWTH, 1
+pokemon SPECIES_PSYDUCK
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
-pokemon SPECIES_VOLTORB
-pokemon SPECIES_DITTO
 pokemon SPECIES_FARFETCHD
+pokemon SPECIES_DITTO
+pokemon SPECIES_GRIMER
 pokemon SPECIES_RATTATA
 pokemon SPECIES_GRIMER
-pokemon SPECIES_ELEKID
+pokemon SPECIES_HAPPINY
 pokemon SPECIES_HAPPINY
 
 // hoenn encounter slots
@@ -2416,10 +2416,10 @@ pokemon SPECIES_SENTRET
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
 pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_MARILL
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_BEEDRILL
 pokemon SPECIES_LEDYBA
-pokemon SPECIES_MARILL
 pokemon SPECIES_YANMA
 pokemon SPECIES_EXEGGCUTE
 pokemon SPECIES_SNUBBULL
@@ -2430,10 +2430,10 @@ pokemon SPECIES_SENTRET
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
 pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_MARILL
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_BEEDRILL
 pokemon SPECIES_LEDYBA
-pokemon SPECIES_MARILL
 pokemon SPECIES_YANMA
 pokemon SPECIES_EXEGGCUTE
 pokemon SPECIES_SNUBBULL
@@ -2444,10 +2444,10 @@ pokemon SPECIES_SENTRET
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
 pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_MARILL
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_BEEDRILL
 pokemon SPECIES_LEDYBA
-pokemon SPECIES_MARILL
 pokemon SPECIES_YANMA
 pokemon SPECIES_EXEGGCUTE
 pokemon SPECIES_SNUBBULL
@@ -4240,11 +4240,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 8, 16
+encounter SPECIES_MAGIKARP, 8, 16
+encounter SPECIES_KRABBY, 10, 15
+encounter SPECIES_QWILFISH, 10, 15
+encounter SPECIES_REMORAID, 10, 15
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
@@ -6984,7 +6984,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 25, 26, 27, 24, 24, 27, 23, 23, 22, 22, 25, 22
+walklevels 25, 26, 27, 24, 24, 27, 23, 26, 22, 30, 25, 22
 
 // morning encounter slots
 pokemon SPECIES_SKIPLOOM
@@ -6993,11 +6993,11 @@ pokemon SPECIES_MACHOKE
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_FEAROW
-pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
+pokemon SPECIES_DONPHAN
 pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_MIENFOO
+pokemon SPECIES_URSARING
+pokemon SPECIES_LARVITAR
 pokemon SPECIES_LARVITAR
 
 // day encounter slots
@@ -7007,11 +7007,11 @@ pokemon SPECIES_MACHOKE
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_FEAROW
-pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
+pokemon SPECIES_DONPHAN
 pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_MIENFOO
+pokemon SPECIES_URSARING
+pokemon SPECIES_LARVITAR
 pokemon SPECIES_LARVITAR
 
 // night encounter slots
@@ -7021,11 +7021,11 @@ pokemon SPECIES_MACHOKE
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_MACHOP
 pokemon SPECIES_FEAROW
-pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
+pokemon SPECIES_DONPHAN
 pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_MIENFOO
+pokemon SPECIES_URSARING
+pokemon SPECIES_LARVITAR
 pokemon SPECIES_LARVITAR
 
 // hoenn encounter slots
@@ -7256,11 +7256,11 @@ encounter SPECIES_DUNSPARCE, 4, 8
 encounter SPECIES_CARBINK, 5, 10
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_SHELLDER, 7, 9
+encounter SPECIES_SHELLDER, 10, 12
+encounter SPECIES_CHINCHOU, 7, 9
+encounter SPECIES_CHINCHOU, 10, 12
+encounter SPECIES_RELICANTH, 8, 12
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20

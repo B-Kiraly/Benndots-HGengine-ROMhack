@@ -876,7 +876,7 @@ mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
 
 
 mondata SPECIES_ZUBAT, "Zubat"
-    basestats 37, 46, 37, 59, 28, 41
+    basestats 48, 39, 36, 63, 28, 44
     types TYPE_DARK, TYPE_FLYING
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -897,7 +897,7 @@ mondata SPECIES_ZUBAT, "Zubat"
 
 
 mondata SPECIES_GOLBAT, "Golbat"
-    basestats 62, 84, 66, 82, 56, 74
+    basestats 82, 90, 56, 83, 65, 64
     types TYPE_DARK, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -2010,7 +2010,7 @@ mondata SPECIES_GENGAR, "Gengar"
 
 
 mondata SPECIES_ONIX, "Onix"
-    basestats 127, 103, 108, 88, 25, 35
+    basestats 132, 106, 104, 84, 32, 30
     types TYPE_ROCK, TYPE_GROUND
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -2346,7 +2346,7 @@ mondata SPECIES_WEEZING, "Weezing"
 
 
 mondata SPECIES_RHYHORN, "Rhyhorn"
-    basestats 118, 114, 106, 46, 28, 36
+    basestats 118, 114, 106, 46, 28, 46
     types TYPE_NORMAL, TYPE_ROCK
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -3900,7 +3900,7 @@ mondata SPECIES_AZUMARILL, "Azumarill"
 
 
 mondata SPECIES_SUDOWOODO, "Sudowoodo"
-    basestats 73, 91, 102, 77, 57, 75
+    basestats 72, 91, 102, 79, 58, 79
     types TYPE_ROCK, TYPE_ROCK
     catchrate 65
     baseexp 0 // defined in baseexp.s
@@ -4551,7 +4551,7 @@ mondata SPECIES_SNEASEL, "Sneasel"
 
 
 mondata SPECIES_TEDDIURSA, "Teddiursa"
-    basestats 60, 80, 50, 40, 50, 50
+    basestats 51, 46, 42, 44, 48, 42
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -4572,7 +4572,7 @@ mondata SPECIES_TEDDIURSA, "Teddiursa"
 
 
 mondata SPECIES_URSARING, "Ursaring"
-    basestats 127, 117, 79, 81, 70, 67
+    basestats 123, 118, 81, 79, 71, 67
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -4866,7 +4866,7 @@ mondata SPECIES_KINGDRA, "Kingdra"
 
 
 mondata SPECIES_PHANPY, "Phanpy"
-    basestats 66, 60, 51, 56, 30, 42
+    basestats 61, 53, 51, 53, 30, 44
     types TYPE_GROUND, TYPE_GROUND
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -4887,7 +4887,7 @@ mondata SPECIES_PHANPY, "Phanpy"
 
 
 mondata SPECIES_DONPHAN, "Donphan"
-    basestats 104, 97, 93, 79, 50, 86
+    basestats 99, 97, 93, 79, 50, 86
     types TYPE_GROUND, TYPE_GROUND
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -5050,7 +5050,7 @@ mondata SPECIES_ELEKID, "Elekid"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ELEKID, "It rotates its arms to generate\nelectricity, but it tires easily,\nso it only charges up a little bit."
     mondexclassification SPECIES_ELEKID, "Electric Pokémon"
-    mondexheight SPECIES_ELEKID, "2’00”"
+    mondexheight SPECIES_ELEKID, "2’02”"
     mondexweight SPECIES_ELEKID, "51.8 lbs."
 
 
