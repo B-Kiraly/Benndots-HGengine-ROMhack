@@ -4838,6 +4838,7 @@ levelup SPECIES_GLIGAR
 
 
 levelup SPECIES_STEELIX
+    learnset MOVE_IRON_TAIL, 1
     learnset MOVE_CRUNCH, 1
     learnset MOVE_CONSTRICT, 1
     learnset MOVE_MUD_SPORT, 3

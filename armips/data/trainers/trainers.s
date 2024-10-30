@@ -1035,8 +1035,8 @@ trainerdata 32, "Pryce"
     trainerclass CLASS_LEADER_1
     nummons 3
     item ITEM_HYPER_POTION
-    item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item ITEM_HYPER_POTION
+    item ITEM_FULL_HEAL
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
     battletype SINGLE_BATTLE
@@ -1046,13 +1046,13 @@ trainerdata 32, "Pryce"
         // mon 0
         ivs 150
         abilityslot 0
-        level 30
-        pokemon SPECIES_SEEL
-        item ITEM_NONE
-        move MOVE_SNORE
+        level 32
+        pokemon SPECIES_DEWGONG
+        item ITEM_LEFTOVERS
+        move MOVE_FROST_BREATH
         move MOVE_HAIL
-        move MOVE_ICY_WIND
-        move MOVE_REST
+        move MOVE_HORN_ATTACK
+        move MOVE_CHILLING_WATER
         ballseal 0
 
         // mon 1
@@ -1063,20 +1063,20 @@ trainerdata 32, "Pryce"
         item ITEM_NONE
         move MOVE_SLEEP_TALK
         move MOVE_ICE_SHARD
-        move MOVE_AURORA_BEAM
+        move MOVE_SNORE
         move MOVE_REST
         ballseal 0
 
         // mon 2
-        ivs 150
+        ivs 170
         abilityslot 32
-        level 34
+        level 35
         pokemon SPECIES_PILOSWINE
         item ITEM_SITRUS_BERRY
         move MOVE_HAIL
         move MOVE_ICE_FANG
-        move MOVE_MUD_BOMB
-        move MOVE_BLIZZARD
+        move MOVE_AVALANCHE
+        move MOVE_BULLDOZE
         ballseal 0
     endparty
 
@@ -1085,8 +1085,8 @@ trainerdata 33, "Jasmine"
     trainerclass CLASS_LEADER_2
     nummons 3
     item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
-    item ITEM_NONE
+    item ITEM_X_SPEED
+    item ITEM_X_SP_DEF
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
@@ -1094,38 +1094,38 @@ trainerdata 33, "Jasmine"
 
     party 33
         // mon 0
-        ivs 150
+        ivs 180
         abilityslot 0
         level 30
-        pokemon SPECIES_MAGNEMITE
+        pokemon SPECIES_MAWILE
         item ITEM_NONE
-        move MOVE_THUNDERBOLT
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        move MOVE_THUNDER_WAVE
+        move MOVE_FAKE_OUT
+        move MOVE_SPIKES
+        move MOVE_METAL_CLAW
+        move MOVE_VICE_GRIP
         ballseal 0
 
         // mon 1
-        ivs 150
+        ivs 140
         abilityslot 32
-        level 30
-        pokemon SPECIES_MAGNEMITE
+        level 29
+        pokemon SPECIES_MAGNETON
         item ITEM_NONE
-        move MOVE_THUNDERBOLT
+        move MOVE_ELECTRO_BALL
         move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
+        move MOVE_MAGNET_BOMB
         move MOVE_THUNDER_WAVE
         ballseal 0
 
         // mon 2
-        ivs 150
+        ivs 200
         abilityslot 32
-        level 35
+        level 31
         pokemon SPECIES_STEELIX
         item ITEM_SITRUS_BERRY
         move MOVE_SCREECH
         move MOVE_SANDSTORM
-        move MOVE_ROCK_THROW
+        move MOVE_DIG
         move MOVE_IRON_TAIL
         ballseal 0
     endparty
@@ -1156,7 +1156,7 @@ trainerdata 34, "Chuck"
         ballseal 0
 
         // mon 1
-        ivs 150
+        ivs 180
         abilityslot 0
         level 31
         pokemon SPECIES_POLIWRATH
@@ -1185,18 +1185,6 @@ trainerdata 35, "Clair"
         ivs 200
         abilityslot 0
         level 38
-        pokemon SPECIES_GYARADOS
-        item ITEM_NONE
-        move MOVE_TWISTER
-        move MOVE_DRAGON_RAGE
-        move MOVE_BITE
-        move MOVE_DRAGON_PULSE
-        ballseal 0
-
-        // mon 1
-        ivs 200
-        abilityslot 0
-        level 38
         pokemon SPECIES_DRAGONAIR
         item ITEM_NONE
         move MOVE_THUNDER_WAVE
@@ -1205,20 +1193,32 @@ trainerdata 35, "Clair"
         move MOVE_DRAGON_PULSE
         ballseal 0
 
+        // mon 1
+        ivs 180
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GOLEM
+        item ITEM_NONE
+        move MOVE_BULLDOZE
+        move MOVE_DRAGON_RAGE
+        move MOVE_ROLLOUT
+        move MOVE_DRAGON_CLAW
+        ballseal 0
+
         // mon 2
         ivs 200
         abilityslot 0
         level 38
         pokemon SPECIES_DRAGONAIR
         item ITEM_NONE
-        move MOVE_THUNDER_WAVE
+        move MOVE_AGILITY
         move MOVE_AQUA_TAIL
         move MOVE_SLAM
         move MOVE_DRAGON_PULSE
         ballseal 0
 
         // mon 3
-        ivs 200
+        ivs 220
         abilityslot 32
         level 41
         pokemon SPECIES_KINGDRA

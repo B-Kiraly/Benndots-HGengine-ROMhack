@@ -2030,9 +2030,9 @@ movedata MOVE_FIRE_BLAST, "Fire Blast"
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_FIRE
-    accuracy 80
-    pp 6
-    effectchance 15
+    accuracy 75
+    pp 8
+    effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT

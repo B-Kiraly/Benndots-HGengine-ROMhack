@@ -213,15 +213,13 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
 * Work on more species learnsets that I haven't fully constructed (Zubat line, sentret line)
 * Add more missing info to this documentation
-* Wild pokemon water encounters (Finneon needs to be added)
+* Complete wild pokemon water encounters (Finneon needs to be added)
 * Wild pokemon cave/dungeon encounters
-* Continue custom trainer editing (finish gym leaders / elite four)
+* Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 
 ## Ideas
 
 * Amp ability jigglypuff line? 
-* Add luvdisc fishing encounters (evolves into alomomola)
-* Add Fineon-Lumineon?
 * Add non-water type sea creatures from later generations? 
 
 ## Important Notes / Limitations
@@ -317,5 +315,5 @@ Game Freak - amazing Pokémon games from way back when
 * Remoraid (ponds / rivers)
 
 * Luvdisc 
-* Relicanth
-* Finneon
+* Relicanth (ocean / cave)
+* Finneon (ocean)

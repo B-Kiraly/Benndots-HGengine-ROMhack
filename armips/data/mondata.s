@@ -1296,7 +1296,7 @@ mondata SPECIES_POLIWAG, "Poliwag"
 
 
 mondata SPECIES_POLIWHIRL, "Poliwhirl"
-    basestats 85, 75, 55, 82, 60, 55
+    basestats 84, 76, 58, 82, 58, 56
     types TYPE_WATER, TYPE_WATER
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -1317,7 +1317,7 @@ mondata SPECIES_POLIWHIRL, "Poliwhirl"
 
 
 mondata SPECIES_POLIWRATH, "Poliwrath"
-    basestats 100, 95, 70, 85, 50, 65
+    basestats 104, 96, 76, 84, 46, 66
     types TYPE_WATER, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3921,7 +3921,7 @@ mondata SPECIES_SUDOWOODO, "Sudowoodo"
 
 
 mondata SPECIES_POLITOED, "Politoed"
-    basestats 78, 72, 72, 85, 86, 87
+    basestats 98, 78, 68, 98, 88, 88
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3937,8 +3937,8 @@ mondata SPECIES_POLITOED, "Politoed"
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_POLITOED, "If POLIWAG and POLIWHIRL hear its\nechoing cry, they respond by\ngathering from far and wide."
     mondexclassification SPECIES_POLITOED, "Frog Pokémon"
-    mondexheight SPECIES_POLITOED, "3’07”"
-    mondexweight SPECIES_POLITOED, "74.7 lbs."
+    mondexheight SPECIES_POLITOED, "4’07”"
+    mondexweight SPECIES_POLITOED, "124.7 lbs."
 
 
 mondata SPECIES_HOPPIP, "Hoppip"
