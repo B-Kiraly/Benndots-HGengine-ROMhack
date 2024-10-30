@@ -3588,7 +3588,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GUARD_SPEC] =
 {
-    .price = 700,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3653,7 +3653,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DIRE_HIT] =
 {
-    .price = 650,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3718,7 +3718,7 @@ const ITEMDATA __data[] =
 
 [ITEM_X_ATTACK] =
 {
-    .price = 500,
+    .price = 300,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3783,7 +3783,7 @@ const ITEMDATA __data[] =
 
 [ITEM_X_DEFENSE] =
 {
-    .price = 550,
+    .price = 300,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3848,7 +3848,7 @@ const ITEMDATA __data[] =
 
 [ITEM_X_SPEED] =
 {
-    .price = 350,
+    .price = 300,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3913,7 +3913,7 @@ const ITEMDATA __data[] =
 
 [ITEM_X_ACCURACY] =
 {
-    .price = 950,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -3978,7 +3978,7 @@ const ITEMDATA __data[] =
 
 [ITEM_X_SPECIAL] =
 {
-    .price = 350,
+    .price = 300,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -4043,7 +4043,7 @@ const ITEMDATA __data[] =
 
 [ITEM_X_SP_DEF] =
 {
-    .price = 350,
+    .price = 300,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -4108,7 +4108,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_DOLL] =
 {
-    .price = 1000,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -4173,7 +4173,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FLUFFY_TAIL] =
 {
-    .price = 1000,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

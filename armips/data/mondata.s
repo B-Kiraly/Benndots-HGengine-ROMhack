@@ -2499,7 +2499,7 @@ mondata SPECIES_GOLDEEN, "Goldeen"
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_MYSTIC_WATER
-    genderratio 127
+    genderratio 190
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
@@ -2598,8 +2598,8 @@ mondata SPECIES_MR_MIME, "Mr. Mime"
 
 
 mondata SPECIES_SCYTHER, "Scyther"
-    basestats 60, 101, 80, 91, 55, 60
-    types TYPE_BUG, TYPE_FLYING
+    basestats 60, 105, 80, 93, 45, 70
+    types TYPE_BUG, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -2609,12 +2609,12 @@ mondata SPECIES_SCYTHER, "Scyther"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_TECHNICIAN
+    abilities ABILITY_SHARPNESS, ABILITY_TECHNICIAN
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SCYTHER, "It slashes through grass with its\nsharp scythes, moving too fast\nfor the human eye to track."
     mondexclassification SPECIES_SCYTHER, "Mantis Pokémon"
-    mondexheight SPECIES_SCYTHER, "3’06”"
+    mondexheight SPECIES_SCYTHER, "3’07”"
     mondexweight SPECIES_SCYTHER, "83.5 lbs."
 
 
@@ -4467,7 +4467,7 @@ mondata SPECIES_QWILFISH, "Qwilfish"
 
 
 mondata SPECIES_SCIZOR, "Scizor"
-    basestats 70, 110, 110, 85, 40, 70
+    basestats 60, 117, 126, 103, 67, 60
     types TYPE_BUG, TYPE_STEEL
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -4483,8 +4483,8 @@ mondata SPECIES_SCIZOR, "Scizor"
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_SCIZOR, "It swings its eye-patterned pincers\nup to scare its foes. This makes\nit look like it has three heads."
     mondexclassification SPECIES_SCIZOR, "Pincer Pokémon"
-    mondexheight SPECIES_SCIZOR, "5’11”"
-    mondexweight SPECIES_SCIZOR, "260.1 lbs."
+    mondexheight SPECIES_SCIZOR, "3’07”"
+    mondexweight SPECIES_SCIZOR, "210.1 lbs."
 
 
 mondata SPECIES_SHUCKLE, "Shuckle"
@@ -7785,8 +7785,8 @@ mondata SPECIES_RELICANTH, "Relicanth"
 
 
 mondata SPECIES_LUVDISC, "Luvdisc"
-    basestats 43, 30, 55, 97, 40, 65
-    types TYPE_WATER, TYPE_WATER
+    basestats 63, 33, 63, 99, 63, 143
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -9591,7 +9591,7 @@ mondata SPECIES_CARNIVINE, "Carnivine"
 
 
 mondata SPECIES_FINNEON, "Finneon"
-    basestats 49, 49, 56, 66, 49, 61
+    basestats 50, 50, 50, 70, 52, 60
     types TYPE_WATER, TYPE_WATER
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -9602,7 +9602,7 @@ mondata SPECIES_FINNEON, "Finneon"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_SWIFT_SWIM, ABILITY_STORM_DRAIN
+    abilities ABILITY_FOREWARN, ABILITY_LEVITATE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_FINNEON, "Swimming and fluttering its two tail fins,\nit looks like a BEAUTIFLY. At night, the\npatterns on its tail fins softly shine."
@@ -9612,7 +9612,7 @@ mondata SPECIES_FINNEON, "Finneon"
 
 
 mondata SPECIES_LUMINEON, "Lumineon"
-    basestats 69, 69, 76, 91, 69, 86
+    basestats 71, 75, 75, 96, 73, 85
     types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -9623,7 +9623,7 @@ mondata SPECIES_LUMINEON, "Lumineon"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_SWIFT_SWIM, ABILITY_STORM_DRAIN
+    abilities ABILITY_FOREWARN, ABILITY_LEVITATE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_LUMINEON, "LUMINEON swimming in the darkness\nof the deep sea look like stars shining\nin the night sky."

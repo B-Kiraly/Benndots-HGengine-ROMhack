@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V9
-Current Task: Test playthrough
+Current version: V10
+Current Task: Test playthrough of V8
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested.
 
 ## About HG-Engine
@@ -38,6 +38,8 @@ Here's an overview of the changes/features present in my ROM hack.
 -Reworked many battle moves. I've made most moves in general slightly less accurate, and tweaked the power and secondary effect rate of many. Also increased the PP of many moves. 
 
 -Changes to PokeMart and department store inventories and costs. I made PP restoration items added in HG-Engine cheaper, as well as revives and full heals. I added heart scales and eviolite to Poke mart inventories (after hitting certain milestones) for better accessibility. 
+
+-Changes to some trainers Pokemon selection and levels (early stages)
 
 ## Base Stats 
 
@@ -211,8 +213,9 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
 * Work on more species learnsets that I haven't fully constructed (Zubat line, sentret line)
 * Add more missing info to this documentation
-* Finish/finalized wild pokemon encounters (Caves and bodies of water remaining mostly at this point)
-* Custom trainer editing? New evo methods?
+* Wild pokemon water encounters (Finneon needs to be added)
+* Wild pokemon cave/dungeon encounters
+* Continue custom trainer editing (finish gym leaders / elite four)
 
 ## Ideas
 
@@ -300,3 +303,19 @@ Game Freak - amazing Pokémon games from way back when
 [diamond]:https://github.com/pret/pokediamond
 [TEMPLATE]: https://github.com/Bubble791/Pokemon-Heart-Gold-Engine
 [LUNOS]: https://www.pokecommunity.com/showthread.php?t=432351
+
+## Fishing species (Personal use, delete later)
+
+* Magikarp (Everywhere)
+* Tentacool ( oceans )
+* Goldeen ( ponds / caves )
+* Chinchou (Caves / ocean)
+* Krabby (ocean shore / lakes)
+* Corsola (ocean)
+* Qwilfish (ocean / lakes)
+* Staryu (ocean shore)
+* Remoraid (ponds / rivers)
+
+* Luvdisc 
+* Relicanth
+* Finneon

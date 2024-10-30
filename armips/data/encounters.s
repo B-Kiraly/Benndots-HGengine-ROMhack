@@ -600,18 +600,18 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 7, 10
-encounter SPECIES_GOLDEEN, 11, 13
-encounter SPECIES_POLIWAG, 7, 9
-encounter SPECIES_POLIWAG, 10, 12
+encounter SPECIES_GOLDEEN, 6, 8
+encounter SPECIES_GOLDEEN, 9, 11
+encounter SPECIES_GOLDEEN, 12, 14
+encounter SPECIES_LUVDISC, 7, 9
+encounter SPECIES_LUVDISC, 10, 12
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_RELICANTH, 18, 24
+encounter SPECIES_GOLDEEN, 18, 21
+encounter SPECIES_GOLDEEN, 21, 24
+encounter SPECIES_LUVDISC, 14, 17
+encounter SPECIES_LUVDISC, 18, 21
+encounter SPECIES_LUVDISC, 21, 24
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -912,25 +912,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_TENTACOOL, 7, 9
+encounter SPECIES_TENTACOOL, 10, 12
 encounter SPECIES_QWILFISH, 6, 11
-encounter SPECIES_REMORAID, 7, 11
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_QWILFISH, 20, 20
-encounter SPECIES_MANTYKE, 5, 10
+encounter SPECIES_MAGIKARP, 14, 22
+encounter SPECIES_TENTACOOL, 16, 19
+encounter SPECIES_TENTACOOL, 20, 24
+encounter SPECIES_QWILFISH, 16, 20
+encounter SPECIES_QWILFISH, 21, 25
 
 // super rod encounters
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_QWILFISH, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_TENTACRUEL, 35, 43
+encounter SPECIES_QWILFISH, 33, 42
+encounter SPECIES_GYARADOS, 33, 42
+encounter SPECIES_LUVDISC, 35, 45
+encounter SPECIES_GYARADOS, 42, 45
 
 // swarm grass
 pokemon SPECIES_WOOPER
@@ -1536,18 +1536,18 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 8, 12
+encounter SPECIES_GOLDEEN, 7, 9
+encounter SPECIES_GOLDEEN, 10, 12
+encounter SPECIES_CHINCHOU, 7, 9
+encounter SPECIES_CHINCHOU, 10, 12
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_GOLDEEN, 17, 20
+encounter SPECIES_GOLDEEN, 21, 24
+encounter SPECIES_CHINCHOU, 17, 20
+encounter SPECIES_CHINCHOU, 21, 24
+encounter SPECIES_RELICANTH, 18, 23
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -4230,10 +4230,10 @@ pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_SEEL, 15, 25
-encounter SPECIES_CORSOLA, 15, 25
+encounter SPECIES_TENTACRUEL, 19, 24
+encounter SPECIES_SEEL, 16, 24
+encounter SPECIES_CORSOLA, 17, 20
+encounter SPECIES_CORSOLA, 21, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4243,22 +4243,22 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_MAGIKARP, 8, 16
 encounter SPECIES_MAGIKARP, 8, 16
 encounter SPECIES_KRABBY, 10, 15
-encounter SPECIES_QWILFISH, 10, 15
-encounter SPECIES_REMORAID, 10, 15
+encounter SPECIES_QWILFISH, 10, 12
+encounter SPECIES_QWILFISH, 13, 15
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_KRABBY, 17, 20
+encounter SPECIES_KRABBY, 21, 24
+encounter SPECIES_QWILFISH, 17, 20
+encounter SPECIES_STARYU, 17, 24
+encounter SPECIES_QWILFISH, 21, 24
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_KRABBY, 29, 37
+encounter SPECIES_QWILFISH, 33, 42
+encounter SPECIES_STARYU, 33, 42
+encounter SPECIES_KINGLER, 36, 44
+encounter SPECIES_STARMIE, 36, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4333,36 +4333,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
+encounter SPECIES_TENTACOOL, 15, 22
+encounter SPECIES_TENTACRUEL, 18, 24
 encounter SPECIES_WINGULL, 15, 25
-encounter SPECIES_SEEL, 15, 25
+encounter SPECIES_CORSOLA, 17, 24
+encounter SPECIES_SEEL, 25, 26
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 8, 16
+encounter SPECIES_TENTACOOL, 9, 12
+encounter SPECIES_QWILFISH, 10, 12
+encounter SPECIES_TENTACOOL, 13, 15
+encounter SPECIES_FINNEON, 10, 15
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_TENTACOOL, 15, 22
+encounter SPECIES_STARYU, 17, 24
+encounter SPECIES_QWILFISH, 17, 20
+encounter SPECIES_FINNEON, 17, 24
+encounter SPECIES_TENTACRUEL, 25, 27
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_QWILFISH, 33, 42
+encounter SPECIES_STARYU, 33, 42
+encounter SPECIES_FINNEON, 33, 42
+encounter SPECIES_TENTACRUEL, 36, 44
+encounter SPECIES_STARMIE, 36, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4448,34 +4448,34 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 8, 16
+encounter SPECIES_TENTACOOL, 9, 12
+encounter SPECIES_CHINCHOU, 10, 12
+encounter SPECIES_TENTACOOL, 13, 15
+encounter SPECIES_FINNEON, 10, 15
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_TENTACOOL, 15, 22
+encounter SPECIES_SHELLDER, 17, 24
+encounter SPECIES_CHINCHOU, 17, 20
+encounter SPECIES_FINNEON, 17, 24
+encounter SPECIES_TENTACRUEL, 25, 27
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_SHELLDER, 33, 42
+encounter SPECIES_LANTURN, 33, 42
+encounter SPECIES_FINNEON, 33, 42
+encounter SPECIES_TENTACRUEL, 36, 44
+encounter SPECIES_STARMIE, 36, 44
 
 // swarm grass
 pokemon SPECIES_NONE
 // swarm surf
-pokemon SPECIES_TENTACOOL
+pokemon SPECIES_SEEL
 // swarm good rod
 pokemon SPECIES_SHELLDER
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_FINNEON
 
 .close
 
@@ -5488,25 +5488,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_GOLDEEN, 10, 12
+encounter SPECIES_GOLDEEN, 13, 15
+encounter SPECIES_QWILFISH, 10, 15
+encounter SPECIES_REMORAID, 10, 15
 encounter SPECIES_GOLDEEN, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_GOLDEEN, 18, 24
+encounter SPECIES_QWILFISH, 18, 24
+encounter SPECIES_REMORAID, 18, 20
+encounter SPECIES_REMORAID, 21, 24
+encounter SPECIES_SEAKING, 28, 30
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_QWILFISH, 33, 42
+encounter SPECIES_GOLDEEN, 29, 37
+encounter SPECIES_REMORAID, 29, 37
+encounter SPECIES_SEAKING, 36, 44
+encounter SPECIES_OCTILLERY, 36, 44
 
 // swarm grass
 pokemon SPECIES_MANKEY
@@ -5592,25 +5592,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_TENTACOOL, 8, 12
 encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_RELICANTH, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_RELICANTH, 18, 24
+encounter SPECIES_GOLDEEN, 18, 24
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_SEAKING, 33, 42
+encounter SPECIES_RELICANTH, 33, 47
+encounter SPECIES_TENTACRUEL, 33, 42
+encounter SPECIES_SEAKING, 43, 46
+encounter SPECIES_TENTACRUEL, 43, 46
 
 // swarm grass
 pokemon SPECIES_MARILL
@@ -5800,25 +5800,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_TENTACOOL, 8, 12
 encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_RELICANTH, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_RELICANTH, 18, 24
+encounter SPECIES_GOLDEEN, 18, 24
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_SEAKING, 33, 42
+encounter SPECIES_RELICANTH, 33, 47
+encounter SPECIES_TENTACRUEL, 33, 42
+encounter SPECIES_SEAKING, 43, 46
+encounter SPECIES_TENTACRUEL, 43, 46
 
 // swarm grass
 pokemon SPECIES_GRAVELER
@@ -5904,25 +5904,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_TENTACOOL, 8, 12
+encounter SPECIES_CHINCHOU, 10, 10
+encounter SPECIES_RELICANTH, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_TENTACOOL, 18, 24
+encounter SPECIES_RELICANTH, 18, 24
+encounter SPECIES_CHINCHOU, 18, 24
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_TENTACRUEL, 33, 42
+encounter SPECIES_RELICANTH, 33, 47
+encounter SPECIES_LANTURN, 33, 42
+encounter SPECIES_SEAKING, 43, 46
+encounter SPECIES_TENTACRUEL, 43, 46
 
 // swarm grass
 pokemon SPECIES_ZUBAT
@@ -6103,9 +6103,9 @@ pokemon SPECIES_NONE
 // surf encounters
 encounter SPECIES_MAGIKARP, 10, 20
 encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GYARADOS, 16, 22
-encounter SPECIES_GYARADOS, 16, 22
+encounter SPECIES_POLIWAG, 10, 20
+encounter SPECIES_GYARADOS, 17, 19
+encounter SPECIES_GYARADOS, 20, 22
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -6115,18 +6115,18 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_REMORAID, 9, 14
 encounter SPECIES_MAGIKARP, 10, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_REMORAID, 18, 24
 encounter SPECIES_GYARADOS, 20, 20
 encounter SPECIES_MAGIKARP, 20, 20
 
 // super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_REMORAID, 40, 40
 encounter SPECIES_GYARADOS, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
 encounter SPECIES_MAGIKARP, 40, 40
@@ -6216,25 +6216,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_REMORAID, 10, 10
+encounter SPECIES_REMORAID, 10, 10
+encounter SPECIES_LUVDISC, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_GOLDEEN, 20, 20
 encounter SPECIES_REMORAID, 20, 20
+encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_LUVDISC, 20, 20
+encounter SPECIES_LUVDISC, 20, 20
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_REMORAID, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_REMORAID, 29, 37
+encounter SPECIES_SEAKING, 36, 44
+encounter SPECIES_LUVDISC, 36, 41
+encounter SPECIES_OCTILLERY, 36, 44
+encounter SPECIES_LUVDISC, 42, 47
 
 // swarm grass
 pokemon SPECIES_TANGELA
@@ -7263,11 +7263,11 @@ encounter SPECIES_CHINCHOU, 10, 12
 encounter SPECIES_RELICANTH, 8, 12
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_SHELLDER, 18, 23
+encounter SPECIES_CHINCHOU, 17, 20
+encounter SPECIES_CHINCHOU, 21, 24
+encounter SPECIES_RELICANTH, 17, 20
+encounter SPECIES_RELICANTH, 21, 24
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
