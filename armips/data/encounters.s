@@ -277,11 +277,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_SEEL, 15, 25
-encounter SPECIES_CHINCHOU, 15, 25
+encounter SPECIES_TENTACOOL, 16, 20
+encounter SPECIES_TENTACOOL, 21, 23
+encounter SPECIES_SEEL, 16, 24
+encounter SPECIES_TENTACRUEL, 22, 24
+encounter SPECIES_CORSOLA, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -901,11 +901,11 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 36, 36
+encounter SPECIES_TENTACOOL, 16, 20
+encounter SPECIES_TENTACOOL, 21, 23
+encounter SPECIES_SEEL, 16, 24
+encounter SPECIES_TENTACRUEL, 22, 24
+encounter SPECIES_CORSOLA, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4230,10 +4230,10 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACRUEL, 19, 24
-encounter SPECIES_SEEL, 16, 24
-encounter SPECIES_CORSOLA, 17, 20
+encounter SPECIES_TENTACOOL, 16, 19
+encounter SPECIES_TENTACRUEL, 20, 23
+encounter SPECIES_CORSOLA, 16, 24
+encounter SPECIES_MANTINE, 19, 24
 encounter SPECIES_CORSOLA, 21, 24
 
 // rock smash encounters
@@ -4334,11 +4334,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 22
-encounter SPECIES_TENTACRUEL, 18, 24
-encounter SPECIES_WINGULL, 15, 25
-encounter SPECIES_CORSOLA, 17, 24
-encounter SPECIES_SEEL, 25, 26
+encounter SPECIES_TENTACOOL, 16, 19
+encounter SPECIES_TENTACRUEL, 20, 23
+encounter SPECIES_CORSOLA, 16, 24
+encounter SPECIES_MANTINE, 19, 24
+encounter SPECIES_CETODDLE, 19, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4438,11 +4438,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 13, 23
-encounter SPECIES_TENTACRUEL, 20, 25
-encounter SPECIES_SEEL, 16, 27
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
+encounter SPECIES_TENTACOOL, 16, 19
+encounter SPECIES_TENTACRUEL, 20, 23
+encounter SPECIES_CETODDLE, 18, 24
+encounter SPECIES_MANTINE, 18, 24
+encounter SPECIES_CORSOLA, 18, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4452,18 +4452,18 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_MAGIKARP, 8, 16
 encounter SPECIES_TENTACOOL, 9, 12
 encounter SPECIES_CHINCHOU, 10, 12
-encounter SPECIES_TENTACOOL, 13, 15
+encounter SPECIES_STARYU, 13, 15
 encounter SPECIES_FINNEON, 10, 15
 
 // good rod encounters
 encounter SPECIES_TENTACOOL, 15, 22
-encounter SPECIES_SHELLDER, 17, 24
+encounter SPECIES_STARYU, 17, 24
 encounter SPECIES_CHINCHOU, 17, 20
 encounter SPECIES_FINNEON, 17, 24
 encounter SPECIES_TENTACRUEL, 25, 27
 
 // super rod encounters
-encounter SPECIES_SHELLDER, 33, 42
+encounter SPECIES_STARYU, 33, 42
 encounter SPECIES_LANTURN, 33, 42
 encounter SPECIES_FINNEON, 33, 42
 encounter SPECIES_TENTACRUEL, 36, 44
@@ -4498,12 +4498,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_CETODDLE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CETODDLE
 
 // day encounter slots
 pokemon SPECIES_KRABBY
@@ -4512,12 +4512,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_CETODDLE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CETODDLE
 
 // night encounter slots
 pokemon SPECIES_KRABBY
@@ -4526,12 +4526,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_CETODDLE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CETODDLE
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4602,12 +4602,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_SNORUNT
 
 // day encounter slots
 pokemon SPECIES_KRABBY
@@ -4616,12 +4616,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_SNORUNT
 
 // night encounter slots
 pokemon SPECIES_KRABBY
@@ -4630,12 +4630,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_SNORUNT
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4810,11 +4810,11 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
 pokemon SPECIES_SNORUNT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_GOLBAT
 pokemon SPECIES_SNORUNT
 
 // day encounter slots
@@ -4824,11 +4824,11 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
 pokemon SPECIES_SNORUNT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_GOLBAT
 pokemon SPECIES_SNORUNT
 
 // night encounter slots
@@ -4838,11 +4838,11 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
 pokemon SPECIES_SNORUNT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_GOLBAT
 pokemon SPECIES_SNORUNT
 
 // hoenn encounter slots
@@ -5018,12 +5018,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_SNORUNT
 
 // day encounter slots
 pokemon SPECIES_KRABBY
@@ -5032,12 +5032,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_SNORUNT
 
 // night encounter slots
 pokemon SPECIES_KRABBY
@@ -5046,12 +5046,12 @@ pokemon SPECIES_KRABBY
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_KRABBY
 pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_NOSEPASS
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_SNORUNT
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5374,36 +5374,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+encounter SPECIES_TENTACOOL, 16, 19
+encounter SPECIES_TENTACRUEL, 20, 23
+encounter SPECIES_MANTINE, 18, 24
+encounter SPECIES_CETODDLE, 18, 24
+encounter SPECIES_CORSOLA, 18, 24
 
 // rock smash encounters
 encounter SPECIES_KRABBY, 16, 26
 encounter SPECIES_SHUCKLE, 18, 28
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 8, 16
+encounter SPECIES_TENTACOOL, 9, 12
+encounter SPECIES_KRABBY, 10, 13
+encounter SPECIES_STARYU, 13, 15
+encounter SPECIES_KRABBY, 14, 15
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_TENTACOOL, 15, 22
+encounter SPECIES_STARYU, 17, 24
+encounter SPECIES_KRABBY, 17, 24
+encounter SPECIES_KRABBY, 25, 26
+encounter SPECIES_TENTACRUEL, 25, 27
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_STARYU, 33, 38
+encounter SPECIES_STARYU, 39, 43
+encounter SPECIES_KINGLER, 36, 44
+encounter SPECIES_TENTACRUEL, 36, 44
+encounter SPECIES_STARMIE, 36, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6268,7 +6268,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6282,7 +6282,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6296,7 +6296,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6372,7 +6372,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6386,7 +6386,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6400,7 +6400,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6476,7 +6476,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6490,7 +6490,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6504,7 +6504,7 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
@@ -6580,10 +6580,10 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
 
 // day encounter slots
 pokemon SPECIES_SWINUB
@@ -6594,10 +6594,10 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
 
 // night encounter slots
 pokemon SPECIES_SWINUB
@@ -6608,10 +6608,10 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6934,11 +6934,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-encounter SPECIES_DRATINI, 5, 15
+encounter SPECIES_MAGIKARP, 12, 20
+encounter SPECIES_HORSEA, 12, 20
+encounter SPECIES_DRATINI, 12, 20
+encounter SPECIES_DRATINI, 12, 20
+encounter SPECIES_GYARADOS, 20, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -6948,22 +6948,22 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_HORSEA, 5, 15
+encounter SPECIES_HORSEA, 5, 15
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
 encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_DRATINI, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_HORSEA, 18, 24
+encounter SPECIES_DRATINI, 18, 24
+encounter SPECIES_HORSEA, 18, 24
 
 // super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_DRATINI, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_DRAGONAIR, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_SEADRA, 36, 44
+encounter SPECIES_DRATINI, 36, 44
+encounter SPECIES_GYARADOS, 36, 44
+encounter SPECIES_DRAGONAIR, 36, 44
+encounter SPECIES_MAGIKARP, 36, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7455,10 +7455,10 @@ pokemon SPECIES_BIDOOF
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_SEEL, 10, 20
+encounter SPECIES_TENTACOOL, 15, 25
 encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_STARYU, 15, 25
+encounter SPECIES_MANTINE, 18, 24
+encounter SPECIES_CETODDLE, 18, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0

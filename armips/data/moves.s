@@ -5774,8 +5774,8 @@ movedata MOVE_GYRO_BALL, "Gyro Ball"
     pss SPLIT_PHYSICAL
     basepower 1
     type TYPE_STEEL
-    accuracy 100
-    pp 5
+    accuracy 90
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -11069,9 +11069,9 @@ movedata MOVE_CORE_ENFORCER, "Core Enforcer"
 movedata MOVE_TROP_KICK, "Trop Kick"
     battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 85
     type TYPE_GRASS
-    accuracy 100
+    accuracy 80
     pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -13247,8 +13247,8 @@ movedata MOVE_GLACIAL_LANCE, "Glacial Lance"
     pss SPLIT_PHYSICAL
     basepower 130
     type TYPE_ICE
-    accuracy 100
-    pp 5
+    accuracy 90
+    pp 8
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0

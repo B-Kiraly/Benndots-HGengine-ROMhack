@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V10.2
-Current Task: Test playthrough of V8
+Current version: V11
+Current Task: Test playthrough of V11
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested.
 
 ## About HG-Engine
@@ -229,20 +229,19 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Test to see if game supports Pokemon I want to add (arctivish, cetoddle, cetitan, Flittle, espathra)
-* Rework shellder, exeggcute lines learnsets and make them no longer be stone evos
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species learnsets that I haven't fully constructed (Staryu, yanma line)
+* Work on more species learnsets that I haven't fully constructed (yanma, clefairy line(s), etc)
 * Add more missing info to this documentation
-* Complete wild pokemon water encounters (Finneon needs to be added)
-* Wild pokemon cave/dungeon encounters
+* Complete wild pokemon water and cave encounters
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 
 ## Ideas
 
 * Amp ability jigglypuff line? 
 * Add non-water type sea creatures from later generations? 
-* Add feebas - milotic to the fishing pool
+* Add feebas - milotic and Clamperl line to the fishing pool
+* Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
+* Add Swablu-Alteria (fairy / flying), lileep-cradily, anorith-armaldo, castform (mt. silver?)
 
 ## Important Notes / Limitations
 
@@ -329,7 +328,7 @@ Game Freak - amazing Pokémon games from way back when
 * Magikarp (Everywhere)
 * Tentacool ( oceans )
 * Goldeen ( ponds / caves )
-* Chinchou (Caves / ocean)
+* Chinchou (Caves / deep ocean)
 * Krabby (ocean shore / lakes)
 * Corsola (ocean)
 * Qwilfish (ocean / lakes)
@@ -338,6 +337,7 @@ Game Freak - amazing Pokémon games from way back when
 * Luvdisc (?)
 * Relicanth (ocean / cave)
 * Finneon (ocean)
+* Horsea (ocean)
 
 ## Surf Species
 
@@ -345,3 +345,4 @@ Game Freak - amazing Pokémon games from way back when
 * Poliwag (ponds / rivers)
 * Marill (ponds / rivers)
 * Mantine (oceans)
+* Corsola (oceans)

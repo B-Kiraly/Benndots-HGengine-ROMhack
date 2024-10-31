@@ -1842,7 +1842,7 @@ mondata SPECIES_SEEL, "Seel"
 
 
 mondata SPECIES_DEWGONG, "Dewgong"
-    basestats 112, 79, 63, 64, 69, 87
+    basestats 112, 81, 63, 64, 78, 87
     types TYPE_NORMAL, TYPE_ICE
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -2157,7 +2157,7 @@ mondata SPECIES_ELECTRODE, "Electrode"
 
 
 mondata SPECIES_EXEGGCUTE, "Exeggcute"
-    basestats 40, 40, 78, 30, 62, 48
+    basestats 39, 39, 78, 34, 75, 78
     types TYPE_GRASS, TYPE_PSYCHIC
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -2178,7 +2178,7 @@ mondata SPECIES_EXEGGCUTE, "Exeggcute"
 
 
 mondata SPECIES_EXEGGUTOR, "Exeggutor"
-    basestats 110, 100, 85, 55, 100, 75
+    basestats 110, 100, 100, 60, 75, 75
     types TYPE_GRASS, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3428,7 +3428,7 @@ mondata SPECIES_FURRET, "Furret"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RUN_AWAY, ABILITY_KEEN_EYE
+    abilities ABILITY_ADAPTABILITY, ABILITY_SPEED_BOOST
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_FURRET, "It makes a nest to suit its long and\nskinny body. The nest is impossible\nfor other Pokémon to enter."
@@ -21519,7 +21519,7 @@ mondata SPECIES_FLAMIGO, "Flamigo"
 
 
 mondata SPECIES_CETODDLE, "Cetoddle"
-    basestats 108, 68, 45, 43, 30, 40
+    basestats 98, 68, 38, 48, 38, 48
     types TYPE_ICE, TYPE_ICE
     catchrate 150
     baseexp 0 // defined in baseexp.s
@@ -21530,7 +21530,7 @@ mondata SPECIES_CETODDLE, "Cetoddle"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_THICK_FAT, ABILITY_SNOW_CLOAK
+    abilities ABILITY_THICK_FAT, ABILITY_SLUSH_RUSH
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_CETODDLE, "It lives in frigid regions in pods of\nfive or so individuals. It loves the\nminerals found in snow and ice."
@@ -21540,7 +21540,7 @@ mondata SPECIES_CETODDLE, "Cetoddle"
 
 
 mondata SPECIES_CETITAN, "Cetitan"
-    basestats 170, 113, 65, 73, 45, 55
+    basestats 168, 118, 58, 68, 48, 78
     types TYPE_ICE, TYPE_ICE
     catchrate 50
     baseexp 0 // defined in baseexp.s

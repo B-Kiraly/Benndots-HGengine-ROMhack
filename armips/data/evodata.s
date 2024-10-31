@@ -1092,7 +1092,7 @@ evodata SPECIES_MUK
     terminateevodata
 
 evodata SPECIES_SHELLDER
-    evolution EVO_STONE, ITEM_WATER_STONE, SPECIES_CLOYSTER
+    evolution EVO_LEVEL, 36, SPECIES_CLOYSTER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1236,7 +1236,7 @@ evodata SPECIES_ELECTRODE
     terminateevodata
 
 evodata SPECIES_EXEGGCUTE
-    evolution EVO_LEVEL, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR
+    evolution EVO_STONE, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1944,7 +1944,7 @@ evodata SPECIES_FERALIGATR
     terminateevodata
 
 evodata SPECIES_SENTRET
-    evolution EVO_LEVEL, 15, SPECIES_FURRET
+    evolution EVO_LEVEL, 18, SPECIES_FURRET
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12307,7 +12307,7 @@ evodata SPECIES_FLAMIGO
 terminateevodata
 
 evodata SPECIES_CETODDLE
-    evolution EVO_STONE, ITEM_ICE_STONE, SPECIES_CETITAN
+    evolution EVO_LEVEL, 40, SPECIES_CETITAN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
