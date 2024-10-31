@@ -5149,7 +5149,7 @@ movedata MOVE_TICKLE, "Tickle"
     battleeffect MOVE_EFFECT_ATK_DEF_DOWN
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 95
     pp 22
     effectchance 0
@@ -5500,10 +5500,10 @@ movedata MOVE_POISON_TAIL, "Poison Tail"
 movedata MOVE_COVET, "Covet"
     battleeffect MOVE_EFFECT_STEAL_HELD_ITEM
     pss SPLIT_PHYSICAL
-    basepower 60
-    type TYPE_NORMAL
-    accuracy 100
-    pp 25
+    basepower 50
+    type TYPE_FAIRY
+    accuracy 95
+    pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -10877,9 +10877,9 @@ movedata MOVE_THROAT_CHOP, "Throat Chop"
 movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 95
     type TYPE_BUG
-    accuracy 100
+    accuracy 85
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -11373,10 +11373,10 @@ movedata MOVE_PSYCHIC_FANGS, "Psychic Fangs"
 movedatalongname MOVE_STOMPING_TANTRUM, "StompingTantrum", "Stomping Tantrum"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 75
+    basepower 80
     type TYPE_GROUND
-    accuracy 100
-    pp 10
+    accuracy 95
+    pp 12
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0

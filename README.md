@@ -2,7 +2,7 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V10
+Current version: V10.2
 Current Task: Test playthrough of V8
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested.
 
@@ -73,6 +73,7 @@ While this information is reliably true for ground encounters, I was a bit more 
 -Sableye
 -Surskit
 -Wingull
+-Finneon
 -Relicanth
 -Snover
 -Togedemaru (via Pikachu evolution)
@@ -127,13 +128,31 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 
 ## Typing Changes (Incomplete)
 
+Zubat & Golbat & Crobat: Dark / Flying
+Azurill & Marill & Azumarill: Mono Water
 Oddish & Gloom: Mono Grass
+Staryu & Starmie: Steel / Psychic
+Shellder & Cloyster: Water / Dark
 Seel & Dewgong: Normal / Ice
-Lickitung & Lickilicky: Normal / Poison
+Goldeen: Normal / Water
+Rhyhorn: Normal / Rock
+Lickitung & Lickylicki: Normal / Poison
+Kangaskhan: Normal / Ground
+Heracross: Bug / Normal
+Pinsir: Bug / Fighting
+Teddiursa & Ursaring: Fairy / Dark
 Sunflora: Grass / Fire
 Haunter & Gengar: Ghost / Dark
+Bulbasaur & Ivysaur: Mono Grass 
+Charizard: Fire / Dragon
+Blastoise: Water / Steel
+Gyarados: Water / Dragon
+Golem: Rock / Dragon
+Chansey & Blissey: Fairy
+Luvdisc: Water / Fairy
 Sableye: Rock / Ghost
-Zubat & Golbat & Crobat: Dark / Flying
+Masquerain: Bug / Water
+Seviper: Poison / Dark
 
 ## Evolutions and evolution methods (My changes)
 
@@ -177,6 +196,7 @@ I'd like to create a higher tier version of each category with a higher level re
 -Added items that I use for evolutionary purposes to department store inventories. (twisted spoons, charcoal, dragon scale, metal coat)
 -Revives, Ethers and elixirs are much cheaper
 -Full Heals are slightly cheaper
+-X items (the stat boosters) are cheaper
 -Eviolite has been made more expensive for purchase ($1000)
 
 ### Party Requirements (Partially implemented)
@@ -209,9 +229,10 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Rework shellder, exeggcute lines to not be stone evos
+* Test to see if game supports Pokemon I want to add (arctivish, cetoddle, cetitan, Flittle, espathra)
+* Rework shellder, exeggcute lines learnsets and make them no longer be stone evos
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species learnsets that I haven't fully constructed (Zubat line, sentret line)
+* Work on more species learnsets that I haven't fully constructed (Staryu, yanma line)
 * Add more missing info to this documentation
 * Complete wild pokemon water encounters (Finneon needs to be added)
 * Wild pokemon cave/dungeon encounters
@@ -221,6 +242,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 * Amp ability jigglypuff line? 
 * Add non-water type sea creatures from later generations? 
+* Add feebas - milotic to the fishing pool
 
 ## Important Notes / Limitations
 
@@ -313,7 +335,13 @@ Game Freak - amazing Pokémon games from way back when
 * Qwilfish (ocean / lakes)
 * Staryu (ocean shore)
 * Remoraid (ponds / rivers)
-
-* Luvdisc 
+* Luvdisc (?)
 * Relicanth (ocean / cave)
 * Finneon (ocean)
+
+## Surf Species
+
+* Tentacool (oceans / caves)
+* Poliwag (ponds / rivers)
+* Marill (ponds / rivers)
+* Mantine (oceans)

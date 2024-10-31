@@ -2389,7 +2389,7 @@ mondata SPECIES_RHYDON, "Rhydon"
 
 mondata SPECIES_CHANSEY, "Chansey"
     basestats 200, 40, 10, 45, 40, 100
-    types TYPE_NORMAL, TYPE_NORMAL
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -2536,7 +2536,7 @@ mondata SPECIES_SEAKING, "Seaking"
 
 mondata SPECIES_STARYU, "Staryu"
     basestats 30, 50, 80, 60, 70, 80
-    types TYPE_WATER, TYPE_PSYCHIC
+    types TYPE_STEEL, TYPE_PSYCHIC
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -2557,7 +2557,7 @@ mondata SPECIES_STARYU, "Staryu"
 
 mondata SPECIES_STARMIE, "Starmie"
     basestats 55, 80, 110, 75, 90, 110
-    types TYPE_WATER, TYPE_PSYCHIC
+    types TYPE_STEEL, TYPE_PSYCHIC
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -2683,7 +2683,7 @@ mondata SPECIES_MAGMAR, "Magmar"
 
 mondata SPECIES_PINSIR, "Pinsir"
     basestats 64, 104, 82, 68, 38, 64
-    types TYPE_BUG, TYPE_DARK
+    types TYPE_BUG, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -2745,8 +2745,8 @@ mondata SPECIES_MAGIKARP, "Magikarp"
 
 
 mondata SPECIES_GYARADOS, "Gyarados" 
-    basestats 147, 133, 81, 89, 81, 49
-    types TYPE_WATER, TYPE_FLYING
+    basestats 137, 128, 81, 89, 84, 49
+    types TYPE_WATER, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -2756,12 +2756,12 @@ mondata SPECIES_GYARADOS, "Gyarados"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_DRAGON
-    abilities ABILITY_INTIMIDATE, ABILITY_NONE
+    abilities ABILITY_INTIMIDATE, ABILITY_LEVITATE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_GYARADOS, "They say that during past strife,\nGYARADOS would appear and leave\nblazing ruins in its wake."
     mondexclassification SPECIES_GYARADOS, "Atrocious Pokémon"
-    mondexheight SPECIES_GYARADOS, "21’04”"
+    mondexheight SPECIES_GYARADOS, "12’04”"
     mondexweight SPECIES_GYARADOS, "518.1 lbs."
 
 
@@ -4079,7 +4079,7 @@ mondata SPECIES_YANMA, "Yanma"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SPEED_BOOST, ABILITY_COMPOUND_EYES
+    abilities ABILITY_TINTED_LENS, ABILITY_COMPOUND_EYES
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_YANMA, "If it flaps its wings really fast,\nit can generate shock waves that\nwill shatter windows in the area."
@@ -4510,7 +4510,7 @@ mondata SPECIES_SHUCKLE, "Shuckle"
 
 mondata SPECIES_HERACROSS, "Heracross"
     basestats 59, 97, 90, 85, 40, 83
-    types TYPE_BUG, TYPE_FIGHTING
+    types TYPE_BUG, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -4552,7 +4552,7 @@ mondata SPECIES_SNEASEL, "Sneasel"
 
 mondata SPECIES_TEDDIURSA, "Teddiursa"
     basestats 51, 46, 42, 44, 48, 42
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_FAIRY, TYPE_DARK
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -4567,13 +4567,13 @@ mondata SPECIES_TEDDIURSA, "Teddiursa"
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_TEDDIURSA, "If it finds honey, its crescent mark\nglows. It always licks its paws\nbecause they’re soaked with honey."
     mondexclassification SPECIES_TEDDIURSA, "Little Bear Pokémon"
-    mondexheight SPECIES_TEDDIURSA, "2’00”"
-    mondexweight SPECIES_TEDDIURSA, "19.4 lbs."
+    mondexheight SPECIES_TEDDIURSA, "2’02”"
+    mondexweight SPECIES_TEDDIURSA, "24.4 lbs."
 
 
 mondata SPECIES_URSARING, "Ursaring"
-    basestats 123, 118, 81, 79, 71, 67
-    types TYPE_NORMAL, TYPE_NORMAL
+    basestats 125, 119, 67, 79, 76, 78
+    types TYPE_FAIRY, TYPE_DARK
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -5098,7 +5098,7 @@ mondata SPECIES_MILTANK, "Miltank"
 
 mondata SPECIES_BLISSEY, "Blissey"
     basestats 230, 50, 20, 55, 60, 120 
-    types TYPE_NORMAL, TYPE_NORMAL
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -5287,7 +5287,7 @@ mondata SPECIES_HO_OH, "Ho-oh"
 
 mondata SPECIES_CELEBI, "Celebi"
     basestats 70, 50, 50, 160, 135, 135
-    types TYPE_PSYCHIC, TYPE_GRASS
+    types TYPE_FAIRY, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -7072,7 +7072,7 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
 
 mondata SPECIES_SEVIPER, "Seviper"
     basestats 85, 115, 85, 95, 55, 65
-    types TYPE_POISON, TYPE_POISON
+    types TYPE_POISON, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
@@ -9256,7 +9256,7 @@ mondata SPECIES_MIMEJR, "Mime Jr."
 
 mondata SPECIES_HAPPINY, "Happiny"
     basestats 100, 5, 5, 30, 15, 65
-    types TYPE_NORMAL, TYPE_NORMAL
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 130
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -9864,7 +9864,7 @@ mondata SPECIES_TOGEKISS, "Togekiss"
 
 
 mondata SPECIES_YANMEGA, "Yanmega"
-    basestats 86, 76, 86, 95, 116, 56
+    basestats 96, 88, 84, 132, 94, 64
     types TYPE_BUG, TYPE_FLYING
     catchrate 30
     baseexp 0 // defined in baseexp.s
@@ -9875,7 +9875,7 @@ mondata SPECIES_YANMEGA, "Yanmega"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SPEED_BOOST, ABILITY_TINTED_LENS
+    abilities ABILITY_TINTED_LENS, ABILITY_COMPOUND_EYES
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_YANMEGA, "This six-legged Pokémon is easily capable\nof transporting an adult in flight. The\nwings on its tail help it stay balanced."
@@ -10053,7 +10053,7 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
 
 
 mondata SPECIES_FROSLASS, "Froslass"
-    basestats 55, 76, 95, 92, 97, 85 
+    basestats 55, 74, 95, 92, 99, 85 
     types TYPE_ICE, TYPE_GHOST
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -13980,7 +13980,7 @@ mondata SPECIES_BEARTIC, "Beartic"
 
 
 mondata SPECIES_CRYOGONAL, "Cryogonal"
-    basestats 80, 50, 50, 105, 95, 135
+    basestats 50, 50, 90, 105, 95, 140
     types TYPE_ICE, TYPE_ICE
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -19608,7 +19608,7 @@ mondata SPECIES_DRACOVISH, "Dracovish"
 
 
 mondata SPECIES_ARCTOVISH, "Arctovish"
-    basestats 90, 90, 100, 55, 80, 90
+    basestats 88, 96, 118, 55, 68, 90
     types TYPE_WATER, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
