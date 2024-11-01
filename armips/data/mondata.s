@@ -2892,7 +2892,7 @@ mondata SPECIES_FLAREON, "Flareon"
 
 
 mondata SPECIES_PORYGON, "Porygon"
-    basestats 66, 66, 66, 66, 66, 66
+    basestats 77, 77, 77, 77, 77, 77
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -2903,7 +2903,7 @@ mondata SPECIES_PORYGON, "Porygon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_TRACE, ABILITY_DOWNLOAD
+    abilities ABILITY_NORMALIZE, ABILITY_DOWNLOAD
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_PORYGON, "It is a manmade Pokémon. Since it\ndoesn’t breathe, people are eager\nto try it in any environment."
@@ -3102,8 +3102,8 @@ mondata SPECIES_MOLTRES, "Moltres"
 
 
 mondata SPECIES_DRATINI, "Dratini"
-    basestats 46, 41, 43, 62, 65, 65
-    types TYPE_DRAGON, TYPE_DRAGON
+    basestats 48, 42, 45, 62, 65, 70
+    types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -3123,8 +3123,8 @@ mondata SPECIES_DRATINI, "Dratini"
 
 
 mondata SPECIES_DRAGONAIR, "Dragonair"
-    basestats 73, 64, 62, 88, 85, 85
-    types TYPE_DRAGON, TYPE_DRAGON
+    basestats 88, 65, 67, 108, 102, 105
+    types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -3145,7 +3145,7 @@ mondata SPECIES_DRAGONAIR, "Dragonair"
 
 mondata SPECIES_DRAGONITE, "Dragonite"
     basestats 134, 103, 74, 88, 109, 92
-    types TYPE_DRAGON, TYPE_FLYING
+    types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -4908,7 +4908,7 @@ mondata SPECIES_DONPHAN, "Donphan"
 
 
 mondata SPECIES_PORYGON2, "Porygon2"
-    basestats 88, 88, 88, 88, 88, 88
+    basestats 91, 91, 91, 91, 91, 91
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4919,7 +4919,7 @@ mondata SPECIES_PORYGON2, "Porygon2"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_TRACE, ABILITY_DOWNLOAD
+    abilities ABILITY_NORMALIZE, ABILITY_DOWNLOAD
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_PORYGON2, "This upgraded version of PORYGON\nis designed for space exploration.\nIt can’t fly, however."
@@ -9969,7 +9969,7 @@ mondata SPECIES_MAMOSWINE, "Mamoswine"
 
 
 mondata SPECIES_PORYGON_Z, "Porygon-Z"
-    basestats 85, 80, 70, 90, 135, 75
+    basestats 81, 101, 61, 111, 141, 61
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 30
     baseexp 0 // defined in baseexp.s
@@ -9980,7 +9980,7 @@ mondata SPECIES_PORYGON_Z, "Porygon-Z"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_ADAPTABILITY, ABILITY_DOWNLOAD
+    abilities ABILITY_NORMALIZE, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_PORYGON_Z, "Its programming was modified to enable\nit to travel through alien dimensions.\nSeems there might have been an error..."

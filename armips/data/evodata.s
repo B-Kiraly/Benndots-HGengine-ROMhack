@@ -1776,7 +1776,7 @@ evodata SPECIES_MOLTRES
     terminateevodata
 
 evodata SPECIES_DRATINI
-    evolution EVO_LEVEL, 30, SPECIES_DRAGONAIR
+    evolution EVO_LEVEL, 40, SPECIES_DRAGONAIR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1788,7 +1788,7 @@ evodata SPECIES_DRATINI
     terminateevodata
 
 evodata SPECIES_DRAGONAIR
-    evolution EVO_LEVEL, 55, SPECIES_DRAGONITE
+    evolution EVO_STONE, ITEM_DRAGON_SCALE, SPECIES_DRAGONITE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

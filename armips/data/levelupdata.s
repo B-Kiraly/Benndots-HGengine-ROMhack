@@ -3467,19 +3467,22 @@ levelup SPECIES_MOLTRES
 levelup SPECIES_DRATINI
     learnset MOVE_WRAP, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_TWISTER, 7
-    learnset MOVE_THUNDER_WAVE, 7
+    learnset MOVE_FAIRY_WIND, 6
+    learnset MOVE_MIST, 9
     learnset MOVE_DRAGON_RAGE, 15
     learnset MOVE_DRAGON_TAIL, 22
+    learnset MOVE_DRAGON_PULSE, 22
+    learnset MOVE_TWISTER, 7
     learnset MOVE_AGILITY, 22
     learnset MOVE_SLAM, 23
+    learnset MOVE_DRAGON_BREATH, 29
     learnset MOVE_AQUA_TAIL, 32
-    learnset MOVE_DRAGON_RUSH, 37
     learnset MOVE_SAFEGUARD, 42
     learnset MOVE_RAIN_DANCE, 45
     learnset MOVE_DRAGON_DANCE, 50
     learnset MOVE_OUTRAGE, 55
     learnset MOVE_HYPER_BEAM, 60
+    learnset MOVE_COIL, 70
     terminatelearnset
 
 
@@ -3531,7 +3534,9 @@ levelup SPECIES_DRAGONITE
     learnset MOVE_HURRICANE, 55
     learnset MOVE_DRAGON_DANCE, 61
     learnset MOVE_HYPER_BEAM, 77
-    learnset MOVE_HURRICANE, 81
+    learnset MOVE_DRAGON_RUSH, 37
+    learnset MOVE_THUNDER, 37
+    learnset MOVE_FIRE_BLAST, 37
     terminatelearnset
 
 

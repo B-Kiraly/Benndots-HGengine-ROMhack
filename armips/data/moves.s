@@ -3836,18 +3836,18 @@ movedata MOVE_CROSS_CHOP, "Cross Chop"
 movedata MOVE_TWISTER, "Twister"
     battleeffect MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 50
     type TYPE_DRAGON
-    accuracy 100
-    pp 20
-    effectchance 20
+    accuracy 95
+    pp 25
+    effectchance 10
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TWISTER, "The user whips up a\nvicious tornado to\ntear at the foe.\nIt may also make the\nfoe flinch."
+    movedescription MOVE_TWISTER, "The user whips up a\nvicious tornado to\ntear at the foe.\n1/10 chance to make\nthe foe flinch."
 
 movedata MOVE_RAIN_DANCE, "Rain Dance"
     battleeffect MOVE_EFFECT_WEATHER_RAIN
