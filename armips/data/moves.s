@@ -9743,8 +9743,8 @@ movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
     pss SPLIT_SPECIAL
     basepower 80
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 100
-    pp 10
+    accuracy 95
+    pp 15
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
@@ -11901,10 +11901,10 @@ movedata MOVE_FREEZY_FROST, "Freezy Frost"
 movedata MOVE_SPARKLY_SWIRL, "Sparkly Swirl"
     battleeffect MOVE_EFFECT_CURE_PARTY_STATUS_HIT
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 60
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 90
-    pp 6
+    accuracy 80
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -12685,10 +12685,10 @@ movedata MOVE_GRAV_APPLE, "Grav Apple"
 movedata MOVE_SPIRIT_BREAK, "Spirit Break"
     battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_PHYSICAL
-    basepower 75
+    basepower 65
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 100
-    pp 15
+    accuracy 95
+    pp 20
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0

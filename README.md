@@ -234,6 +234,8 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Add more missing info to this documentation
 * Complete wild pokemon water and cave encounters
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
+* Give spirit break to physical fairy types
+* water/psychic psyduck?
 
 ## Ideas
 
