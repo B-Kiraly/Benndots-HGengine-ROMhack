@@ -3476,13 +3476,14 @@ levelup SPECIES_DRATINI
     learnset MOVE_DRAGON_TAIL, 27
     learnset MOVE_AGILITY, 30
     learnset MOVE_DRAGON_BREATH, 34
-    learnset MOVE_AQUA_TAIL, 37
+    learnset MOVE_DAZZLING_GLEAM, 37
     learnset MOVE_SAFEGUARD, 40
-    learnset MOVE_DAZZLING_GLEAM, 43
-    learnset MOVE_WEATHER_BALL, 42
-    learnset MOVE_WRING_OUT, 50
-    learnset MOVE_SPARKLY_SWIRL, 55
-    learnset MOVE_HYPER_BEAM, 60
+    learnset MOVE_AQUA_TAIL, 43
+    learnset MOVE_WEATHER_BALL, 46
+    learnset MOVE_NIGHT_SHADE, 50
+    learnset MOVE_WRING_OUT, 54
+    learnset MOVE_SPARKLY_SWIRL, 58
+    learnset MOVE_HYPER_BEAM, 62
     learnset MOVE_COIL, 70
     terminatelearnset
 
@@ -3512,7 +3513,7 @@ levelup SPECIES_DRAGONITE
     learnset MOVE_HURRICANE, 0
     learnset MOVE_WING_ATTACK, 0
     learnset MOVE_HURRICANE, 1
-    learnset MOVE_WING_ATTACK, 1
+    learnset MOVE_SLASH, 1
     learnset MOVE_ROOST, 1
     learnset MOVE_EXTREME_SPEED, 1
     learnset MOVE_FIRE_PUNCH, 1
@@ -3528,11 +3529,11 @@ levelup SPECIES_DRAGONITE
     learnset MOVE_DRAGON_TAIL, 23
     learnset MOVE_SLAM, 23
     learnset MOVE_AQUA_TAIL, 35
-    learnset MOVE_DRAGON_RUSH, 42
+    learnset MOVE_DRAGON_RUSH, 45
     learnset MOVE_SAFEGUARD, 49
     learnset MOVE_RAIN_DANCE, 53
     learnset MOVE_OUTRAGE, 53
-    learnset MOVE_HURRICANE, 55
+    learnset MOVE_HURRICANE, 50
     learnset MOVE_DRAGON_DANCE, 61
     learnset MOVE_HYPER_BEAM, 77
     learnset MOVE_DRAGON_RUSH, 37

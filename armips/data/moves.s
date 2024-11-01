@@ -12689,7 +12689,7 @@ movedata MOVE_SPIRIT_BREAK, "Spirit Break"
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 95
     pp 20
-    effectchance 100
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
