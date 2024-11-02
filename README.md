@@ -180,6 +180,10 @@ Pikachu: Added a 'metal coat' induced evolution into a reworked version of Toged
 
 Rhyhorn: Is mostly intended to be a non-evolving Pokemon (I'm a bit of a Rhydon-Rhyperior, but they're still accessible by evolving Rhyhorn with a moon stone)
 
+Shellder: Now evolves via normal level up at 36. 
+
+Magikarp: Now requires the use of a dragon scale in order to evolve. (at that evo method's new minimum requirement of level 20, or beyond).
+
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
 ### Special Evoluton Conditions Additional Level Requirement (Implemented, mostly!!)
@@ -190,6 +194,14 @@ Since there is none by default for friendship, stone, move knowledge, and party 
 
 I'd like to create a higher tier version of each category with a higher level requirement (probably level 35) to cover the handful of Pokemon for which level 20 is too early to reasonably be fully evolved. 
 
+### Party Requirements (Partially implemented)
+
+There are several more evolution requirements that involve having the right Pokemon in your party upon level up. 
+
+Along with the classic example of Mantine & Remoraid, now added to the list is Koffing (Koffing), Diglett (Diglett), Magnemite (Magnemite), Cubone (Kangaskhan), Slowpoke (Shellder).
+
+In the future, I'd like to figure out how to make more than 1 Pokemon requirements as an evo method (ex: Requiring 2 magnemites in party in order to evolve)
+
 ## Pokemart stock & value changes 
 
 -Added heart scales and eviolite to normal pokemart inventories (For easy move tutor usage)
@@ -198,14 +210,6 @@ I'd like to create a higher tier version of each category with a higher level re
 -Full Heals are slightly cheaper
 -X items (the stat boosters) are cheaper
 -Eviolite has been made more expensive for purchase ($1000)
-
-### Party Requirements (Partially implemented)
-
-There are several more evolution requirements that involve having the right Pokemon in your party upon level up. 
-
-Along with the classic example of Mantine & Remoraid, now added to the list is Koffing (Koffing), Diglett (Diglett), Magnemite (Magnemite), Cubone (Kangaskhan), Slowpoke (Shellder).
-
-In the future, I'd like to figure out how to make more than 1 Pokemon requirements as an evo method (ex: Requiring 2 magnemites in party in order to evolve)
 
 ## Where to find my edits 
 
@@ -230,8 +234,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 ## TODO List
 
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species learnsets that I haven't fully constructed (yanma, clefairy line(s), etc)
-* Add more missing info to this documentation
+* Work on more species & learnsets that I haven't fully constructed (psyduck, yanma, clefairy line(s), revisit Gyarados, dark/rock cubone(?), porygon, etc)
 * Complete wild pokemon water and cave encounters
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Give spirit break to physical fairy types
@@ -244,6 +247,8 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Add feebas - milotic and Clamperl line to the fishing pool
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
 * Add Swablu-Alteria (fairy / flying), lileep-cradily, anorith-armaldo, castform (mt. silver?)
+* Add fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
+* Normal/Rock Cubone evolves into either Dark/Rock Marowak or Normal/Ground Kangaskhan? (Cubone typing would temporarily collide with Rhyhorn, who exists in the same general area of the map currently)
 
 ## Important Notes / Limitations
 

@@ -5580,10 +5580,10 @@ movedata MOVE_CALM_MIND, "Calm Mind"
 movedata MOVE_LEAF_BLADE, "Leaf Blade"
     battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 100
+    basepower 85
     type TYPE_GRASS
     accuracy 90
-    pp 14
+    pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -6191,7 +6191,7 @@ movedata MOVE_PUNISHMENT, "Punishment"
     basepower 1
     type TYPE_DARK
     accuracy 100
-    pp 5
+    pp 8
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -12792,7 +12792,7 @@ movedata MOVE_ETERNABEAM, "Eternabeam"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ETERNABEAM, "---"
+    movedescription MOVE_ETERNABEAM, "A massive blast of\ndraconic energy. The\nuser can't move on\n the next turn."
 
 movedata MOVE_STEEL_BEAM, "Steel Beam"
     battleeffect MOVE_EFFECT_HIT

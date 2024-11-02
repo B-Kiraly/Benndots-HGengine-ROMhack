@@ -1560,7 +1560,7 @@ evodata SPECIES_TAUROS
     terminateevodata
 
 evodata SPECIES_MAGIKARP
-    evolution EVO_LEVEL, 20, SPECIES_GYARADOS
+    evolution EVO_STONE, ITEM_DRAGON_SCALE, SPECIES_GYARADOS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

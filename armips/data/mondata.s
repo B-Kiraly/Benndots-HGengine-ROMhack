@@ -1150,7 +1150,7 @@ mondata SPECIES_PERSIAN, "Persian"
 
 mondata SPECIES_PSYDUCK, "Psyduck"
     basestats 56, 51, 45, 47, 64, 49
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_PSYCHIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -1170,8 +1170,8 @@ mondata SPECIES_PSYDUCK, "Psyduck"
 
 
 mondata SPECIES_GOLDUCK, "Golduck"
-    basestats 77, 79, 71, 81, 85, 83
-    types TYPE_WATER, TYPE_WATER
+    basestats 77, 84, 71, 87, 86, 83
+    types TYPE_WATER, TYPE_PSYCHIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -2199,7 +2199,7 @@ mondata SPECIES_EXEGGUTOR, "Exeggutor"
 
 
 mondata SPECIES_CUBONE, "Cubone"
-    basestats 50, 64, 74, 55, 40, 50
+    basestats 54, 64, 74, 48, 40, 50
     types TYPE_GROUND, TYPE_GROUND
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -2210,7 +2210,7 @@ mondata SPECIES_CUBONE, "Cubone"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_ROCK_HEAD, ABILITY_LIGHTNING_ROD
+    abilities ABILITY_ROCK_HEAD, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_CUBONE, "If it is sad or lonely, the skull\nit wears shakes and emits a plaintive\nand mournful sound."
@@ -2231,7 +2231,7 @@ mondata SPECIES_MAROWAK, "Marowak"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_ROCK_HEAD, ABILITY_LIGHTNING_ROD
+    abilities ABILITY_ROCK_HEAD, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_MAROWAK, "It has been seen pounding boulders\nwith the bone it carries in order\nto tap out messages to others."
@@ -2746,7 +2746,7 @@ mondata SPECIES_MAGIKARP, "Magikarp"
 
 mondata SPECIES_GYARADOS, "Gyarados" 
     basestats 137, 128, 81, 89, 84, 49
-    types TYPE_WATER, TYPE_DRAGON
+    types TYPE_DRAGON, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -3123,11 +3123,11 @@ mondata SPECIES_DRATINI, "Dratini"
 
 
 mondata SPECIES_DRAGONAIR, "Dragonair"
-    basestats 88, 65, 67, 108, 102, 105
+    basestats 88, 65, 67, 108, 100, 103
     types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
-    evyields 0, 2, 0, 0, 0, 0
+    evyields 0, 0, 0, 1, 0, 1
     items ITEM_DRAGON_FANG, ITEM_DRAGON_SCALE
     genderratio 127
     eggcycles 40
