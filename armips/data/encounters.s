@@ -4865,25 +4865,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 10, 14
+encounter SPECIES_KRABBY, 10, 14
+encounter SPECIES_HORSEA, 10, 14
+encounter SPECIES_CLAMPERL, 10, 14
+encounter SPECIES_KRABBY, 10, 14
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_KRABBY, 18, 24
+encounter SPECIES_HORSEA, 18, 24
+encounter SPECIES_CLAMPERL, 18, 24
+encounter SPECIES_HORSEA, 18, 24
+encounter SPECIES_SEADRA, 26, 26
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_HORSEA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_SEADRA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
+encounter SPECIES_SEADRA, 35, 45
+encounter SPECIES_CLAMPERL, 30, 40
+encounter SPECIES_HUNTAIL, 35, 45
+encounter SPECIES_GOREBYSS, 35, 45
+encounter SPECIES_GOREBYSS, 35, 45
 
 // swarm grass
 pokemon SPECIES_KRABBY
@@ -5389,20 +5389,20 @@ encounter SPECIES_MAGIKARP, 8, 16
 encounter SPECIES_TENTACOOL, 9, 12
 encounter SPECIES_KRABBY, 10, 13
 encounter SPECIES_STARYU, 13, 15
-encounter SPECIES_KRABBY, 14, 15
+encounter SPECIES_CLAMPERL, 14, 15
 
 // good rod encounters
 encounter SPECIES_TENTACOOL, 15, 22
 encounter SPECIES_STARYU, 17, 24
 encounter SPECIES_KRABBY, 17, 24
-encounter SPECIES_KRABBY, 25, 26
+encounter SPECIES_CLAMPERL, 25, 26
 encounter SPECIES_TENTACRUEL, 25, 27
 
 // super rod encounters
 encounter SPECIES_STARYU, 33, 38
 encounter SPECIES_STARYU, 39, 43
+encounter SPECIES_CLAMPERL, 30, 40
 encounter SPECIES_KINGLER, 36, 44
-encounter SPECIES_TENTACRUEL, 36, 44
 encounter SPECIES_STARMIE, 36, 44
 
 // swarm grass

@@ -8254,7 +8254,7 @@ movedata MOVE_ACROBATICS, "Acrobatics"
     pss SPLIT_PHYSICAL
     basepower 55
     type TYPE_FLYING
-    accuracy 100
+    accuracy 85
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED

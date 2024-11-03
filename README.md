@@ -240,21 +240,23 @@ All the files I've edited and tweaked exist inside of this repository and can be
 ## TODO List
 
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species & learnsets that I haven't fully constructed (jigglypuff, porygon line(s), seviper etc) 
+* Work on more species & learnsets that I haven't fully constructed (porygon line(s), fossil species, seviper etc)
 * Expand revival options in Pewter: https://github.com/pret/pokeheartgold/blob/e9f8389b501f79695247eb55ba42649ef5dcf82b/src/scrcmd_fossils.c#L8 (add to armips/asm/custom with desired changes and see if that works on its own)
 * Test new evolutions out. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
 * Complete wild pokemon water and cave encounters
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
+* Work on the post game. Especially making Kanto endgame battles more interesting/challenging
 * Give spirit break to physical fairy types
 
 ## Ideas
 
 * Amp ability jigglypuff line? 
 * Add non-water type sea creatures from later generations? 
-* Add feebas - milotic and Clamperl line to the fishing pool
+* Add feebas - milotic line to the fishing pool
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
 * Add Swablu-Alteria (fairy / flying), lileep-cradily, anorith-armaldo, castform (mt. silver?)
 * Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
+* Add an evolution with an upper bound, where beyond it they can't evolve (for Clamperl)
 
 ## Important Notes / Limitations
 
