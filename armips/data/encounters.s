@@ -1736,8 +1736,8 @@ pokemon SPECIES_CHINGLING
 encounter SPECIES_TENTACOOL, 10, 20
 encounter SPECIES_QUAGSIRE, 15, 25
 encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_LAPRAS, 20, 30
+encounter SPECIES_LAPRAS, 21, 25
+encounter SPECIES_QUAGSIRE, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0

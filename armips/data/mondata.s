@@ -142,7 +142,7 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
 
 mondata SPECIES_CHARIZARD, "Charizard"
     basestats 90, 95, 70, 96, 98, 85
-    types TYPE_FIRE, TYPE_FLYING
+    types TYPE_FIRE, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -205,7 +205,7 @@ mondata SPECIES_WARTORTLE, "Wartortle"
 
 mondata SPECIES_BLASTOISE, "Blastoise"
     basestats 96, 84, 113, 59, 97, 81
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -960,7 +960,7 @@ mondata SPECIES_GLOOM, "Gloom"
 
 
 mondata SPECIES_VILEPLUME, "Vileplume"
-    basestats 93, 75, 71, 52, 104, 96
+    basestats 97, 75, 71, 52, 104, 96
     types TYPE_GRASS, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -1149,7 +1149,7 @@ mondata SPECIES_PERSIAN, "Persian"
 
 
 mondata SPECIES_PSYDUCK, "Psyduck"
-    basestats 56, 51, 45, 47, 64, 49
+    basestats 59, 51, 41, 49, 71, 71
     types TYPE_WATER, TYPE_PSYCHIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -1192,7 +1192,7 @@ mondata SPECIES_GOLDUCK, "Golduck"
 
 mondata SPECIES_MANKEY, "Mankey"
     basestats 64, 85, 62, 89, 34, 44
-    types TYPE_FIGHTING, TYPE_FIGHTING
+    types TYPE_FIGHTING, TYPE_DARK
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -1212,8 +1212,8 @@ mondata SPECIES_MANKEY, "Mankey"
 
 
 mondata SPECIES_PRIMEAPE, "Primeape"
-    basestats 87, 102, 80, 97, 38, 57
-    types TYPE_FIGHTING, TYPE_FIGHTING
+    basestats 87, 105, 80, 97, 38, 58
+    types TYPE_FIGHTING, TYPE_DARK
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -1254,7 +1254,7 @@ mondata SPECIES_GROWLITHE, "Growlithe"
 
 
 mondata SPECIES_ARCANINE, "Arcanine"
-    basestats 82, 94, 65, 91, 81, 79
+    basestats 91, 96, 65, 91, 81, 79
     types TYPE_FIRE, TYPE_FIRE
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -1270,8 +1270,8 @@ mondata SPECIES_ARCANINE, "Arcanine"
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_ARCANINE, "This legendary Chinese Pokémon is\nconsidered magnificent. Many people\nare enchanted by its grand mane."
     mondexclassification SPECIES_ARCANINE, "Legendary Pokémon"
-    mondexheight SPECIES_ARCANINE, "6’03”"
-    mondexweight SPECIES_ARCANINE, "341.7 lbs."
+    mondexheight SPECIES_ARCANINE, "5’03”"
+    mondexweight SPECIES_ARCANINE, "230.7 lbs."
 
 
 mondata SPECIES_POLIWAG, "Poliwag"
@@ -1769,7 +1769,7 @@ mondata SPECIES_FARFETCHD, "Farfetch’d"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FIELD
-    abilities ABILITY_KEEN_EYE, ABILITY_INNER_FOCUS
+    abilities ABILITY_SCRAPPY, ABILITY_HYPER_CUTTER
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_FARFETCHD, "If anyone tries to disturb where the\nessential plant stalks grow, it uses its\nown stalk to thwart them."
@@ -2199,8 +2199,8 @@ mondata SPECIES_EXEGGUTOR, "Exeggutor"
 
 
 mondata SPECIES_CUBONE, "Cubone"
-    basestats 54, 64, 74, 48, 40, 50
-    types TYPE_GROUND, TYPE_GROUND
+    basestats 54, 65, 84, 48, 40, 46
+    types TYPE_NORMAL, TYPE_ROCK
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -2215,13 +2215,13 @@ mondata SPECIES_CUBONE, "Cubone"
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_CUBONE, "If it is sad or lonely, the skull\nit wears shakes and emits a plaintive\nand mournful sound."
     mondexclassification SPECIES_CUBONE, "Lonely Pokémon"
-    mondexheight SPECIES_CUBONE, "1’04”"
+    mondexheight SPECIES_CUBONE, "1’10”"
     mondexweight SPECIES_CUBONE, "14.3 lbs."
 
 
 mondata SPECIES_MAROWAK, "Marowak"
-    basestats 70, 93, 89, 87, 66, 76
-    types TYPE_GROUND, TYPE_GROUND
+    basestats 75, 93, 84, 88, 67, 76
+    types TYPE_DARK, TYPE_ROCK
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -2236,8 +2236,8 @@ mondata SPECIES_MAROWAK, "Marowak"
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_MAROWAK, "It has been seen pounding boulders\nwith the bone it carries in order\nto tap out messages to others."
     mondexclassification SPECIES_MAROWAK, "Bone Keeper Pokémon"
-    mondexheight SPECIES_MAROWAK, "3’03”"
-    mondexweight SPECIES_MAROWAK, "99.2 lbs."
+    mondexheight SPECIES_MAROWAK, "4’01”"
+    mondexweight SPECIES_MAROWAK, "129.2 lbs."
 
 
 mondata SPECIES_HITMONLEE, "Hitmonlee"
@@ -2441,7 +2441,7 @@ mondata SPECIES_KANGASKHAN, "Kangaskhan"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_EARLY_BIRD, ABILITY_SCRAPPY
+    abilities ABILITY_INNER_FOCUS, ABILITY_MOXIE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_KANGASKHAN, "If it is safe, the young gets out of\nthe belly pouch to play. The adult\nkeeps a close eye on the youngster."
@@ -2640,8 +2640,8 @@ mondata SPECIES_JYNX, "Jynx"
 
 
 mondata SPECIES_ELECTABUZZ, "Electabuzz"
-    basestats 79, 92, 81, 83, 74, 72
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    basestats 79, 94, 82, 83, 74, 72
+    types TYPE_FIGHTING, TYPE_ELECTRIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -2656,8 +2656,8 @@ mondata SPECIES_ELECTABUZZ, "Electabuzz"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ELECTABUZZ, "Electricity runs across the surface\nof its body. In darkness, its entire\nbody glows a whitish-blue."
     mondexclassification SPECIES_ELECTABUZZ, "Electric Pokémon"
-    mondexheight SPECIES_ELECTABUZZ, "4’05”"
-    mondexweight SPECIES_ELECTABUZZ, "91.1 lbs."
+    mondexheight SPECIES_ELECTABUZZ, "4’06”"
+    mondexweight SPECIES_ELECTABUZZ, "111.1 lbs."
 
 
 mondata SPECIES_MAGMAR, "Magmar"
@@ -3917,7 +3917,7 @@ mondata SPECIES_SUDOWOODO, "Sudowoodo"
     mondexentry SPECIES_SUDOWOODO, "Although it always pretends to be a\ntree, its composition appears more\nsimilar to rock than to vegetation."
     mondexclassification SPECIES_SUDOWOODO, "Imitation Pokémon"
     mondexheight SPECIES_SUDOWOODO, "3’11”"
-    mondexweight SPECIES_SUDOWOODO, "83.8 lbs."
+    mondexweight SPECIES_SUDOWOODO, "183.8 lbs."
 
 
 mondata SPECIES_POLITOED, "Politoed"
@@ -4761,7 +4761,7 @@ mondata SPECIES_DELIBIRD, "Delibird"
 
 
 mondata SPECIES_MANTINE, "Mantine"
-    basestats 110, 40, 65, 65, 85, 110
+    basestats 110, 55, 65, 65, 85, 110
     types TYPE_WATER, TYPE_FLYING
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -4777,7 +4777,7 @@ mondata SPECIES_MANTINE, "Mantine"
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_MANTINE, "As it majestically swims, it doesn’t\ncare if REMORAID attach to it for\nscavenging its leftovers."
     mondexclassification SPECIES_MANTINE, "Kite Pokémon"
-    mondexheight SPECIES_MANTINE, "6’11”"
+    mondexheight SPECIES_MANTINE, "7’11”"
     mondexweight SPECIES_MANTINE, "485.0 lbs."
 
 
@@ -5035,7 +5035,7 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
 
 mondata SPECIES_ELEKID, "Elekid"
     basestats 44, 66, 44, 66, 55, 33
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_FIGHTING, TYPE_ELECTRIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -5087,7 +5087,7 @@ mondata SPECIES_MILTANK, "Miltank"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_THICK_FAT, ABILITY_SCRAPPY
+    abilities ABILITY_THICK_FAT, ABILITY_MOXIE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_MILTANK, "Its milk is packed with nutrition,\nmaking it the ultimate beverage\nfor the sick or weary."
@@ -9633,7 +9633,7 @@ mondata SPECIES_LUMINEON, "Lumineon"
 
 
 mondata SPECIES_MANTYKE, "Mantyke"
-    basestats 45, 20, 50, 50, 60, 120
+    basestats 75, 30, 45, 50, 60, 85
     types TYPE_WATER, TYPE_FLYING
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -9802,7 +9802,7 @@ mondata SPECIES_TANGROWTH, "Tangrowth"
 
 mondata SPECIES_ELECTIVIRE, "Electivire"
     basestats 75, 123, 67, 95, 95, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_FIGHTING, TYPE_ELECTRIC
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0

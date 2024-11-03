@@ -53,6 +53,9 @@ EIGHT_BADGES equ 6
 .halfword ITEM_HEART_SCALE
 .halfword THREE_BADGES
 
+.halfword ITEM_EVIOLITE
+.halfword THREE_BADGES
+
 .halfword ITEM_MAX_REPEL
 .halfword FIVE_BADGES
 
@@ -66,9 +69,6 @@ EIGHT_BADGES equ 6
 .halfword SEVEN_BADGES
 
 .halfword ITEM_MAX_REVIVE
-.halfword EIGHT_BADGES
-
-.halfword ITEM_EVIOLITE
 .halfword EIGHT_BADGES
 
 .halfword ITEM_FULL_RESTORE
@@ -214,28 +214,28 @@ const u16 *_0210FA3C[] = {
 /* Goldenrod Dept Store 2F & Celadon Dept Store 2F -> Chansey Supply 2 */
 .halfword ITEM_PP_UP
 .halfword ITEM_ABILITY_CAPSULE
-.halfword ITEM_LONELY_MINT
+.halfword ITEM_MODEST_MINT
 .halfword ITEM_ADAMANT_MINT
-.halfword ITEM_NAUGHTY_MINT
-.halfword ITEM_BRAVE_MINT
+.halfword ITEM_CALM_MINT
+.halfword ITEM_CAREFUL_MINT
 .halfword ITEM_BOLD_MINT
 .halfword ITEM_IMPISH_MINT
-.halfword ITEM_LAX_MINT
-.halfword ITEM_RELAXED_MINT
-.halfword ITEM_MODEST_MINT
-.halfword ITEM_MILD_MINT
-
-.halfword ITEM_RASH_MINT
-.halfword ITEM_QUIET_MINT
-.halfword ITEM_CALM_MINT
-.halfword ITEM_GENTLE_MINT
-.halfword ITEM_CAREFUL_MINT
-.halfword ITEM_SASSY_MINT
 .halfword ITEM_TIMID_MINT
-.halfword ITEM_HASTY_MINT
 .halfword ITEM_JOLLY_MINT
-.halfword ITEM_NAIVE_MINT
 .halfword ITEM_SERIOUS_MINT
+.halfword ITEM_PLUME_FOSSIL
+
+.halfword ITEM_JAW_FOSSIL
+.halfword ITEM_COVER_FOSSIL
+.halfword ITEM_SAIL_FOSSIL
+.halfword ITEM_ROOT_FOSSIL
+.halfword ITEM_CLAW_FOSSIL
+.halfword ITEM_SKULL_FOSSIL
+.halfword ITEM_ARMOR_FOSSIL
+.halfword ITEM_KINGS_ROCK
+.halfword ITEM_DRAGON_SCALE
+.halfword ITEM_METAL_COAT
+.halfword ITEM_RARE_CANDY
 .halfword 0xFFFF
 
 /* const u16 _020FBC1A[] = {ITEM_POKE_BALL, ITEM_GREAT_BALL, ITEM_ULTRA_BALL, ITEM_ESCAPE_ROPE, ITEM_POKE_DOLL, ITEM_REPEL, ITEM_SUPER_REPEL, ITEM_MAX_REPEL, ITEM_GRASS_MAIL, ITEM_FLAME_MAIL, ITEM_BUBBLE_MAIL, ITEM_SPACE_MAIL, 0xFFFF}; */

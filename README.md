@@ -137,16 +137,20 @@ Seel & Dewgong: Normal / Ice
 Goldeen: Normal / Water
 Rhyhorn: Normal / Rock
 Lickitung & Lickylicki: Normal / Poison
+Mankey & Primeape: Fighting / Dark
+Cubone: Normal / Rock 
+Marowak: Dark / Rock
 Kangaskhan: Normal / Ground
 Heracross: Bug / Normal
 Pinsir: Bug / Fighting
+Elekid & Electabuzz & Electavire: Fighting / Electric
 Teddiursa & Ursaring: Fairy / Dark
 Sunflora: Grass / Fire
 Haunter & Gengar: Ghost / Dark
 Bulbasaur & Ivysaur: Mono Grass 
 Charizard: Fire / Dragon
 Blastoise: Water / Steel
-Gyarados: Water / Dragon
+Gyarados: Mono Dragon
 Golem: Rock / Dragon
 Chansey & Blissey: Fairy
 Luvdisc: Water / Fairy
@@ -183,6 +187,8 @@ Rhyhorn: Is mostly intended to be a non-evolving Pokemon (I'm a bit of a Rhydon-
 Shellder: Now evolves via normal level up at 36. 
 
 Magikarp: Now requires the use of a dragon scale in order to evolve. (at that evo method's new minimum requirement of level 20, or beyond).
+
+Psyduck: Now requires level up while knowing the move Amnesia. 
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
@@ -234,11 +240,12 @@ All the files I've edited and tweaked exist inside of this repository and can be
 ## TODO List
 
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species & learnsets that I haven't fully constructed (psyduck, yanma, clefairy line(s), revisit Gyarados, dark/rock cubone(?), porygon, etc)
+* Work on more species & learnsets that I haven't fully constructed (jigglypuff, porygon line(s), seviper etc) 
+* Expand revival options in Pewter: https://github.com/pret/pokeheartgold/blob/e9f8389b501f79695247eb55ba42649ef5dcf82b/src/scrcmd_fossils.c#L8 (add to armips/asm/custom with desired changes and see if that works on its own)
+* Test new evolutions out. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
 * Complete wild pokemon water and cave encounters
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Give spirit break to physical fairy types
-* water/psychic psyduck?
 
 ## Ideas
 
@@ -247,8 +254,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Add feebas - milotic and Clamperl line to the fishing pool
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
 * Add Swablu-Alteria (fairy / flying), lileep-cradily, anorith-armaldo, castform (mt. silver?)
-* Add fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
-* Normal/Rock Cubone evolves into either Dark/Rock Marowak or Normal/Ground Kangaskhan? (Cubone typing would temporarily collide with Rhyhorn, who exists in the same general area of the map currently)
+* Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
 
 ## Important Notes / Limitations
 
