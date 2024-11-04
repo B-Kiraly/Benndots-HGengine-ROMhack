@@ -1422,8 +1422,8 @@ movedata MOVE_ROCK_THROW, "Rock Throw"
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_ROCK
-    accuracy 80
-    pp 15
+    accuracy 85
+    pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -1583,7 +1583,7 @@ movedata MOVE_QUICK_ATTACK, "Quick Attack"
     basepower 40
     type TYPE_NORMAL
     accuracy 90
-    pp 30
+    pp 25
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 1
@@ -5086,7 +5086,7 @@ movedata MOVE_ROCK_TOMB, "Rock Tomb"
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_ROCK
-    accuracy 80
+    accuracy 75
     pp 18
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -11485,9 +11485,9 @@ movedata MOVE_SUNSTEEL_STRIKE, "Sunsteel Strike"
 movedata MOVE_MOONGEIST_BEAM, "Moongeist Beam"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 110
     type TYPE_GHOST
-    accuracy 100
+    accuracy 95
     pp 6
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -11496,7 +11496,7 @@ movedata MOVE_MOONGEIST_BEAM, "Moongeist Beam"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_MOONGEIST_BEAM, "---"
+    movedescription MOVE_MOONGEIST_BEAM, "The user emits a\nsinister ray to\nattack the target."
 
 movedata MOVE_TEARFUL_LOOK, "Tearful Look"
     battleeffect MOVE_EFFECT_HIT
@@ -13597,11 +13597,11 @@ movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
 movedatalongname MOVE_BLEAKWIND_STORM, "BleakwindStorm","Bleakwind Storm"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 80
     type TYPE_FLYING
-    accuracy 80
+    accuracy 100
     pp 10
-    effectchance 30
+    effectchance 100
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

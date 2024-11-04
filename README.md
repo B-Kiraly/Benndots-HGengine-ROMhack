@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V11
-Current Task: Test playthrough of V11
+Current version: V12
+Current Task: Test playthrough of V12
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested.
 
 ## About HG-Engine
@@ -65,7 +65,7 @@ I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and gr
 
 While this information is reliably true for ground encounters, I was a bit more haphazard early on when writing in water encounters. It's possible that there are non-native Pokemon species in certain areas that I missed in editing. It shouldn't be much, if anything, however. 
 
-### Non-native Species Added to Johto
+### Non-native Species Lines Added to Johto
 
 -Carbink
 -Stunky 
@@ -73,13 +73,17 @@ While this information is reliably true for ground encounters, I was a bit more 
 -Sableye
 -Surskit
 -Wingull
+-Luvdisc
 -Finneon
 -Relicanth
+-Clamperl
+-Spoink
 -Snover
 -Togedemaru (via Pikachu evolution)
 -Drampa (via Dunsparse evolution)
 -Drifloon
--Spoink
+-Litwick
+-Cetoddle
 
 ## Level Up Learnsets (My changes)
 
@@ -128,16 +132,20 @@ I've gone through and edited many Pokemon. A large number of the Pokemon species
 
 ## Typing Changes (Incomplete)
 
+Bulbasaur & Ivysaur: Mono Grass 
+Charizard: Fire / Dragon
+Blastoise: Water / Steel
 Zubat & Golbat & Crobat: Dark / Flying
 Azurill & Marill & Azumarill: Mono Water
 Oddish & Gloom: Mono Grass
+Psyduck & Golduck: Water / Psychic
 Staryu & Starmie: Steel / Psychic
-Shellder & Cloyster: Water / Dark
 Seel & Dewgong: Normal / Ice
 Goldeen: Normal / Water
 Rhyhorn: Normal / Rock
 Lickitung & Lickylicki: Normal / Poison
 Mankey & Primeape: Fighting / Dark
+Shellder & Cloyster: Water / Dark
 Cubone: Normal / Rock 
 Marowak: Dark / Rock
 Kangaskhan: Normal / Ground
@@ -147,9 +155,6 @@ Elekid & Electabuzz & Electavire: Fighting / Electric
 Teddiursa & Ursaring: Fairy / Dark
 Sunflora: Grass / Fire
 Haunter & Gengar: Ghost / Dark
-Bulbasaur & Ivysaur: Mono Grass 
-Charizard: Fire / Dragon
-Blastoise: Water / Steel
 Gyarados: Mono Dragon
 Golem: Rock / Dragon
 Chansey & Blissey: Fairy
@@ -168,15 +173,15 @@ These changes have been made (partially) in a previous project. They need to be 
 
 ### Evolutionary Line Changes
 
-Ekans: Branching evolutions to Arbok and Seviper. (implemented)
+Ekans: Branching evolutions to Arbok and Seviper. (implemented. Untested.)
 
-Geodude: Branching evolutions to Graveler and Carkol (implemented)
+Geodude: Branching evolutions to Graveler and Carkol.  (implemented. Untested.)
 
-Dunsparse: Special condition evoluton into Drampa (implemented)
+Dunsparse: Special condition evoluton into Drampa (implemented. Untested.)
 
-Cubone: Branching evolution with Marowak and Kangaskhan (implemented, mostly)
+Cubone: Branching evolution with Marowak and Kangaskhan (implemented, mostly. Untested.)
 
-Eeveelutions: Umbreon and Espeon were changed. The former now needs to be given a Dusk Stone, while the latter now needs to be given a Dawn Stone. (I'd like to add time of day requirements, but they don't exist in the engine's default methods so that won't be done for the time being.)
+Eeveelutions: Eevee's Umbreon, Espeon, and Sylveon evolution methods were changed. Umbreon is obtained via dusk stone, Espeon is obtained via dawn stone, and Sylveon is obtained via shiny stone. (I'd like to add time of day requirements, but they don't exist in the engine's default methods so that won't be done for the time being.)
 
 Gengar: Haunter evolves via Dusk Stone. Gastly is now a separate species with no evolution. 
 
@@ -189,6 +194,8 @@ Shellder: Now evolves via normal level up at 36.
 Magikarp: Now requires the use of a dragon scale in order to evolve. (at that evo method's new minimum requirement of level 20, or beyond).
 
 Psyduck: Now requires level up while knowing the move Amnesia. 
+
+Nidoking & Nidoqueen: Now requires the use of a King's Rock (as a stone) rather than the moon stone. 
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
@@ -237,16 +244,18 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 (Item Data) For changes to the price of items and what they do: data/itemdata/itemdata.c
 
+(Fossil Revival Options) For my expansions to the fossil-to-pokemon revival mechanic options: armips/asm/custom/scrcmd_fossils.c
+
 ## TODO List
 
+* Test if items used by me as evolution stones that aren't the already existing evolution stones (I use metal coats, dragon scales, etc as evolution stones for some evos) can actually be used in menu on Pokemon, or if the option just isn't there as I suspect.
+* Test new evolutions out. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
+* Test expanded fossil revival options in Pewter city
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
 * Work on more species & learnsets that I haven't fully constructed (porygon line(s), fossil species, seviper etc)
-* Expand revival options in Pewter: https://github.com/pret/pokeheartgold/blob/e9f8389b501f79695247eb55ba42649ef5dcf82b/src/scrcmd_fossils.c#L8 (add to armips/asm/custom with desired changes and see if that works on its own)
-* Test new evolutions out. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
-* Complete wild pokemon water and cave encounters
+* Complete Johto wild pokemon encounters (Mostly ponds and Mt. Mortar unfinalized)
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
-* Work on the post game. Especially making Kanto endgame battles more interesting/challenging
-* Give spirit break to physical fairy types
+* Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
 
 ## Ideas
 

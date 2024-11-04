@@ -2094,7 +2094,7 @@ mondata SPECIES_KRABBY, "Krabby"
 
 
 mondata SPECIES_KINGLER, "Kingler"
-    basestats 61, 102, 105, 63, 55, 68
+    basestats 67, 105, 105, 63, 59, 65
     types TYPE_WATER, TYPE_WATER
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -4719,7 +4719,7 @@ mondata SPECIES_REMORAID, "Remoraid"
 
 
 mondata SPECIES_OCTILLERY, "Octillery"
-    basestats 74, 86, 69, 47, 124, 86
+    basestats 77, 87, 69, 44, 124, 86
     types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -4735,23 +4735,23 @@ mondata SPECIES_OCTILLERY, "Octillery"
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_OCTILLERY, "It traps foes with the suction cups\non its tentacles, then smashes\nthem with its rock-hard head."
     mondexclassification SPECIES_OCTILLERY, "Jet Pokémon"
-    mondexheight SPECIES_OCTILLERY, "2’11”"
-    mondexweight SPECIES_OCTILLERY, "62.8 lbs."
+    mondexheight SPECIES_OCTILLERY, "3’11”"
+    mondexweight SPECIES_OCTILLERY, "87.8 lbs."
 
 
 mondata SPECIES_DELIBIRD, "Delibird"
-    basestats 62, 70, 52, 78, 70, 52
+    basestats 60, 60, 56, 76, 70, 56
     types TYPE_ICE, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LEFTOVERS, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_HUSTLE
+    abilities ABILITY_SPEED_BOOST, ABILITY_SNOW_WARNING
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_DELIBIRD, "It carries food all day long.\nThere are tales about lost people\nwho were saved by its stored food."
@@ -4803,7 +4803,7 @@ mondata SPECIES_SKARMORY, "Skarmory"
 
 
 mondata SPECIES_HOUNDOUR, "Houndour"
-    basestats 50, 65, 30, 80, 50, 50
+    basestats 55, 66, 34, 79, 52, 49
     types TYPE_DARK, TYPE_FIRE
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -4824,7 +4824,7 @@ mondata SPECIES_HOUNDOUR, "Houndour"
 
 
 mondata SPECIES_HOUNDOOM, "Houndoom"
-    basestats 82, 102, 52, 102, 102, 72
+    basestats 78, 102, 61, 107, 102, 73
     types TYPE_DARK, TYPE_FIRE
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9969,7 +9969,7 @@ mondata SPECIES_MAMOSWINE, "Mamoswine"
 
 
 mondata SPECIES_PORYGON_Z, "Porygon-Z"
-    basestats 81, 101, 61, 111, 141, 61
+    basestats 71, 101, 51, 111, 141, 51
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 30
     baseexp 0 // defined in baseexp.s
@@ -12951,7 +12951,7 @@ mondata SPECIES_CARRACOSTA, "Carracosta"
 
 
 mondata SPECIES_ARCHEN, "Archen"
-    basestats 55, 112, 45, 70, 74, 45
+    basestats 55, 91, 45, 72, 67, 45
     types TYPE_ROCK, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
