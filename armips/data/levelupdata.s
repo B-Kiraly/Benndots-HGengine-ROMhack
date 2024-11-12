@@ -5261,50 +5261,51 @@ levelup SPECIES_URSARING
 
 
 levelup SPECIES_SLUGMA
-    learnset MOVE_YAWN, 1
-    learnset MOVE_SMOG, 1
-    learnset MOVE_EMBER, 6
-    learnset MOVE_ROCK_THROW, 8
-    learnset MOVE_HARDEN, 13
-    learnset MOVE_INCINERATE, 15
-    learnset MOVE_CLEAR_SMOG, 20
-    learnset MOVE_ANCIENT_POWER, 22
+    learnset MOVE_EMBER, 1
+    learnset MOVE_SMOG, 5
+    learnset MOVE_SMOKESCREEN, 8
+    learnset MOVE_HARDEN, 11
+    learnset MOVE_INCINERATE, 13
+    learnset MOVE_YAWN, 15
+    learnset MOVE_HEADBUTT, 18
+    learnset MOVE_CLEAR_SMOG, 21
     learnset MOVE_FLAME_BURST, 27
-    learnset MOVE_ROCK_BLAST, 29
-    learnset MOVE_LAVA_PLUME, 34
-    learnset MOVE_AMNESIA, 36
-    learnset MOVE_BODY_SLAM, 41
-    learnset MOVE_RECOVER, 43
-    learnset MOVE_SIGNAL_BEAM, 46
-    learnset MOVE_FLAMETHROWER, 48
-    learnset MOVE_EARTH_POWER, 50
+    learnset MOVE_SMOKESCREEN, 29
+    learnset MOVE_LAVA_PLUME, 32
+    learnset MOVE_TAKE_DOWN, 35
+    learnset MOVE_AMNESIA, 38
+    learnset MOVE_SIGNAL_BEAM, 41
+    learnset MOVE_OVERHEAT, 44
+    learnset MOVE_RECOVER, 47
+    learnset MOVE_ARMOR_CANNON, 51
+    learnset MOVE_EARTH_POWER, 55
+    learnset MOVE_ERUPTION, 59
     terminatelearnset
 
 
 levelup SPECIES_MAGCARGO
-    learnset MOVE_SHELL_SMASH, 0
-    learnset MOVE_SHELL_SMASH, 1
-    learnset MOVE_EARTH_POWER, 1
-    learnset MOVE_YAWN, 1
-    learnset MOVE_SMOG, 1
+    learnset MOVE_WITHDRAW, 1
+    learnset MOVE_PROTECT, 1
     learnset MOVE_EMBER, 1
-    learnset MOVE_ROCK_THROW, 1
-    learnset MOVE_EMBER, 6
-    learnset MOVE_ROCK_THROW, 8
-    learnset MOVE_HARDEN, 13
-    learnset MOVE_INCINERATE, 15
-    learnset MOVE_CLEAR_SMOG, 20
-    learnset MOVE_ANCIENT_POWER, 22
+    learnset MOVE_SMOG, 5
+    learnset MOVE_SMOKESCREEN, 8
+    learnset MOVE_HARDEN, 11
+    learnset MOVE_INCINERATE, 13
+    learnset MOVE_YAWN, 15
+    learnset MOVE_HEADBUTT, 18
+    learnset MOVE_CLEAR_SMOG, 21
     learnset MOVE_FLAME_BURST, 27
-    learnset MOVE_ROCK_BLAST, 29
-    learnset MOVE_LAVA_PLUME, 34
-    learnset MOVE_AMNESIA, 36
-    learnset MOVE_BODY_SLAM, 43
+    learnset MOVE_SMOKESCREEN, 29
+    learnset MOVE_LAVA_PLUME, 32
+    learnset MOVE_TAKE_DOWN, 35
+    learnset MOVE_AMNESIA, 38
+    learnset MOVE_SIGNAL_BEAM, 41
+    learnset MOVE_OVERHEAT, 44
     learnset MOVE_RECOVER, 47
-    learnset MOVE_SIGNAL_BEAM, 51
-    learnset MOVE_FLAMETHROWER, 54
-    learnset MOVE_EARTH_POWER, 58
-    learnset MOVE_EARTH_POWER, 62
+    learnset MOVE_ARMOR_CANNON, 51
+    learnset MOVE_EARTH_POWER, 55
+    learnset MOVE_ERUPTION, 59
+    learnset MOVE_SHELL_SMASH, 63
     terminatelearnset
 
 

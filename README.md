@@ -145,6 +145,7 @@ Elekid & Electabuzz & Electavire: Fighting / Electric
 Teddiursa & Ursaring: Fairy / Dark
 Sunflora: Grass / Fire
 Haunter & Gengar: Ghost / Dark
+Magcargo: Mono Fire
 Gyarados: Mono Dragon
 Golem: Rock / Dragon
 Chansey & Blissey: Fairy
@@ -264,8 +265,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Test if items used by me as evolution stones that aren't the already existing evolution stones (I use metal coats, dragon scales, etc as evolution stones for some evos) can actually be used in menu on Pokemon, or if the option just isn't there as I suspect.
-* Test new evolutions out. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
+* Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
 * Test expanded fossil revival options in Pewter city
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
 * Work on more species & learnsets that I haven't fully constructed (porygon line(s), fossil species, seviper etc)
@@ -282,6 +282,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Add Swablu-Alteria (fairy / flying), lileep-cradily, anorith-armaldo, castform (mt. silver?)
 * Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
 * Add an evolution with an upper bound, where beyond it they can't evolve (for Clamperl)
+* Remake slugma line as fire/ground
 
 ## Important Notes / Limitations
 
