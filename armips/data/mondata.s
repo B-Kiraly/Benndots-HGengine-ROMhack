@@ -352,7 +352,7 @@ mondata SPECIES_BEEDRILL, "Beedrill"
 
 mondata SPECIES_PIDGEY, "Pidgey"
     basestats 42, 42, 37, 59, 38, 33
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, TYPE_FLYING
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -373,7 +373,7 @@ mondata SPECIES_PIDGEY, "Pidgey"
 
 mondata SPECIES_PIDGEOTTO, "Pidgeotto"
     basestats 66, 60, 50, 82, 60, 55
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, TYPE_FLYING
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -394,7 +394,7 @@ mondata SPECIES_PIDGEOTTO, "Pidgeotto"
 
 mondata SPECIES_PIDGEOT, "Pidgeot"
     basestats 91, 80, 58, 108, 91, 77
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
@@ -1548,7 +1548,7 @@ mondata SPECIES_TENTACOOL, "Tentacool"
 
 
 mondata SPECIES_TENTACRUEL, "Tentacruel"
-    basestats 111, 86, 65, 62, 96, 94
+    basestats 111, 88, 61, 53, 93, 84
     types TYPE_WATER, TYPE_POISON
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -2042,7 +2042,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    abilities ABILITY_BAD_DREAMS, ABILITY_FOREWARN
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DROWZEE, "If you think that you had a good dream\nbut you can’t remember it,\na DROWZEE has probably eaten it."
@@ -3439,7 +3439,7 @@ mondata SPECIES_FURRET, "Furret"
 
 mondata SPECIES_HOOTHOOT, "Hoothoot"
     basestats 60, 33, 33, 46, 45, 60
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, TYPE_FLYING
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -3460,7 +3460,7 @@ mondata SPECIES_HOOTHOOT, "Hoothoot"
 
 mondata SPECIES_NOCTOWL, "Noctowl"
     basestats 101, 74, 66, 80, 87, 93
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -3753,7 +3753,7 @@ mondata SPECIES_NATU, "Natu"
 
 
 mondata SPECIES_XATU, "Xatu"
-    basestats 65, 72, 78, 59, 92, 98
+    basestats 81, 73, 81, 59, 93, 91
     types TYPE_PSYCHIC, TYPE_FLYING
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -4016,7 +4016,7 @@ mondata SPECIES_AIPOM, "Aipom"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RUN_AWAY, ABILITY_PICKUP
+    abilities ABILITY_SKILL_LINK, ABILITY_IRON_FIST
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_AIPOM, "Its tail is so powerful that it can\nuse it to grab a tree branch and\nhold itself up in the air."
@@ -8919,7 +8919,7 @@ mondata SPECIES_GASTRODON, "Gastrodon"
 
 
 mondata SPECIES_AMBIPOM, "Ambipom"
-    basestats 75, 100, 66, 115, 60, 66
+    basestats 73, 91, 63, 105, 56, 73
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -8930,7 +8930,7 @@ mondata SPECIES_AMBIPOM, "Ambipom"
     basefriendship 100
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_TECHNICIAN, ABILITY_PICKUP
+    abilities ABILITY_SKILL_LINK, ABILITY_IRON_FIST
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_AMBIPOM, "They live on large trees. They are\nsaid to communicate by connecting\ntheir tails to those of others."

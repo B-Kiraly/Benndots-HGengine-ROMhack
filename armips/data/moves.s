@@ -220,8 +220,8 @@ movedata MOVE_GUILLOTINE, "Guillotine"
 movedata MOVE_RAZOR_WIND, "Razor Wind"
     battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT
     pss SPLIT_SPECIAL
-    basepower 95
-    type TYPE_NORMAL
+    basepower 100
+    type TYPE_FLYING
     accuracy 98
     pp 10
     effectchance 0
@@ -7438,7 +7438,7 @@ movedata MOVE_DARK_VOID, "Dark Void"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
-    accuracy 50
+    accuracy 65
     pp 10
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -14221,10 +14221,10 @@ movedata MOVE_POUNCE, "Pounce"
 movedata MOVE_TRAILBLAZE, "Trailblaze"
     battleeffect MOVE_EFFECT_RAISE_SPEED_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 70
     type TYPE_GRASS
-    accuracy 100
-    pp 20
+    accuracy 90
+    pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0

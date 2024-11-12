@@ -2,9 +2,10 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V12
-Current Task: Test playthrough of V12
-Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested.
+Current version: V13
+Current Task: Test playthrough of V13
+
+Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~95% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely untouched.
 
 ## About HG-Engine
 HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
@@ -87,54 +88,41 @@ While this information is reliably true for ground encounters, I was a bit more 
 
 ## Level Up Learnsets (My changes)
 
-I've gone through and edited many Pokemon. A large number of the Pokemon species intended to be present in the game have received extensive updates to their learnsets. However, many still haven't been touched and need to be overhauled (as of October 2024). Few to no Pokemon in the game should possess any moves that aren't currently implemented in HG-engine. 
+I've gone through and edited many Pokemon. As of early November, most of the Pokemon species intended to be present in the game have received extensive updates to their learnsets. However, a decent number still haven't been touched and need to be overhauled (as of October 2024). 
 
-### The Pokemon that I have reworked heavily (Incomplete list): 
+Few to no Pokemon in the game should possess any moves that aren't currently implemented in HG-engine. A select few moves in some movesets may lack animations but their effects should still work in battle. Not ideal, but they should still be functional. 
 
--Pikachu (including Togedemaru)
--Octillery 
--Sunkern
--Sunflora
--Noctowl
--Ledian
--Granbull
--Bellsprout
--Surskit
--Masquerain
--Tauros
--Miltank
--Diglett
--Swinub
--Sneasel
--Ninetails 
--Arcanine
--Qwilfish
--Stuntank
--Gastly (Now standalone)
--Haunter line
--Bellsprout
--Oddish
--Lickitung
--Pelipper
--Psyduck
--Dewgong
--Grumpig
--Drifloon
--Mawile
--Sableye
--Eevee line 
+### The Pokemon evolution lines that I have not yet reworked (Incomplete list): 
 
-*Pokemon in the same evolutionary line mentioned separately have diverging movesets from one another
+* Machop
+* Wooper
+* Sandshrew
+* Slowpoke
+* Tangela
+* Venonat
+* Slugma
+* Magby
+* Murkrow
+* Shuckle
+* Giraferig
+* Jynx
+* Porygon
+* Hitmons
+* Fossil species
+* Pineco (revise)
+* Growlithe (revise)
 
-## Matchup Changes
+## Type Matchup Changes
 
 ![Oops, didn't work](./images/type-chart.png "The Type Chart")
 
-## Typing Changes (Incomplete)
+## Species Typing Changes (Incomplete list?)
 
 Bulbasaur & Ivysaur: Mono Grass 
 Charizard: Fire / Dragon
 Blastoise: Water / Steel
+Pidgey & Pidgeotto & Pidgeot: Mono Flying
+Hoothoot & Noctowl: Mono Flying
 Zubat & Golbat & Crobat: Dark / Flying
 Azurill & Marill & Azumarill: Mono Water
 Oddish & Gloom: Mono Grass
@@ -170,6 +158,18 @@ I intend to add a few extra evolution options to existing Pokemon for the fun of
 I also intend to change some evolution methods and requirements. 
 
 These changes have been made (partially) in a previous project. They need to be transferred over, expanded upon and completed. 
+
+### Changes to item utility for Pokemon evolutions 
+
+In order for items to be allowed to be used in the overworld, certain parameters need to be toggled true. 
+
+Since I have multiple items (Twisted Spoons, Macho Brace, King's Rock, Metal Coat, Dragon Scale, Charcoal) that I envision using to evolve Pokemon similarly to how evolutions stones are used, I need to enable them to be used from the menu. These changes are the following:
+
+.fieldUseFunc = 20 (stones seems to use this)
+.partyUse = 1
+.partyUseParam.evolve = TRUE 
+
+.fieldUseFunc may not be necessary to this, but I haven't tried it without it yet and regardless it doesn't seem to adversely affect anything having it enabled.
 
 ### Evolutionary Line Changes
 
@@ -223,6 +223,15 @@ In the future, I'd like to figure out how to make more than 1 Pokemon requiremen
 -Full Heals are slightly cheaper
 -X items (the stat boosters) are cheaper
 -Eviolite has been made more expensive for purchase ($1000)
+-Fossils have been made purchasable at department stores.
+
+## New fossil revival options
+
+In the post-game, the Pewter city museum allows the player to trade in fossil items from their inventory in order to revive a corresponding Pokemon. Since HG-engine has the benefit of adding fossils,
+
+This feature is entirely untested and there's some reason to think that it may not work without further changes. Confirmation for or against its function will have to wait until proper testing is done. 
+
+The fossil revival mechanic template I used came from a decompilated heartgold repo and can be found here: https://github.com/pret/pokeheartgold/blob/e9f8389b501f79695247eb55ba42649ef5dcf82b/src/scrcmd_fossils.c#L8 
 
 ## Where to find my edits 
 
@@ -243,6 +252,8 @@ All the files I've edited and tweaked exist inside of this repository and can be
 (Mart Inventories) For changes to what is carried in PokeMarts and department stores: armips/asm/custom/mart_items.s+
 
 (Item Data) For changes to the price of items and what they do: data/itemdata/itemdata.c
+
+(Trainer data) For changes to trainer parties, levels and movesets: armips/data/trainers/trainers.s
 
 (Fossil Revival Options) For my expansions to the fossil-to-pokemon revival mechanic options: armips/asm/custom/scrcmd_fossils.c
 
@@ -347,26 +358,8 @@ Game Freak - amazing Pokémon games from way back when
 [TEMPLATE]: https://github.com/Bubble791/Pokemon-Heart-Gold-Engine
 [LUNOS]: https://www.pokecommunity.com/showthread.php?t=432351
 
-## Fishing species (Personal use, delete later)
+## Changelog
 
-* Magikarp (Everywhere)
-* Tentacool ( oceans )
-* Goldeen ( ponds / caves )
-* Chinchou (Caves / deep ocean)
-* Krabby (ocean shore / lakes)
-* Corsola (ocean)
-* Qwilfish (ocean / lakes)
-* Staryu (ocean shore)
-* Remoraid (ponds / rivers)
-* Luvdisc (?)
-* Relicanth (ocean / cave)
-* Finneon (ocean)
-* Horsea (ocean)
+### V12.1 
 
-## Surf Species
-
-* Tentacool (oceans / caves)
-* Poliwag (ponds / rivers)
-* Marill (ponds / rivers)
-* Mantine (oceans)
-* Corsola (oceans)
+Non-stone evolution items are now usable and should be able to properly evolve eligible Pokemon 

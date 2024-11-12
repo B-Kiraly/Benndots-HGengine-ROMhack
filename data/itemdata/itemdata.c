@@ -143,7 +143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    .price = 700,
+    .price = 150,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +208,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    .price = 400,
+    .price = 100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -273,7 +273,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_BALL] =
 {
-    .price = 200,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -923,7 +923,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEAL_BALL] =
 {
-    .price = 300,
+    .price = 75,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5213,7 +5213,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SUN_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5278,7 +5278,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MOON_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5343,7 +5343,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FIRE_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5408,7 +5408,7 @@ const ITEMDATA __data[] =
 
 [ITEM_THUNDER_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5473,7 +5473,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WATER_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5538,7 +5538,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LEAF_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -6968,7 +6968,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SHINY_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -7033,7 +7033,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DUSK_STONE] =
 {
-    .price = 2100,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -12558,7 +12558,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MACHO_BRACE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 1000,
     .holdEffect = HOLD_EFFECT_EVS_UP_SPEED_DOWN,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -12570,9 +12570,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -12585,7 +12585,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -12623,7 +12623,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EXP_SHARE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 1000,
     .holdEffect = HOLD_EFFECT_EXP_SHARE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -12948,7 +12948,7 @@ const ITEMDATA __data[] =
 
 [ITEM_KINGS_ROCK - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 1000,
     .holdEffect = HOLD_EFFECT_SOMETIMES_FLINCH,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -12960,7 +12960,7 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
     .partyUse = 1,
     .partyUseParam = {
@@ -13728,7 +13728,7 @@ const ITEMDATA __data[] =
 
 [ITEM_METAL_COAT - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 1000,
     .holdEffect = HOLD_EFFECT_STRENGTHEN_STEEL,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -13740,7 +13740,7 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
     .partyUse = 1,
     .partyUseParam = {
@@ -13755,7 +13755,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -13870,7 +13870,7 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
     .partyUse = 1,
     .partyUseParam = {
@@ -14703,7 +14703,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TWISTED_SPOON - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 1000,
     .holdEffect = HOLD_EFFECT_STRENGTHEN_PSYCHIC,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -14715,7 +14715,7 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
     .partyUse = 1,
     .partyUseParam = {
@@ -14768,7 +14768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHARCOAL - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9800,
+    .price = 1000,
     .holdEffect = HOLD_EFFECT_STRENGTHEN_FIRE,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -14780,7 +14780,7 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
     .partyUse = 1,
     .partyUseParam = {

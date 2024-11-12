@@ -120,7 +120,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
+walklevels 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -328,7 +328,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
+walklevels 4, 4, 3, 3, 3, 4, 4, 5, 4, 4, 5, 4
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -432,7 +432,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 3, 4, 3, 4, 3, 3, 5, 5, 7, 7, 5, 4
+walklevels 4, 4, 4, 4, 4, 5, 4, 5, 7, 7, 5, 4
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -640,7 +640,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 7, 12
+walklevels 4, 3, 4, 5, 4, 5, 4, 6, 6, 5, 6, 12
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -744,7 +744,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 4, 3, 4, 5, 4, 5, 4, 6, 6, 5, 6, 12
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -848,7 +848,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 6
+walklevels 6, 6, 6, 5, 5, 6, 6, 6, 5, 5, 5, 6
 
 // morning encounter slots
 pokemon SPECIES_STUNKY
@@ -1472,7 +1472,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 6, 6, 6, 5, 5, 4, 4, 7, 6, 7, 6
+walklevels 6, 6, 6, 7, 7, 5, 5, 6, 8, 6, 5, 6
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
@@ -1576,7 +1576,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 8, 8, 8, 8, 7, 7, 8, 14, 7, 6, 8, 6
+walklevels 8, 8, 8, 8, 7, 7, 8, 11, 7, 6, 8, 6
 
 // morning encounter slots
 pokemon SPECIES_GEODUDE
@@ -1785,7 +1785,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 6, 7, 6, 7, 6, 6, 6, 6, 8, 4, 8, 4
+walklevels 7, 7, 6, 7, 6, 7, 6, 7, 8, 5, 7, 6
 
 // morning encounter slots
 pokemon SPECIES_HOPPIP
@@ -2097,7 +2097,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 7, 8, 6, 9, 7, 8, 8, 13, 13, 7, 5
+walklevels 7, 7, 8, 7, 9, 7, 8, 8, 12, 12, 7, 7
 
 // morning encounter slots
 pokemon SPECIES_SPINARAK
@@ -2201,7 +2201,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 11, 10, 11, 11, 10, 10, 10, 12, 12, 9, 10, 8
+walklevels 11, 10, 11, 11, 10, 10, 10, 12, 12, 9, 9, 8
 
 // morning encounter slots
 pokemon SPECIES_VOLTORB
@@ -2305,7 +2305,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 12, 12, 12, 12, 10, 9, 13, 11, 14, 10, 14, 16
+walklevels 12, 12, 12, 12, 10, 11, 11, 13, 14, 12, 10, 16
 
 // morning encounter slots
 pokemon SPECIES_EKANS
@@ -2409,7 +2409,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 13, 13, 12, 12, 14, 13, 11, 12
+walklevels 11, 11, 12, 12, 13, 13, 14, 14, 14, 13, 13, 13
 
 // morning encounter slots
 pokemon SPECIES_SUNKERN

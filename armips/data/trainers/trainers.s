@@ -620,7 +620,7 @@ trainerdata 20, "Falkner"
         // mon 0
         ivs 200
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_SPEAROW
         item ITEM_NONE
         move MOVE_SCRATCH
@@ -632,7 +632,7 @@ trainerdata 20, "Falkner"
         // mon 1
         ivs 160
         abilityslot 0
-        level 13
+        level 12
         pokemon SPECIES_PIDGEY
         item ITEM_NONE
         move MOVE_TACKLE
@@ -644,7 +644,7 @@ trainerdata 20, "Falkner"
         // mon 2
         ivs 160
         abilityslot 0
-        level 11
+        level 10
         pokemon SPECIES_HOOTHOOT
         item ITEM_NONE
         move MOVE_PECK
