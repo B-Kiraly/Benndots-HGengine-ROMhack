@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V13
-Current Task: Test playthrough of V13
+Current version: V13.1
+Current Task: Test playthrough of V13.1
 
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~95% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely untouched.
 
@@ -68,21 +68,22 @@ While this information is reliably true for ground encounters, I was a bit more 
 
 ### Non-native Species Lines Added to Johto
 
--Carbink
--Stunky 
--Mawile
--Sableye
 -Surskit
 -Wingull
+-Mawile
+-Sableye
+-Nosepass
 -Luvdisc
--Finneon
 -Relicanth
 -Clamperl
+-Finneon
 -Spoink
+-Stunky 
 -Snover
+-Drifloon
+-Carbink
 -Togedemaru (via Pikachu evolution)
 -Drampa (via Dunsparse evolution)
--Drifloon
 -Litwick
 -Cetoddle
 
@@ -126,6 +127,7 @@ Hoothoot & Noctowl: Mono Flying
 Zubat & Golbat & Crobat: Dark / Flying
 Azurill & Marill & Azumarill: Mono Water
 Oddish & Gloom: Mono Grass
+Hypno: Psychic / Dark
 Psyduck & Golduck: Water / Psychic
 Staryu & Starmie: Steel / Psychic
 Seel & Dewgong: Normal / Ice
@@ -150,14 +152,15 @@ Luvdisc: Water / Fairy
 Sableye: Rock / Ghost
 Masquerain: Bug / Water
 Seviper: Poison / Dark
+Nosepass & Probopass: Rock / Electric
 
 ## Evolutions and evolution methods (My changes)
 
-I intend to add a few extra evolution options to existing Pokemon for the fun of it. Ones that make sense in my head, due to similarities between apparently unrelated Pokemon. 
+This projects adds a few extra evolution options to existing Pokemon for the fun of it. Basically I take Pokemon from other generations who have a resemblance to HGSS Pokemon and give them the ability to evolve into it through one method or another. There's no science to it, it's just a fun little addition based on my headcannon. Ex: Geodude is now capable of evolving into Carkol. 
 
-I also intend to change some evolution methods and requirements. 
+Long-term, I also intend to create new evolution methods and requirements to existing Pokemon. Nothing crazy, just higher level requirements and in some cases level caps on evolution. Maybe a general held item evolution method that isn't split between day and night. I have already created some of these changes (partially) in a previous project. They need to be transferred over, expanded upon and completed eventually. 
 
-These changes have been made (partially) in a previous project. They need to be transferred over, expanded upon and completed. 
+And whether it's existing Pokemon evolutions or evolutions I've added, I've made sure to make the appropriate evolution items available in some way. If I'm not mistaken, all these items should either be purchasable somewhere or be found fairly commonly as a held item on certain Pokemon that make sense. 
 
 ### Changes to item utility for Pokemon evolutions 
 
@@ -183,6 +186,8 @@ Cubone: Branching evolution with Marowak and Kangaskhan (implemented, mostly. Un
 
 Eeveelutions: Eevee's Umbreon, Espeon, and Sylveon evolution methods were changed. Umbreon is obtained via dusk stone, Espeon is obtained via dawn stone, and Sylveon is obtained via shiny stone. (I'd like to add time of day requirements, but they don't exist in the engine's default methods so that won't be done for the time being.)
 
+Drowzee: Evolves by holding a metronome
+
 Gengar: Haunter evolves via Dusk Stone. Gastly is now a separate species with no evolution. 
 
 Pikachu: Added a 'metal coat' induced evolution into a reworked version of Togedemaru
@@ -195,7 +200,7 @@ Magikarp: Now requires the use of a dragon scale in order to evolve. (at that ev
 
 Psyduck: Now requires level up while knowing the move Amnesia. 
 
-Nidoking & Nidoqueen: Now requires the use of a King's Rock (as a stone) rather than the moon stone. 
+Nidoking & Nidoqueen: Now requires the use of a King's Rock (as a stone / held item) rather than the moon stone. 
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 

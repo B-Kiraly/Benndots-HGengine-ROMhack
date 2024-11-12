@@ -1338,7 +1338,7 @@ mondata SPECIES_POLIWRATH, "Poliwrath"
 
 
 mondata SPECIES_ABRA, "Abra"
-    basestats 35, 20, 40, 45, 100, 50
+    basestats 40, 25, 40, 50, 90, 50
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -1359,7 +1359,7 @@ mondata SPECIES_ABRA, "Abra"
 
 
 mondata SPECIES_KADABRA, "Kadabra"
-    basestats 55, 35, 50, 70, 120, 60
+    basestats 60, 40, 50, 70, 115, 60
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 100
     baseexp 0 // defined in baseexp.s
@@ -1380,9 +1380,9 @@ mondata SPECIES_KADABRA, "Kadabra"
 
 
 mondata SPECIES_ALAKAZAM, "Alakazam"
-    basestats 70, 45, 60, 70, 140, 70
+    basestats 70, 50, 65, 70, 140, 75
     types TYPE_PSYCHIC, TYPE_PSYCHIC
-    catchrate 50
+    catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_TWISTED_SPOON
@@ -2031,7 +2031,7 @@ mondata SPECIES_ONIX, "Onix"
 
 
 mondata SPECIES_DROWZEE, "Drowzee"
-    basestats 79, 59, 47, 49, 59, 90
+    basestats 79, 66, 48, 49, 61, 90
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -2052,8 +2052,8 @@ mondata SPECIES_DROWZEE, "Drowzee"
 
 
 mondata SPECIES_HYPNO, "Hypno"
-    basestats 87, 68, 62, 65, 86, 109
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    basestats 87, 75, 62, 79, 102, 98
+    types TYPE_PSYCHIC, TYPE_DARK
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -2068,7 +2068,7 @@ mondata SPECIES_HYPNO, "Hypno"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_HYPNO, "When it is very hungry, it puts\nhumans it meets to sleep,\nthen it feasts on their dreams."
     mondexclassification SPECIES_HYPNO, "Hypnosis Pokémon"
-    mondexheight SPECIES_HYPNO, "5’03”"
+    mondexheight SPECIES_HYPNO, "5’04”"
     mondexweight SPECIES_HYPNO, "166.7 lbs."
 
 
@@ -2750,7 +2750,7 @@ mondata SPECIES_GYARADOS, "Gyarados"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_DEEP_SEA_TOOTH, ITEM_DEEP_SEA_TOOTH
     genderratio 127
     eggcycles 5
     basefriendship 50
@@ -6294,8 +6294,8 @@ mondata SPECIES_AZURILL, "Azurill"
 
 
 mondata SPECIES_NOSEPASS, "Nosepass"
-    basestats 55, 71, 128, 37, 59, 76
-    types TYPE_ROCK, TYPE_ROCK
+    basestats 61, 81, 121, 31, 61, 81
+    types TYPE_ROCK, TYPE_ELECTRIC
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -6840,12 +6840,12 @@ mondata SPECIES_TORKOAL, "Torkoal"
 
 
 mondata SPECIES_SPOINK, "Spoink"
-    basestats 62, 42, 36, 65, 58, 58
+    basestats 62, 42, 36, 65, 58, 65
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
-    items ITEM_PERSIM_BERRY, ITEM_TANGA_BERRY
+    items ITEM_TANGA_BERRY, ITEM_PEARL
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -6861,12 +6861,12 @@ mondata SPECIES_SPOINK, "Spoink"
 
 
 mondata SPECIES_GRUMPIG, "Grumpig"
-    basestats 86, 74, 58, 84, 88, 88
+    basestats 92, 77, 58, 84, 88, 104
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
-    items ITEM_PERSIM_BERRY, ITEM_TANGA_BERRY
+    items ITEM_TANGA_BERRY, ITEM_PEARL
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -7706,7 +7706,7 @@ mondata SPECIES_CLAMPERL, "Clamperl"
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_PEARL, ITEM_BLUE_SHARD
+    items ITEM_DEEP_SEA_SCALE, ITEM_DEEP_SEA_TOOTH
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -7727,7 +7727,7 @@ mondata SPECIES_HUNTAIL, "Huntail"
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_DEEP_SEA_TOOTH
+    items ITEM_DEEP_SEA_TOOTH, ITEM_DEEP_SEA_TOOTH
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -7748,7 +7748,7 @@ mondata SPECIES_GOREBYSS, "Gorebyss"
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_NONE, ITEM_DEEP_SEA_SCALE
+    items ITEM_DEEP_SEA_SCALE, ITEM_DEEP_SEA_SCALE
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -10011,8 +10011,8 @@ mondata SPECIES_GALLADE, "Gallade"
 
 
 mondata SPECIES_PROBOPASS, "Probopass"
-    basestats 68, 75, 128, 41, 113, 113
-    types TYPE_ROCK, TYPE_STEEL
+    basestats 71, 91, 121, 41, 81, 111
+    types TYPE_ROCK, TYPE_ELECTRIC
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 2

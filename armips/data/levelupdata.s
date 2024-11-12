@@ -7185,22 +7185,27 @@ levelup SPECIES_AZURILL
 
 
 levelup SPECIES_NOSEPASS
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_HARDEN, 4
-    learnset MOVE_BLOCK, 7
-    learnset MOVE_ROCK_THROW, 10
-    learnset MOVE_THUNDER_WAVE, 13
-    learnset MOVE_REST, 16
-    learnset MOVE_SPARK, 19
-    learnset MOVE_ROCK_SLIDE, 22
-    learnset MOVE_POWER_GEM, 25
-    learnset MOVE_ROCK_BLAST, 28
-    learnset MOVE_DISCHARGE, 31
-    learnset MOVE_SANDSTORM, 34
-    learnset MOVE_EARTH_POWER, 37
-    learnset MOVE_STONE_EDGE, 40
-    learnset MOVE_LOCK_ON, 43
-    learnset MOVE_ZAP_CANNON, 43
+    learnset MOVE_POUND, 1
+    learnset MOVE_BLOCK, 1
+    learnset MOVE_FOLLOW_ME, 5
+    learnset MOVE_NUZZLE, 8
+    learnset MOVE_SMACK_DOWN, 12
+    learnset MOVE_THUNDER_WAVE, 15
+    learnset MOVE_BARRIER, 18
+    learnset MOVE_SHOCK_WAVE, 22
+    learnset MOVE_BODY_SLAM, 25
+    learnset MOVE_CHARGE, 27
+    learnset MOVE_MAGNET_BOMB, 29
+    learnset MOVE_SPARK, 32
+    learnset MOVE_ELECTRIC_TERRAIN, 35
+    learnset MOVE_ROCK_TOMB, 38
+    learnset MOVE_CHARGE_BEAM, 42
+    learnset MOVE_LOCK_ON, 45
+    learnset MOVE_ROCK_BLAST, 48
+    learnset MOVE_ZAP_CANNON, 52
+    learnset MOVE_PROTECT, 56
+    learnset MOVE_STONE_EDGE, 60
+    learnset MOVE_VOLT_SWITCH, 64
     terminatelearnset
 
 
@@ -11253,31 +11258,32 @@ levelup SPECIES_GALLADE
 
 
 levelup SPECIES_PROBOPASS
-    learnset MOVE_TRI_ATTACK, 0
     learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_MAGNETIC_FLUX, 1
     learnset MOVE_MAGNET_RISE, 1
     learnset MOVE_GRAVITY, 1
     learnset MOVE_WIDE_GUARD, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_IRON_DEFENSE, 1
+    learnset MOVE_POUND, 1
     learnset MOVE_BLOCK, 1
-    learnset MOVE_MAGNET_BOMB, 1
-    learnset MOVE_IRON_DEFENSE, 4
-    learnset MOVE_BLOCK, 7
-    learnset MOVE_MAGNET_BOMB, 10
-    learnset MOVE_THUNDER_WAVE, 13
-    learnset MOVE_REST, 16
-    learnset MOVE_SPARK, 19
-    learnset MOVE_ROCK_SLIDE, 22
-    learnset MOVE_POWER_GEM, 25
-    learnset MOVE_ROCK_BLAST, 28
-    learnset MOVE_DISCHARGE, 31
-    learnset MOVE_SANDSTORM, 34
-    learnset MOVE_EARTH_POWER, 37
-    learnset MOVE_STONE_EDGE, 40
-    learnset MOVE_LOCK_ON, 43
-    learnset MOVE_ZAP_CANNON, 43
+    learnset MOVE_FOLLOW_ME, 5
+    learnset MOVE_NUZZLE, 8
+    learnset MOVE_SMACK_DOWN, 12
+    learnset MOVE_THUNDER_WAVE, 15
+    learnset MOVE_BARRIER, 18
+    learnset MOVE_SHOCK_WAVE, 22
+    learnset MOVE_BODY_SLAM, 25
+    learnset MOVE_CHARGE, 27
+    learnset MOVE_MAGNET_BOMB, 29
+    learnset MOVE_SPARK, 32
+    learnset MOVE_ELECTRIC_TERRAIN, 35
+    learnset MOVE_ROCK_TOMB, 38
+    learnset MOVE_CHARGE_BEAM, 42
+    learnset MOVE_LOCK_ON, 45
+    learnset MOVE_ROCK_BLAST, 48
+    learnset MOVE_ZAP_CANNON, 52
+    learnset MOVE_PROTECT, 56
+    learnset MOVE_STONE_EDGE, 60
+    learnset MOVE_VOLT_SWITCH, 64
     terminatelearnset
 
 

@@ -7228,11 +7228,11 @@ movedata MOVE_BUG_BITE, "Bug Bite"
 movedata MOVE_CHARGE_BEAM, "Charge Beam"
     battleeffect MOVE_EFFECT_RAISE_SP_ATK_HIT
     pss SPLIT_SPECIAL
-    basepower 45
+    basepower 40
     type TYPE_ELECTRIC
-    accuracy 95
+    accuracy 90
     pp 10
-    effectchance 66
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
