@@ -1990,22 +1990,26 @@ levelup SPECIES_FARFETCHD
 levelup SPECIES_DODUO
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_QUICK_ATTACK, 5
-    learnset MOVE_RAGE, 8
+    learnset MOVE_RAGE, 6
+    learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_FURY_ATTACK, 12
     learnset MOVE_PURSUIT, 15
     learnset MOVE_PLUCK, 19
     learnset MOVE_DOUBLE_HIT, 22
-    learnset MOVE_AGILITY, 26
-    learnset MOVE_UPROAR, 29
-    learnset MOVE_ACUPRESSURE, 33
-    learnset MOVE_SWORDS_DANCE, 36
-    learnset MOVE_JUMP_KICK, 40
-    learnset MOVE_DRILL_PECK, 43
+    learnset MOVE_STOMP, 26
+    learnset MOVE_SWAGGER, 29
+    learnset MOVE_UPROAR, 31
+    learnset MOVE_DRILL_PECK, 33
+    learnset MOVE_SLACK_OFF, 35
+    learnset MOVE_JUMP_KICK, 37
+    learnset MOVE_AMNESIA, 39
+    learnset MOVE_TRI_ATTACK, 41
+    learnset MOVE_TRAILBLAZE, 44
     learnset MOVE_ENDEAVOR, 47
-    learnset MOVE_DIG, 50
-    learnset MOVE_THRASH, 53
-    learnset MOVE_BRAVE_BIRD, 56
+    learnset MOVE_DIG, 49
+    learnset MOVE_THRASH, 52
+    learnset MOVE_OUTRAGE, 55
+    learnset MOVE_BRAVE_BIRD, 58
     terminatelearnset
 
 
@@ -2013,21 +2017,21 @@ levelup SPECIES_DODRIO
     learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_QUICK_ATTACK, 1
-    learnset MOVE_RAGE, 1
-    learnset MOVE_QUICK_ATTACK, 5
-    learnset MOVE_RAGE, 8
+    learnset MOVE_RAGE, 6
+    learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_FURY_ATTACK, 12
     learnset MOVE_PURSUIT, 15
     learnset MOVE_PLUCK, 19
     learnset MOVE_DOUBLE_HIT, 22
-    learnset MOVE_AGILITY, 26
-    learnset MOVE_UPROAR, 29
-    learnset MOVE_ACUPRESSURE, 34
-    learnset MOVE_SWORDS_DANCE, 38
-    learnset MOVE_JUMP_KICK, 43
+    learnset MOVE_STOMP, 26
+    learnset MOVE_SWAGGER, 29
+    learnset MOVE_UPROAR, 31
+    learnset MOVE_DRILL_PECK, 35
+    learnset MOVE_SLACK_OFF, 38
+    learnset MOVE_JUMP_KICK, 40
+    learnset MOVE_AMNESIA, 43
     learnset MOVE_TRI_ATTACK, 46
-    learnset MOVE_DRILL_PECK, 49
+    learnset MOVE_TRAILBLAZE, 49
     learnset MOVE_ENDEAVOR, 52
     learnset MOVE_DIG, 55
     learnset MOVE_THRASH, 58
