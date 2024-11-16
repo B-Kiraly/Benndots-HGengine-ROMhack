@@ -2150,45 +2150,45 @@ pokemon SPECIES_BUDEW
 pokemon SPECIES_CARNIVINE
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_PSYDUCK, 5, 15
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
+encounter SPECIES_POLIWAG, 12, 20
+encounter SPECIES_SURSKIT, 12, 20
+encounter SPECIES_PSYDUCK, 12, 20
+encounter SPECIES_POLIWAG, 12, 20
+encounter SPECIES_SURSKIT, 12, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_GOLDEEN, 8, 12
+encounter SPECIES_GOLDEEN, 8, 12
+encounter SPECIES_POLIWAG, 8, 12
+encounter SPECIES_POLIWAG, 8, 12
+encounter SPECIES_RELICANTH, 8, 12
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_GOLDEEN, 18, 24
+encounter SPECIES_POLIWAG, 18, 24
+encounter SPECIES_GOLDEEN, 18, 24
+encounter SPECIES_RELICANTH, 18, 24
+encounter SPECIES_POLIWHIRL, 25, 27
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_SEAKING, 36, 44
+encounter SPECIES_POLIWHIRL, 36, 44
+encounter SPECIES_RELICANTH, 36, 44
+encounter SPECIES_POLITOED, 36, 44
+encounter SPECIES_POLIWRATH, 36, 44
 
 // swarm grass
 pokemon SPECIES_CELEBI
 // swarm surf
-pokemon SPECIES_PSYDUCK
+pokemon SPECIES_SURSKIT
 // swarm good rod
 pokemon SPECIES_POLIWAG
 // swarm super rod
-pokemon SPECIES_MAGIKARP
+pokemon SPECIES_RELICANTH
 
 .close
 

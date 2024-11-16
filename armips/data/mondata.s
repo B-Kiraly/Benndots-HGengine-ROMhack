@@ -2598,7 +2598,7 @@ mondata SPECIES_MR_MIME, "Mr. Mime"
 
 
 mondata SPECIES_SCYTHER, "Scyther"
-    basestats 60, 105, 80, 93, 45, 70
+    basestats 61, 104, 80, 93, 43, 70
     types TYPE_BUG, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4007,7 +4007,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
 mondata SPECIES_AIPOM, "Aipom"
     basestats 56, 68, 49, 81, 42, 60
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
+    catchrate 95
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE

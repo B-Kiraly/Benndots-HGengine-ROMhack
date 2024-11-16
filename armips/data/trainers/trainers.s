@@ -359,23 +359,23 @@ trainerdata 12, "Grunt"
 
     party 12
         // mon 0
-        ivs 30
+        ivs 15
         abilityslot 32
-        level 7
+        level 9
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 15
         abilityslot 0
-        level 9
+        level 8
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 15
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
     endparty
@@ -394,14 +394,14 @@ trainerdata 13, "Grunt"
 
     party 13
         // mon 0
-        ivs 30
+        ivs 15
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 19
         abilityslot 0
         level 11
         pokemon SPECIES_EKANS
@@ -668,9 +668,9 @@ trainerdata 21, "Bugsy"
 
     party 21
         // mon 0
-        ivs 180
+        ivs 160
         abilityslot 32
-        level 16
+        level 13
         pokemon SPECIES_SCYTHER
         item ITEM_SITRUS_BERRY
         move MOVE_QUICK_ATTACK
@@ -680,7 +680,7 @@ trainerdata 21, "Bugsy"
         ballseal 0
 
         // mon 1
-        ivs 140
+        ivs 180
         abilityslot 0
         level 14
         pokemon SPECIES_SPINARAK
@@ -692,14 +692,14 @@ trainerdata 21, "Bugsy"
         ballseal 0
 
         // mon 2
-        ivs 80
+        ivs 160
         abilityslot 0
-        level 16
-        pokemon SPECIES_METAPOD
+        level 15
+        pokemon SPECIES_LEDYBA
         item ITEM_NONE
-        move MOVE_TACKLE
-        move MOVE_SAFEGUARD
-        move MOVE_IRON_DEFENSE
+        move MOVE_SUPERSONIC
+        move MOVE_U_TURN
+        move MOVE_FAIRY_WIND
         move MOVE_NONE
         ballseal 0
     endparty
@@ -785,23 +785,23 @@ trainerdata 25, "Russel"
 
     party 25
         // mon 0
-        ivs 0
-        abilityslot 32
-        level 4
-        pokemon SPECIES_GEODUDE
-        ballseal 0
-
-        // mon 1
-        ivs 0
+        ivs 10
         abilityslot 32
         level 6
         pokemon SPECIES_GEODUDE
         ballseal 0
 
-        // mon 2
-        ivs 0
+        // mon 1
+        ivs 10
         abilityslot 32
-        level 8
+        level 6
+        pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 32
+        level 7
         pokemon SPECIES_GEODUDE
         ballseal 0
     endparty
@@ -933,7 +933,7 @@ trainerdata 29, "Rod"
 trainerdata 30, "Whitney"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER
-    nummons 3
+    nummons 2
     item ITEM_SUPER_POTION
     item ITEM_X_SPEED
     item ITEM_NONE
@@ -944,21 +944,9 @@ trainerdata 30, "Whitney"
 
     party 30
         // mon 0
-        ivs 150
-        abilityslot 0
-        level 16
-        pokemon SPECIES_JIGGLYPUFF
-        item ITEM_ORAN_BERRY
-        move MOVE_SING
-        move MOVE_DISARMING_VOICE
-        move MOVE_DOUBLE_SLAP
-        move MOVE_DISABLE
-        ballseal 0
-
-        // mon 1
-        ivs 180
+        ivs 200
         abilityslot 32
-        level 19
+        level 17
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
@@ -967,16 +955,16 @@ trainerdata 30, "Whitney"
         move MOVE_MILK_DRINK
         ballseal 0
 
-        // mon 2
-        ivs 150
+        // mon 1
+        ivs 180
         abilityslot 0
-        level 16
-        pokemon SPECIES_TEDDIURSA
-        item ITEM_ORAN_BERRY
-        move MOVE_FURY_SWIPES
-        move MOVE_FAKE_TEARS
-        move MOVE_DRAINING_KISS
-        move MOVE_CHARM
+        level 18
+        pokemon SPECIES_FURRET
+        item ITEM_SITRUS_BERRY
+        move MOVE_CUT
+        move MOVE_QUICK_ATTACK
+        move MOVE_ATTRACT
+        move MOVE_DEFENSE_CURL
         ballseal 0
     endparty
 
@@ -3162,14 +3150,14 @@ trainerdata 101, "Grunt"
 
     party 101
         // mon 0
-        ivs 30
+        ivs 17
         abilityslot 32
-        level 9
+        level 10
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 23
         abilityslot 32
         level 9
         pokemon SPECIES_RATTATA
@@ -8979,24 +8967,24 @@ trainerdata 269, "Silver"
 
     party 269
         // mon 0
-        ivs 30
+        ivs 21
         abilityslot 0
-        level 14
+        level 15
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 30
+        ivs 16
         abilityslot 0
-        level 16
+        level 15
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 30
+        ivs 27
         abilityslot 0
-        level 18
-        pokemon SPECIES_CROCONAW
+        level 17
+        pokemon SPECIES_TOTODILE
         ballseal 0
     endparty
 
@@ -10916,17 +10904,17 @@ trainerdata 319, "Bill"
 
     party 319
         // mon 0
-        ivs 0
+        ivs 12
         abilityslot 0
-        level 6
+        level 7
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 12
         abilityslot 0
-        level 6
-        pokemon SPECIES_KOFFING
+        level 8
+        pokemon SPECIES_SLUGMA
         ballseal 0
     endparty
 
@@ -13110,9 +13098,9 @@ trainerdata 390, "Ray"
 
     party 390
         // mon 0
-        ivs 0
+        ivs 15
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_VULPIX
         ballseal 0
     endparty
@@ -16212,16 +16200,16 @@ trainerdata 486, "Proton"
 
     party 486
         // mon 0
-        ivs 100
+        ivs 20
         abilityslot 0
-        level 8
+        level 11
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
-        ivs 100
+        ivs 27
         abilityslot 0
-        level 12
+        level 13
         pokemon SPECIES_KOFFING
         ballseal 0
     endparty

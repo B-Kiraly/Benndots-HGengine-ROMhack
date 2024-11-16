@@ -385,54 +385,54 @@ levelup SPECIES_PIDGEOT
 levelup SPECIES_RATTATA
     learnset MOVE_SCRATCH, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_DOUBLE_TEAM, 5
-    learnset MOVE_BITE, 8
-    learnset MOVE_QUICK_ATTACK, 11
+    learnset MOVE_BITE, 7
+    learnset MOVE_QUICK_ATTACK, 10
     learnset MOVE_PURSUIT, 13
     learnset MOVE_SPITE, 15
     learnset MOVE_COVET, 17
-    learnset MOVE_HYPER_FANG, 20
-    learnset MOVE_CRUNCH, 23
-    learnset MOVE_FAKE_OUT, 26
-    learnset MOVE_SUPER_FANG, 28
-    learnset MOVE_SNATCH, 31
-    learnset MOVE_YAWN, 33
-    learnset MOVE_DOUBLE_EDGE, 36
-    learnset MOVE_POISON_FANG, 40
-    learnset MOVE_STOCKPILE, 44
-    learnset MOVE_SPIT_UP, 44
-    learnset MOVE_SWALLOW, 44
-    learnset MOVE_ACROBATICS, 47
-    learnset MOVE_ENDEAVOR, 50
-    learnset MOVE_PSYCHIC_FANGS, 55
-    learnset MOVE_FALSE_SWIPE, 60
+    learnset MOVE_DOUBLE_TEAM, 19
+    learnset MOVE_HYPER_FANG, 22
+    learnset MOVE_CRUNCH, 25
+    learnset MOVE_FAKE_OUT, 28
+    learnset MOVE_SUPER_FANG, 32
+    learnset MOVE_SNATCH, 35
+    learnset MOVE_YAWN, 37
+    learnset MOVE_DOUBLE_EDGE, 40
+    learnset MOVE_POISON_FANG, 43
+    learnset MOVE_STOCKPILE, 46
+    learnset MOVE_SPIT_UP, 46
+    learnset MOVE_SWALLOW, 46
+    learnset MOVE_ACROBATICS, 50
+    learnset MOVE_ENDEAVOR, 54
+    learnset MOVE_PSYCHIC_FANGS, 58
+    learnset MOVE_FALSE_SWIPE, 62
     terminatelearnset
 
 
 levelup SPECIES_RATICATE
     learnset MOVE_SCRATCH, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_DOUBLE_TEAM, 5
-    learnset MOVE_BITE, 8
-    learnset MOVE_QUICK_ATTACK, 11
+    learnset MOVE_BITE, 7
+    learnset MOVE_QUICK_ATTACK, 10
     learnset MOVE_PURSUIT, 13
     learnset MOVE_SPITE, 15
     learnset MOVE_COVET, 17
-    learnset MOVE_HYPER_FANG, 20
-    learnset MOVE_CRUNCH, 23
-    learnset MOVE_FAKE_OUT, 26
-    learnset MOVE_SUPER_FANG, 28
-    learnset MOVE_SNATCH, 31
-    learnset MOVE_YAWN, 33
-    learnset MOVE_DOUBLE_EDGE, 36
-    learnset MOVE_POISON_FANG, 40
-    learnset MOVE_STOCKPILE, 44
-    learnset MOVE_SPIT_UP, 44
-    learnset MOVE_SWALLOW, 44
-    learnset MOVE_ACROBATICS, 47
-    learnset MOVE_ENDEAVOR, 50
-    learnset MOVE_PSYCHIC_FANGS, 55
-    learnset MOVE_FALSE_SWIPE, 60
+    learnset MOVE_DOUBLE_TEAM, 19
+    learnset MOVE_HYPER_FANG, 22
+    learnset MOVE_CRUNCH, 25
+    learnset MOVE_FAKE_OUT, 28
+    learnset MOVE_SUPER_FANG, 32
+    learnset MOVE_SNATCH, 35
+    learnset MOVE_YAWN, 37
+    learnset MOVE_DOUBLE_EDGE, 40
+    learnset MOVE_POISON_FANG, 43
+    learnset MOVE_STOCKPILE, 46
+    learnset MOVE_SPIT_UP, 46
+    learnset MOVE_SWALLOW, 46
+    learnset MOVE_ACROBATICS, 50
+    learnset MOVE_ENDEAVOR, 54
+    learnset MOVE_PSYCHIC_FANGS, 58
+    learnset MOVE_FALSE_SWIPE, 62
     terminatelearnset
 
 

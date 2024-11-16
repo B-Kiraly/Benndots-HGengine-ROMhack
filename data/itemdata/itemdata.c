@@ -1118,7 +1118,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POTION] =
 {
-    .price = 300,
+    .price = 200,
     .holdEffect = 0,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -1183,7 +1183,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ANTIDOTE] =
 {
-    .price = 100,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1248,7 +1248,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BURN_HEAL] =
 {
-    .price = 250,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1313,7 +1313,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ICE_HEAL] =
 {
-    .price = 250,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1378,7 +1378,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AWAKENING] =
 {
-    .price = 250,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1443,7 +1443,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PARALYZE_HEAL] =
 {
-    .price = 200,
+    .price = 50,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1508,7 +1508,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_RESTORE] =
 {
-    .price = 1600,
+    .price = 1500,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -1573,7 +1573,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_POTION] =
 {
-    .price = 1200,
+    .price = 1000,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -1638,7 +1638,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HYPER_POTION] =
 {
-    .price = 1200,
+    .price = 700,
     .holdEffect = 0,
     .holdEffectParam = 200,
     .pluckEffect = 0,
@@ -1703,7 +1703,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SUPER_POTION] =
 {
-    .price = 700,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 50,
     .pluckEffect = 0,
@@ -1768,7 +1768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_HEAL] =
 {
-    .price = 400,
+    .price = 300,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1833,7 +1833,7 @@ const ITEMDATA __data[] =
 
 [ITEM_REVIVE] =
 {
-    .price = 1000,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1898,7 +1898,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REVIVE] =
 {
-    .price = 2000,
+    .price = 1200,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2483,7 +2483,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ETHER] =
 {
-    .price = 600,
+    .price = 250,
     .holdEffect = 0,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -2548,7 +2548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ETHER] =
 {
-    .price = 1000,
+    .price = 800,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,

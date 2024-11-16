@@ -1390,7 +1390,7 @@ movedata MOVE_THUNDER_WAVE, "Thunder Wave"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ELECTRIC
-    accuracy 85
+    accuracy 90
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -2247,7 +2247,7 @@ movedata MOVE_POISON_GAS, "Poison Gas"
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
-    movedescription MOVE_POISON_GAS, "A cloud of poison gas\nis sprayed in the\nfoe’s face.\nIt may poison the\ntarget."
+    movedescription MOVE_POISON_GAS, "A cloud of poison gas\nis sprayed in the\nfoe’s face.\nPoisons the foe\non contact."
 
 movedata MOVE_BARRAGE, "Barrage"
     battleeffect MOVE_EFFECT_MULTI_HIT
@@ -3660,10 +3660,10 @@ movedata MOVE_ENCORE, "Encore"
 movedata MOVE_PURSUIT, "Pursuit"
     battleeffect MOVE_EFFECT_HIT_BEFORE_SWITCH
     pss SPLIT_PHYSICAL
-    basepower 45
+    basepower 50
     type TYPE_DARK
-    accuracy 100
-    pp 20
+    accuracy 90
+    pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -5916,10 +5916,10 @@ movedata MOVE_METAL_BURST, "Metal Burst"
 movedata MOVE_U_TURN, "U-turn"
     battleeffect MOVE_EFFECT_SWITCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 55
+    basepower 50
     type TYPE_BUG
-    accuracy 95
-    pp 12
+    accuracy 85
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9805,9 +9805,9 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
 movedata MOVE_NUZZLE, "Nuzzle"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 30
     type TYPE_ELECTRIC
-    accuracy 100
+    accuracy 85
     pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -9816,7 +9816,7 @@ movedata MOVE_NUZZLE, "Nuzzle"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_NUZZLE, "---"
+    movedescription MOVE_NUZZLE, "The user attacks\nby nuzzling its\nelectrified cheeks\nagainst the target.\nAlways paralyzes."
 
 movedata MOVE_HOLD_BACK, "Hold Back"
     battleeffect MOVE_EFFECT_LEAVE_WITH_1_HP
@@ -14205,10 +14205,10 @@ movedata MOVE_SNOWSCAPE, "Snowscape"
 movedata MOVE_POUNCE, "Pounce"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 55
     type TYPE_BUG
-    accuracy 85
-    pp 20
+    accuracy 80
+    pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
@@ -14216,7 +14216,7 @@ movedata MOVE_POUNCE, "Pounce"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_POUNCE, "---"
+    movedescription MOVE_POUNCE, "The user pounces at\nthe target with a\nfierce strike. Lowers\nthe target's speed.'"
 
 movedata MOVE_TRAILBLAZE, "Trailblaze"
     battleeffect MOVE_EFFECT_RAISE_SPEED_HIT
