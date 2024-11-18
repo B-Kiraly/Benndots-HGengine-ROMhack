@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V13.3
-Current Task: Test playthrough of V13.3
+Current version: V13.4
+Current Task: Test playthrough of V13.4
 
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~95% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely untouched.
 
@@ -111,6 +111,7 @@ Few to no Pokemon in the game should possess any moves that aren't currently imp
 * Fossil species
 * Pineco (revise)
 * Growlithe (revise)
+* Eeveelutions (revise)
 
 ## Type Matchup Changes
 

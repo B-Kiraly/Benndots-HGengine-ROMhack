@@ -2840,7 +2840,7 @@ mondata SPECIES_VAPOREON, "Vaporeon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_WATER_ABSORB, ABILITY_NONE
+    abilities ABILITY_WATER_ABSORB, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_VAPOREON, "When VAPOREON’s fins begin to\nvibrate, it is a sign that rain\nwill come within a few hours."
@@ -2861,7 +2861,7 @@ mondata SPECIES_JOLTEON, "Jolteon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_VOLT_ABSORB, ABILITY_NONE
+    abilities ABILITY_VOLT_ABSORB, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_JOLTEON, "It concentrates the weak electric\ncharges emitted by its cells and\nlaunches wicked lightning bolts."
@@ -2882,7 +2882,7 @@ mondata SPECIES_FLAREON, "Flareon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    abilities ABILITY_FLASH_FIRE, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_FLAREON, "It stores some of the air it inhales in\nits internal flame pouch, which heats it\nto over 3,000 degrees Fahrenheit."
@@ -4142,7 +4142,7 @@ mondata SPECIES_ESPEON, "Espeon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SYNCHRONIZE, ABILITY_NONE
+    abilities ABILITY_SYNCHRONIZE, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_ESPEON, "It uses the fine hair that covers\nits body to sense air currents and\npredict its enemy’s actions."
@@ -4163,7 +4163,7 @@ mondata SPECIES_UMBREON, "Umbreon"
     basefriendship 35
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SYNCHRONIZE, ABILITY_NONE
+    abilities ABILITY_SYNCHRONIZE, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_UMBREON, "When agitated, this Pokémon\nprotects itself by spraying\npoisonous sweat from its pores."
@@ -9885,7 +9885,7 @@ mondata SPECIES_YANMEGA, "Yanmega"
 
 
 mondata SPECIES_LEAFEON, "Leafeon"
-    basestats 67, 86, 79, 83, 86, 79
+    basestats 67, 89, 79, 93, 89, 79
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9896,7 +9896,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
     basefriendship 35
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_LEAF_GUARD, ABILITY_NONE
+    abilities ABILITY_LEAF_GUARD, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_LEAFEON, "When you see LEAFEON asleep in a patch\nof sunshine, you’ll know it is using\nphotosynthesis to produce clean air."
@@ -9906,7 +9906,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
 
 
 mondata SPECIES_GLACEON, "Glaceon"
-    basestats 65, 60, 104, 71, 100, 78
+    basestats 66, 62, 102, 71, 98, 81
     types TYPE_ICE, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9917,7 +9917,7 @@ mondata SPECIES_GLACEON, "Glaceon"
     basefriendship 35
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    abilities ABILITY_SNOW_CLOAK, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_GLACEON, "It causes small ice crystals to form by\nlowering the temperature of the\nsurrounding atmosphere."
@@ -15776,7 +15776,7 @@ mondata SPECIES_SYLVEON, "Sylveon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CUTE_CHARM, ABILITY_NONE
+    abilities ABILITY_CUTE_CHARM, ABILITY_ADAPTABILITY
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_SYLVEON, "It sends a soothing aura from its\nribbonlike feelers to calm fights."

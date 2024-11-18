@@ -2254,36 +2254,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 29, 29
+encounter SPECIES_PSYDUCK, 15, 25
+encounter SPECIES_TENTACOOL, 13, 26
+encounter SPECIES_WINGULL, 15, 25
+encounter SPECIES_CETODDLE, 15, 25
+encounter SPECIES_CORSOLA, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_TENTACOOL, 9, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_QWILFISH, 9, 12
+encounter SPECIES_STARYU, 9, 12
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_MAGIKARP, 17, 26
+encounter SPECIES_TENTACOOL, 17, 26
+encounter SPECIES_STARYU, 17, 26
+encounter SPECIES_FINNEON, 17, 26
+encounter SPECIES_CHINCHOU, 17, 26
 
 // super rod encounters
 encounter SPECIES_KRABBY, 40, 40
 encounter SPECIES_CORSOLA, 40, 40
 encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_LUMINEON, 40, 40
+encounter SPECIES_LANTURN, 40, 40
 
 // swarm grass
 pokemon SPECIES_MANKEY
