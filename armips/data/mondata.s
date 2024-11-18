@@ -1022,9 +1022,9 @@ mondata SPECIES_PARASECT, "Parasect"
     mondexweight SPECIES_PARASECT, "88.0 lbs."
 
 
-mondata SPECIES_VENONAT, "Venonat"
-    basestats 58, 50, 47, 58, 55, 60
-    types TYPE_BUG, TYPE_POISON
+mondata SPECIES_VENONAT, "Nitenat"
+    basestats 63, 52, 42, 58, 63, 63
+    types TYPE_BUG, TYPE_DARK
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -1043,9 +1043,9 @@ mondata SPECIES_VENONAT, "Venonat"
     mondexweight SPECIES_VENONAT, "66.1 lbs."
 
 
-mondata SPECIES_VENOMOTH, "Venomoth"
-    basestats 77, 65, 52, 88, 93, 87
-    types TYPE_BUG, TYPE_POISON
+mondata SPECIES_VENOMOTH, "Nitemoth"
+    basestats 88, 68, 54, 88, 98, 83
+    types TYPE_BUG, TYPE_DARK
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 1, 0
@@ -1060,8 +1060,8 @@ mondata SPECIES_VENOMOTH, "Venomoth"
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_VENOMOTH, "When it attacks, it flaps its large\nwings violently to scatter its\npoisonous powder all around."
     mondexclassification SPECIES_VENOMOTH, "Poison Moth Pokémon"
-    mondexheight SPECIES_VENOMOTH, "4’11”"
-    mondexweight SPECIES_VENOMOTH, "27.6 lbs."
+    mondexheight SPECIES_VENOMOTH, "5’07”"
+    mondexweight SPECIES_VENOMOTH, "77.6 lbs."
 
 
 mondata SPECIES_DIGLETT, "Diglett"
@@ -2619,8 +2619,8 @@ mondata SPECIES_SCYTHER, "Scyther"
 
 
 mondata SPECIES_JYNX, "Jynx"
-    basestats 40, 60, 85, 95, 120, 110
-    types TYPE_ICE, TYPE_PSYCHIC
+    basestats 45, 65, 100, 95, 125, 100
+    types TYPE_ICE, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -4278,7 +4278,7 @@ mondata SPECIES_WOBBUFFET, "Wobbuffet"
 
 
 mondata SPECIES_GIRAFARIG, "Girafarig"
-    basestats 90, 79, 61, 79, 86, 91
+    basestats 97, 81, 61, 79, 87, 91
     types TYPE_NORMAL, TYPE_PSYCHIC
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -5013,8 +5013,8 @@ mondata SPECIES_HITMONTOP, "Hitmontop"
 
 
 mondata SPECIES_SMOOCHUM, "Smoochum"
-    basestats 44, 33, 22, 66, 77, 55
-    types TYPE_ICE, TYPE_PSYCHIC
+    basestats 44, 33, 33, 66, 66, 55
+    types TYPE_ICE, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
