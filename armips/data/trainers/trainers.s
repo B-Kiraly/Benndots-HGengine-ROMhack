@@ -212,30 +212,30 @@ trainerdata 7, "Irwin"
 
     party 7
         // mon 0
-        ivs 0
+        ivs 210
         abilityslot 0
-        level 2
+        level 7
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 170
         abilityslot 32
-        level 6
+        level 11
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 160
         abilityslot 0
-        level 10
+        level 14
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 3
-        ivs 0
+        ivs 80
         abilityslot 32
-        level 14
+        level 16
         pokemon SPECIES_VOLTORB
         ballseal 0
     endparty
@@ -2230,7 +2230,7 @@ trainerdata 71, "Cathy"
 trainerdata 72, "Bryan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    nummons 2
+    nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2241,16 +2241,9 @@ trainerdata 72, "Bryan"
 
     party 72
         // mon 0
-        ivs 50
+        ivs 30
         abilityslot 0
-        level 12
-        pokemon SPECIES_PIDGEY
-        ballseal 0
-
-        // mon 1
-        ivs 50
-        abilityslot 0
-        level 14
+        level 17
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
@@ -2318,21 +2311,21 @@ trainerdata 74, "Ivan"
 
     party 74
         // mon 0
-        ivs 0
+        ivs 170
         abilityslot 0
-        level 10
+        level 12
         pokemon SPECIES_DIGLETT
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 200
         abilityslot 0
-        level 10
+        level 13
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 110
         abilityslot 0
         level 14
         pokemon SPECIES_DIGLETT
@@ -2353,16 +2346,16 @@ trainerdata 75, "Elliot"
 
     party 75
         // mon 0
-        ivs 0
+        ivs 90
         abilityslot 0
-        level 13
+        level 14
         pokemon SPECIES_SANDSHREW
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 90
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_MARILL
         ballseal 0
     endparty
@@ -2381,12 +2374,12 @@ trainerdata 76, "Brooke"
 
     party 76
         // mon 0
-        ivs 0
+        ivs 50
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_PIKACHU
-        move MOVE_THUNDER_SHOCK
-        move MOVE_GROWL
+        move MOVE_ELECTRO_BALL
+        move MOVE_TAIL_WHIP
         move MOVE_QUICK_ATTACK
         move MOVE_DOUBLE_TEAM
         ballseal 0
@@ -2406,9 +2399,9 @@ trainerdata 77, "Kim"
 
     party 77
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 15
+        level 16
         pokemon SPECIES_VULPIX
         ballseal 0
     endparty
@@ -2427,9 +2420,9 @@ trainerdata 78, "Arnie"
 
     party 78
         // mon 0
-        ivs 0
+        ivs 230
         abilityslot 0
-        level 15
+        level 17
         pokemon SPECIES_VENONAT
         ballseal 0
     endparty
@@ -2476,16 +2469,16 @@ trainerdata 80, "Dirk"
 
     party 80
         // mon 0
-        ivs 0
+        ivs 150
         abilityslot 0
         level 14
-        pokemon SPECIES_GROWLITHE
+        pokemon SPECIES_VULPIX
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 110
         abilityslot 0
-        level 14
+        level 16
         pokemon SPECIES_GROWLITHE
         ballseal 0
     endparty
@@ -12149,7 +12142,7 @@ trainerdata 359, "Jim"
 trainerdata 360, "Arnie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -12160,10 +12153,17 @@ trainerdata 360, "Arnie"
 
     party 360
         // mon 0
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 36
+        level 30
         pokemon SPECIES_VENONAT
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 33
+        pokemon SPECIES_YANMA
         ballseal 0
     endparty
 
@@ -13032,16 +13032,16 @@ trainerdata 388, "Walt"
     party 388
         // mon 0
         ivs 0
-        abilityslot 0
-        level 11
-        pokemon SPECIES_MAGMAR
+        abilityslot 130
+        level 16
+        pokemon SPECIES_MAGBY
         ballseal 0
 
         // mon 1
         ivs 0
-        abilityslot 0
+        abilityslot 130
         level 16
-        pokemon SPECIES_MAGMAR
+        pokemon SPECIES_ELEKID
         ballseal 0
     endparty
 
@@ -14925,7 +14925,7 @@ trainerdata 448, "Vance"
 trainerdata 449, "Arnie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -14936,14 +14936,25 @@ trainerdata 449, "Arnie"
 
     party 449
         // mon 0
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 43
+        level 40
         pokemon SPECIES_VENOMOTH
         move MOVE_DISABLE
-        move MOVE_SUPERSONIC
-        move MOVE_CONFUSION
-        move MOVE_LEECH_LIFE
+        move MOVE_AIR_CUTTER
+        move MOVE_SILVER_WIND
+        move MOVE_ASTONISH
+        ballseal 0
+
+        // mon 1
+        ivs 100
+        abilityslot 0
+        level 42
+        pokemon SPECIES_YANMA
+        move MOVE_BUG_BUZZ
+        move MOVE_AERIAL_ACE
+        move MOVE_QUICK_ATTACK
+        move MOVE_DETECT
         ballseal 0
     endparty
 
@@ -15089,7 +15100,7 @@ trainerdata 454, "Irwin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 22
+        level 26
         pokemon SPECIES_VOLTORB
         ballseal 0
 
@@ -15104,14 +15115,14 @@ trainerdata 454, "Irwin"
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_VOLTORB
+        pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
         level 34
-        pokemon SPECIES_VOLTORB
+        pokemon SPECIES_ELECTRODE
         ballseal 0
     endparty
 
@@ -15131,28 +15142,28 @@ trainerdata 455, "Irwin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 34
-        pokemon SPECIES_VOLTORB
+        level 35
+        pokemon SPECIES_PIKACHU
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 36
-        pokemon SPECIES_VOLTORB
+        level 35
+        pokemon SPECIES_ELECTRODE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 38
-        pokemon SPECIES_VOLTORB
+        level 41
+        pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
-        level 42
+        level 41
         pokemon SPECIES_ELECTRODE
         ballseal 0
     endparty
@@ -17345,25 +17356,25 @@ trainerdata 513, "Arnie"
 
     party 513
         // mon 0
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 45
-        pokemon SPECIES_NINCADA
-        move MOVE_DIG
-        move MOVE_METAL_CLAW
-        move MOVE_MUD_SLAP
-        move MOVE_LEECH_LIFE
+        level 53
+        pokemon SPECIES_VENOMOTH
+        move MOVE_SIGNAL_BEAM
+        move MOVE_PSYCHIC_FANGS
+        move MOVE_QUIVER_DANCE
+        move MOVE_DARK_PULSE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 56
-        pokemon SPECIES_VENOMOTH
-        move MOVE_GUST
-        move MOVE_PSYCHIC
-        move MOVE_POISON_FANG
-        move MOVE_SIGNAL_BEAM
+        level 53
+        pokemon SPECIES_YANMEGA
+        move MOVE_BUG_BUZZ
+        move MOVE_DRAGON_DANCE
+        move MOVE_PURSUIT
+        move MOVE_DETECT
         ballseal 0
     endparty
 
@@ -17895,32 +17906,32 @@ trainerdata 527, "Irwin"
 
     party 527
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 40
-        pokemon SPECIES_VOLTORB
+        level 45
+        pokemon SPECIES_TOGEDEMARU
         move MOVE_ROLLOUT
-        move MOVE_SPARK
-        move MOVE_SONIC_BOOM
+        move MOVE_PIN_MISSILE
+        move MOVE_VOLT_SWITCH
         move MOVE_CHARGE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 40
-        pokemon SPECIES_VOLTORB
+        level 45
+        pokemon SPECIES_ELECTRODE
         move MOVE_CHARGE_BEAM
-        move MOVE_CHARGE
-        move MOVE_LIGHT_SCREEN
-        move MOVE_SWIFT
+        move MOVE_RAPID_SPIN
+        move MOVE_ROLLOUT
+        move MOVE_EXPLOSION
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 46
-        pokemon SPECIES_ELECTRODE
+        level 49
+        pokemon SPECIES_GASTLY
         move MOVE_THUNDER
         move MOVE_SCREECH
         move MOVE_CHARGE_BEAM
@@ -17928,14 +17939,14 @@ trainerdata 527, "Irwin"
         ballseal 0
 
         // mon 3
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 51
+        level 49
         pokemon SPECIES_ELECTRODE
         move MOVE_THUNDER
         move MOVE_MIRROR_COAT
-        move MOVE_MAGNET_RISE
-        move MOVE_THUNDER_WAVE
+        move MOVE_EXPLOSION
+        move MOVE_GIGA_IMPACT
         ballseal 0
     endparty
 
@@ -20692,17 +20703,17 @@ trainerdata 619, "Walt"
 
     party 619
         // mon 0
-        ivs 0
+        ivs 130
         abilityslot 0
-        level 25
+        level 30
         pokemon SPECIES_MAGMAR
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 130
         abilityslot 0
-        level 32
-        pokemon SPECIES_MAGMAR
+        level 30
+        pokemon SPECIES_ELECTABUZZ
         ballseal 0
     endparty
 
@@ -20720,17 +20731,17 @@ trainerdata 620, "Walt"
 
     party 620
         // mon 0
-        ivs 0
+        ivs 130
         abilityslot 0
-        level 34
-        pokemon SPECIES_MAGMAR
+        level 39
+        pokemon SPECIES_MAGMORTAR
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 130
         abilityslot 0
-        level 37
-        pokemon SPECIES_MAGMAR
+        level 39
+        pokemon SPECIES_ELECTIVIRE
         ballseal 0
     endparty
 

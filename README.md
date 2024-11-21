@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V14.1
-Current Task: Test playthrough of V14.1
+Current version: V15
+Current Task: Test playthrough of V15
 
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~95% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely untouched.
 
@@ -266,14 +266,12 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## Ideas
 
-* Amp ability jigglypuff line? 
-* Add non-water type sea creatures from later generations? 
-* Add feebas - milotic line to the fishing pool
+* Add more aquatic species from other generations? Dhelmise, Mareanie, Pincurchin, Stunfisk, Feebas
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
-* Add Swablu-Alteria (fairy / flying), lileep-cradily, anorith-armaldo, castform (mt. silver?)
+* Add Swablu-Alteria (fairy / flying), castform (mt. silver?)
 * Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
 * Add an evolution with an upper bound, where beyond it they can't evolve (for Clamperl)
-* Remake slugma line as fire/ground
+* Remake slugma line as fire/ground?
 
 ## Important Notes / Limitations
 

@@ -4068,9 +4068,9 @@ mondata SPECIES_SUNFLORA, "Sunflora"
 
 
 mondata SPECIES_YANMA, "Yanma"
-    basestats 52, 67, 65, 88, 67, 61
+    basestats 55, 67, 65, 102, 67, 61
     types TYPE_BUG, TYPE_FLYING
-    catchrate 75
+    catchrate 95
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_WIDE_LENS
@@ -7008,8 +7008,8 @@ mondata SPECIES_CACTURNE, "Cacturne"
 
 
 mondata SPECIES_SWABLU, "Swablu"
-    basestats 45, 40, 60, 50, 40, 75
-    types TYPE_NORMAL, TYPE_FLYING
+    basestats 53, 43, 57, 67, 57, 83
+    types TYPE_FAIRY, TYPE_FLYING
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -7029,8 +7029,8 @@ mondata SPECIES_SWABLU, "Swablu"
 
 
 mondata SPECIES_ALTARIA, "Altaria"
-    basestats 75, 70, 90, 80, 70, 105
-    types TYPE_DRAGON, TYPE_FLYING
+    basestats 83, 63, 53, 87, 87, 127
+    types TYPE_FAIRY, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -19377,7 +19377,7 @@ mondata SPECIES_PINCURCHIN, "Pincurchin"
 
 
 mondata SPECIES_SNOM, "Snom"
-    basestats 30, 25, 35, 20, 45, 30
+    basestats 100, 100, 100, 100, 100, 100
     types TYPE_ICE, TYPE_BUG
     catchrate 164
     baseexp 0 // defined in baseexp.s

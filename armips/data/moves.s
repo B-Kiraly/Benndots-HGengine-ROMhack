@@ -415,7 +415,7 @@ movedata MOVE_MEGA_KICK, "Mega Kick"
     basepower 110
     type TYPE_NORMAL
     accuracy 85
-    pp 6
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -5631,7 +5631,7 @@ movedata MOVE_SHOCK_WAVE, "Shock Wave"
     basepower 60
     type TYPE_ELECTRIC
     accuracy 0
-    pp 20
+    pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -8444,7 +8444,7 @@ movedata MOVE_BULLDOZE, "Bulldoze"
 movedata MOVE_FROST_BREATH, "Frost Breath"
     battleeffect MOVE_EFFECT_ALWAYS_CRITICAL
     pss SPLIT_SPECIAL
-    basepower 60
+    basepower 55
     type TYPE_ICE
     accuracy 90
     pp 10
@@ -9835,11 +9835,11 @@ movedata MOVE_HOLD_BACK, "Hold Back"
     movedescription MOVE_HOLD_BACK, "---"
 
 movedata MOVE_INFESTATION, "Infestation"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower 30
     type TYPE_BUG
-    accuracy 100
+    accuracy 90
     pp 20
     effectchance 100
     target MOVE_TARGET_SELECTED
