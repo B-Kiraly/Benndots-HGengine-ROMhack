@@ -6315,7 +6315,7 @@ mondata SPECIES_NOSEPASS, "Nosepass"
 
 
 mondata SPECIES_SKITTY, "Skitty"
-    basestats 50, 45, 45, 50, 35, 35
+    basestats 49, 43, 43, 49, 47, 47
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -6326,7 +6326,7 @@ mondata SPECIES_SKITTY, "Skitty"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
+    abilities ABILITY_NORMALIZE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_SKITTY, "It’s adorable when it chases its own\ntail. It’s difficult to earn its trust."
@@ -6336,7 +6336,7 @@ mondata SPECIES_SKITTY, "Skitty"
 
 
 mondata SPECIES_DELCATTY, "Delcatty"
-    basestats 70, 65, 65, 90, 55, 55
+    basestats 69, 63, 71, 93, 69, 71
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -6347,7 +6347,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
+    abilities ABILITY_NORMALIZE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_DELCATTY, "It dislikes dirty places. It often\nsearches for a comfortable place\nin which to groom itself."

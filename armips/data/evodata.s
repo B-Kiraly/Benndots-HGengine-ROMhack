@@ -3612,7 +3612,7 @@ evodata SPECIES_NOSEPASS
     terminateevodata
 
 evodata SPECIES_SKITTY
-    evolution EVO_STONE, ITEM_MOON_STONE, SPECIES_DELCATTY
+    evolution EVO_LEVEL, 20, SPECIES_DELCATTY
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -7305,33 +7305,62 @@ levelup SPECIES_NOSEPASS
 
 
 levelup SPECIES_SKITTY
-    learnset MOVE_FAKE_OUT, 1
-    learnset MOVE_GROWL, 1
-    learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_TACKLE, 1
-    learnset MOVE_FORESIGHT, 4
-    learnset MOVE_SING, 7
-    learnset MOVE_ATTRACT, 10
-    learnset MOVE_DISARMING_VOICE, 13
-    learnset MOVE_DOUBLE_SLAP, 16
-    learnset MOVE_COPYCAT, 19
-    learnset MOVE_FEINT_ATTACK, 22
-    learnset MOVE_CHARM, 25
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_ODOR_SLEUTH, 4
+    learnset MOVE_ATTRACT, 7
+    learnset MOVE_DISARMING_VOICE, 9
+    learnset MOVE_TAIL_SLAP, 12
+    learnset MOVE_COPYCAT, 14
+    learnset MOVE_CHARM, 16
+    learnset MOVE_FEINT_ATTACK, 19
+    learnset MOVE_METRONOME, 22
+    learnset MOVE_ASSIST, 22
+    learnset MOVE_CLEAR_SMOG, 25
     learnset MOVE_WAKE_UP_SLAP, 28
-    learnset MOVE_ASSIST, 31
-    learnset MOVE_COVET, 34
-    learnset MOVE_HEAL_BELL, 37
-    learnset MOVE_DOUBLE_EDGE, 40
-    learnset MOVE_CAPTIVATE, 43
-    learnset MOVE_PLAY_ROUGH, 46
+    learnset MOVE_SAFEGUARD, 30
+    learnset MOVE_COVET, 32
+    learnset MOVE_COSMIC_POWER, 35
+    learnset MOVE_WATER_PULSE, 38
+    learnset MOVE_PLAY_ROUGH, 41
+    learnset MOVE_HEAL_BELL, 44
+    learnset MOVE_ENERGY_BALL, 47
+    learnset MOVE_DOODLE, 50
+    learnset MOVE_MOONBLAST, 54
+    learnset MOVE_BATON_PASS, 57
+    learnset MOVE_STOMPING_TANTRUM, 60
+    learnset MOVE_AROMATHERAPY, 64
+    learnset MOVE_SOLAR_BEAM, 68
     terminatelearnset
 
 
 levelup SPECIES_DELCATTY
-    learnset MOVE_FAKE_OUT, 1
-    learnset MOVE_SING, 1
-    learnset MOVE_ATTRACT, 1
-    learnset MOVE_DOUBLE_SLAP, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_ODOR_SLEUTH, 4
+    learnset MOVE_ATTRACT, 7
+    learnset MOVE_DISARMING_VOICE, 9
+    learnset MOVE_TAIL_SLAP, 12
+    learnset MOVE_COPYCAT, 14
+    learnset MOVE_CHARM, 16
+    learnset MOVE_FEINT_ATTACK, 19
+    learnset MOVE_METRONOME, 22
+    learnset MOVE_ASSIST, 22
+    learnset MOVE_CLEAR_SMOG, 25
+    learnset MOVE_WAKE_UP_SLAP, 28
+    learnset MOVE_SAFEGUARD, 30
+    learnset MOVE_COVET, 32
+    learnset MOVE_COSMIC_POWER, 35
+    learnset MOVE_WATER_PULSE, 38
+    learnset MOVE_PLAY_ROUGH, 41
+    learnset MOVE_HEAL_BELL, 44
+    learnset MOVE_ENERGY_BALL, 47
+    learnset MOVE_DOODLE, 50
+    learnset MOVE_MOONBLAST, 54
+    learnset MOVE_BATON_PASS, 57
+    learnset MOVE_STOMPING_TANTRUM, 60
+    learnset MOVE_AROMATHERAPY, 64
+    learnset MOVE_SOLAR_BEAM, 68
     terminatelearnset
 
 
