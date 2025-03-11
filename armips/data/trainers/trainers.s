@@ -982,11 +982,11 @@ trainerdata 31, "Morty"
 
     party 31
         // mon 0
-        ivs 180
+        ivs 110
         abilityslot 0
-        level 25
-        pokemon SPECIES_GENGAR
-        item ITEM_SITRUS_BERRY
+        level 24
+        pokemon SPECIES_HAUNTER
+        item ITEM_NONE
         move MOVE_SHADOW_BALL
         move MOVE_BITE
         move MOVE_SCARY_FACE
@@ -996,7 +996,7 @@ trainerdata 31, "Morty"
         // mon 1
         ivs 160
         abilityslot 0
-        level 23
+        level 22
         pokemon SPECIES_GASTLY
         item ITEM_NONE
         move MOVE_BELCH
@@ -1008,7 +1008,7 @@ trainerdata 31, "Morty"
         // mon 2
         ivs 160
         abilityslot 0
-        level 21
+        level 22
         pokemon SPECIES_MISDREAVUS
         item ITEM_NONE
         move MOVE_PSYWAVE
@@ -1489,7 +1489,7 @@ trainerdata 45, "Ruth"
 trainerdata 46, "Martha"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
-    nummons 3
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1502,22 +1502,15 @@ trainerdata 46, "Martha"
         // mon 0
         ivs 10
         abilityslot 0
-        level 18
+        level 21
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_HAUNTER
-        ballseal 0
-
-        // mon 2
-        ivs 10
-        abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
         ballseal 0
     endparty
 
@@ -2755,16 +2748,16 @@ trainerdata 89, "Grace"
 
     party 89
         // mon 0
-        ivs 10
+        ivs 110
         abilityslot 0
-        level 20
+        level 19
         pokemon SPECIES_HAUNTER
         ballseal 0
 
         // mon 1
-        ivs 10
+        ivs 150
         abilityslot 0
-        level 20
+        level 21
         pokemon SPECIES_HAUNTER
         ballseal 0
     endparty
@@ -16632,17 +16625,17 @@ trainerdata 493, "Edith"
 
     party 493
         // mon 0
-        ivs 10
+        ivs 120
         abilityslot 0
         level 22
-        pokemon SPECIES_HAUNTER
+        pokemon SPECIES_MISDREAVUS
         ballseal 0
     endparty
 
 trainerdata 494, "Georgina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
-    nummons 5
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16653,37 +16646,23 @@ trainerdata 494, "Georgina"
 
     party 494
         // mon 0
-        ivs 10
+        ivs 100
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 1
-        ivs 10
+        ivs 100
         abilityslot 0
-        level 16
+        level 18
         pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 2
-        ivs 10
+        ivs 100
         abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
-        ballseal 0
-
-        // mon 3
-        ivs 10
-        abilityslot 0
-        level 16
-        pokemon SPECIES_GASTLY
-        ballseal 0
-
-        // mon 4
-        ivs 10
-        abilityslot 0
-        level 16
+        level 19
         pokemon SPECIES_GASTLY
         ballseal 0
     endparty
@@ -20045,10 +20024,11 @@ trainerdata 600, "Selina"
     endparty
 
 trainerdata 601, "Grunt"
+    // Ecruteak dance theater grunt
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
-    nummons 1
-    item ITEM_NONE
+    nummons 2
+    item ITEM_X_ATTACK
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -20060,8 +20040,15 @@ trainerdata 601, "Grunt"
         // mon 0
         ivs 30
         abilityslot 0
-        level 12
+        level 14
         pokemon SPECIES_KOFFING
+        ballseal 0
+
+        // mon 1
+        ivs 45
+        abilityslot 0
+        level 13
+        pokemon SPECIES_RATTATA
         ballseal 0
     endparty
 

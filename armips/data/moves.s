@@ -10603,12 +10603,12 @@ movedata MOVE_CATASTROPIKA, "Catastropika"
     movedescription MOVE_CATASTROPIKA, "---"
 
 movedata MOVE_SHORE_UP, "Shore Up"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RESTORE_HALF_HP
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GROUND
     accuracy 0
-    pp 5
+    pp 10
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
@@ -10616,7 +10616,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_SHORE_UP, "---"
+    movedescription MOVE_SHORE_UP, "The user regains"
 
 movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
     battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY
