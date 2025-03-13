@@ -975,34 +975,34 @@ trainerdata 31, "Morty"
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_X_DEFENSE
-    item ITEM_NONE
+    item ITEM_FULL_HEAL
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 31
         // mon 0
-        ivs 110
-        abilityslot 0
-        level 24
-        pokemon SPECIES_HAUNTER
-        item ITEM_NONE
-        move MOVE_SHADOW_BALL
-        move MOVE_BITE
-        move MOVE_SCARY_FACE
-        move MOVE_MIMIC
-        ballseal 0
-
-        // mon 1
         ivs 160
         abilityslot 0
-        level 22
+        level 21
         pokemon SPECIES_GASTLY
         item ITEM_NONE
         move MOVE_BELCH
         move MOVE_NIGHT_SHADE
         move MOVE_CURSE
         move MOVE_POISON_GAS
+        ballseal 0
+
+        // mon 1
+        ivs 110
+        abilityslot 0
+        level 23
+        pokemon SPECIES_HAUNTER
+        item ITEM_NONE
+        move MOVE_SHADOW_BALL
+        move MOVE_BITE
+        move MOVE_SCARY_FACE
+        move MOVE_MIMIC
         ballseal 0
 
         // mon 2

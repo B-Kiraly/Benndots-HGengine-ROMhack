@@ -9499,12 +9499,12 @@ movedata MOVE_PLAY_NICE, "Play Nice"
     movedescription MOVE_PLAY_NICE, "---"
 
 movedata MOVE_CONFIDE, "Confide"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
-    accuracy 0
-    pp 20
+    accuracy 100
+    pp 25
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9512,7 +9512,7 @@ movedata MOVE_CONFIDE, "Confide"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_CONFIDE, "---"
+    movedescription MOVE_CONFIDE, "The user tells the\ntarget a nasty secret.\nTarget's sp. atk stat\nis lowered 1 stage.\n"
 
 movedata MOVE_DIAMOND_STORM, "Diamond Storm"
     battleeffect MOVE_EFFECT_RAISE_DEF_2_HIT

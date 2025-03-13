@@ -7407,7 +7407,7 @@ mondata SPECIES_CASTFORM, "Castform"
 
 
 mondata SPECIES_KECLEON, "Kecleon"
-    basestats 60, 90, 70, 40, 60, 120
+    basestats 78, 78, 78, 78, 78, 108
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -7418,7 +7418,7 @@ mondata SPECIES_KECLEON, "Kecleon"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_COLOR_CHANGE, ABILITY_NONE
+    abilities ABILITY_COLOR_CHANGE, ABILITY_PROTEAN
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_KECLEON, "It changes its shading to match its\nsurroundings so it can sneak up on prey.\nOnly its belly patterns stay fixed."
@@ -8772,7 +8772,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
 
 
 mondata SPECIES_PACHIRISU, "Pachirisu"
-    basestats 60, 45, 70, 95, 45, 90
+    basestats 58, 47, 56, 89, 74, 134
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -8783,7 +8783,7 @@ mondata SPECIES_PACHIRISU, "Pachirisu"
     basefriendship 100
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    abilities ABILITY_RUN_AWAY, ABILITY_PICKUP
+    abilities ABILITY_VOLT_ABSORB, ABILITY_SURGE_SURFER
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_PACHIRISU, "It’s one of the kinds of Pokémon \nwith electric cheek pouches.\nIt shoots charges from its tail."
@@ -9287,13 +9287,13 @@ mondata SPECIES_CHATOT, "Chatot"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE, ABILITY_TANGLED_FEET
+    abilities ABILITY_PUNK_ROCK, ABILITY_AERILATE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_CHATOT, "It mimics the cries of other Pokémon to\ntrick them into thinking it’s one of them.\nThis way they won’t attack it."
     mondexclassification SPECIES_CHATOT, "Music Note Pokémon"
-    mondexheight SPECIES_CHATOT, "1’08”"
-    mondexweight SPECIES_CHATOT, "4.2 lbs."
+    mondexheight SPECIES_CHATOT, "1’11”"
+    mondexweight SPECIES_CHATOT, "7.2 lbs."
 
 
 mondata SPECIES_SPIRITOMB, "Spiritomb"
@@ -23731,7 +23731,7 @@ mondata SPECIES_PONYTA_GALARIAN, "-----"
     colorflip BODY_COLOR_WHITE, 0
 
 mondata SPECIES_RAPIDASH_GALARIAN, "-----"
-    basestats 65, 100, 70, 105, 80, 80
+    basestats 99, 66, 68, 74, 99, 119
     types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 60
     baseexp 175

@@ -40,7 +40,7 @@ Here's an overview of the changes/features present in my ROM hack.
 
 -Changes to PokeMart and department store inventories and costs. I made PP restoration items added in HG-Engine cheaper, as well as revives and full heals. I added heart scales and eviolite to Poke mart inventories (after hitting certain milestones) for better accessibility. 
 
--Changes to some trainers Pokemon selection and levels (early stages)
+-Changes to some trainer's Pokemon selection and levels (early stages)
 
 ## Base Stats 
 
@@ -65,6 +65,8 @@ In my version of the game, just about every native evolutionary line in the Poke
 I tried to thoughtfully spread Pokemon throughout the world. Lots of bugs and grass types in Ilex Forest, More rugged kinds of Pokemon in mountainous areas. I'm pretty happy with how consistent and organized I kept it. There's a nice variety of options wherever you go. More rare 1-2% encounters and a greater variety of Pokemon per route in general due to the density of making all main dex Pokemon available. 
 
 While this information is reliably true for ground encounters, I was a bit more haphazard early on when writing in water encounters. It's possible that there are non-native Pokemon species in certain areas that I missed in editing. It shouldn't be much, if anything, however. 
+
+As of V16.0, I have added my first custom tree/headbutt encounters into the game. 
 
 ### Non-native Species Lines Added to Johto
 
@@ -234,7 +236,7 @@ The fossil revival mechanic template I used came from a decompilated heartgold r
 
 All the files I've edited and tweaked exist inside of this repository and can be referenced for further details. In this section I'll be giving you the exact paths and files needed in order to find the information. 
 
-(Encounters) For which Pokemon can be encountered where: armips/data/encounters.s 
+(Encounters) For which Pokemon can be encountered where: armips/data/encounters.s. Headbutt encounters are edited separately in their own file located at: armips/data/headbutt.s
 
 (Base Stats, Abilities, Sizes) For changes that I've made to Pokemon's base stats, size data and abilities: armips/data/mondata.s
 
@@ -259,7 +261,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
 * Test expanded fossil revival options in Pewter city
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species & learnsets that I haven't fully constructed (porygon line(s), fossil species, seviper etc)
+* Work on more species & learnsets that I haven't fully constructed (kecleon, pachirisu, porygon line(s), fossil species, seviper etc)
 * Complete Johto wild pokemon encounters (Mostly ponds and Mt. Mortar unfinalized)
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.

@@ -2725,7 +2725,7 @@ walklevels 13, 14, 13, 12, 15, 15, 14, 14, 16, 15, 16, 10
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SENTRET
 pokemon SPECIES_MURKROW
 pokemon SPECIES_STANTLER
 monwithform SPECIES_MEOWTH, 1
