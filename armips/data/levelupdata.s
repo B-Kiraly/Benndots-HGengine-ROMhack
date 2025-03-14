@@ -2802,15 +2802,16 @@ levelup SPECIES_CHANSEY
 
 levelup SPECIES_TANGELA
     learnset MOVE_BIND, 1
-    learnset MOVE_VINE_WHIP, 5
-    learnset MOVE_CONSTRICT, 8
-    learnset MOVE_GROWTH, 11
-    learnset MOVE_GRASS_KNOT, 14
-    learnset MOVE_MIST, 17
-    learnset MOVE_VICE_GRIP, 20
-    learnset MOVE_GRASS_WHISTLE, 23
-    learnset MOVE_KNOCK_OFF, 25
-    learnset MOVE_WATER_SPORT, 27
+    learnset MOVE_VINE_WHIP, 4
+    learnset MOVE_CONSTRICT, 7
+    learnset MOVE_GROWTH, 10
+    learnset MOVE_GRASS_KNOT, 13
+    learnset MOVE_MIST, 16
+    learnset MOVE_VICE_GRIP, 18
+    learnset MOVE_GRASS_WHISTLE, 20
+    learnset MOVE_KNOCK_OFF, 22
+    learnset MOVE_WATER_SPORT, 25
+    learnset MOVE_GRASSY_TERRAIN, 27
     learnset MOVE_ANCIENT_POWER, 30
     learnset MOVE_SLAM, 33
     learnset MOVE_TICKLE, 36
@@ -4999,48 +5000,59 @@ levelup SPECIES_GIRAFARIG
 
 levelup SPECIES_PINECO
     learnset MOVE_TACKLE, 1
-    learnset MOVE_PROTECT, 1
-    learnset MOVE_SELF_DESTRUCT, 6
-    learnset MOVE_BUG_BITE, 9
-    learnset MOVE_TAKE_DOWN, 12
-    learnset MOVE_RAPID_SPIN, 17
-    learnset MOVE_BIDE, 20
-    learnset MOVE_NATURAL_GIFT, 23
-    learnset MOVE_SPIKES, 28
-    learnset MOVE_PAYBACK, 31
-    learnset MOVE_EXPLOSION, 34
-    learnset MOVE_IRON_DEFENSE, 39
-    learnset MOVE_GYRO_BALL, 42
-    learnset MOVE_DOUBLE_EDGE, 45
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_PROTECT, 5
+    learnset MOVE_ABSORB, 7
+    learnset MOVE_BUG_BITE, 10
+    learnset MOVE_BIDE, 13
+    learnset MOVE_RAPID_SPIN, 15
+    learnset MOVE_NATURAL_GIFT, 17
+    learnset MOVE_PIN_MISSILE, 20
+    learnset MOVE_SELF_DESTRUCT, 23
+    learnset MOVE_SPIKES, 25
+    learnset MOVE_MEGA_DRAIN, 28
+    learnset MOVE_FACADE, 31
+    learnset MOVE_RAGE_POWDER, 33
+    learnset MOVE_SKITTER_SMACK, 36
+    learnset MOVE_GIGA_DRAIN, 40
+    learnset MOVE_EXPLOSION, 44
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_GIGA_IMPACT, 52
     terminatelearnset
 
 
 levelup SPECIES_FORRETRESS
-    learnset MOVE_AUTOTOMIZE, 0
     learnset MOVE_AUTOTOMIZE, 1
-    learnset MOVE_MIRROR_SHOT, 0
-    learnset MOVE_MIRROR_SHOT, 1
     learnset MOVE_HEAVY_SLAM, 1
-    learnset MOVE_ZAP_CANNON, 1
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_IRON_DEFENSE, 1
     learnset MOVE_PROTECT, 1
     learnset MOVE_SELF_DESTRUCT, 1
     learnset MOVE_BUG_BITE, 1
-    learnset MOVE_SELF_DESTRUCT, 6
-    learnset MOVE_BUG_BITE, 9
-    learnset MOVE_TAKE_DOWN, 12
-    learnset MOVE_RAPID_SPIN, 17
-    learnset MOVE_BIDE, 20
-    learnset MOVE_NATURAL_GIFT, 23
-    learnset MOVE_SPIKES, 28
-    learnset MOVE_PAYBACK, 32
-    learnset MOVE_EXPLOSION, 36
-    learnset MOVE_IRON_DEFENSE, 42
-    learnset MOVE_GYRO_BALL, 46
-    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_PROTECT, 5
+    learnset MOVE_ABSORB, 7
+    learnset MOVE_BUG_BITE, 10
+    learnset MOVE_BIDE, 13
+    learnset MOVE_RAPID_SPIN, 15
+    learnset MOVE_NATURAL_GIFT, 17
+    learnset MOVE_PIN_MISSILE, 20
+    learnset MOVE_SELF_DESTRUCT, 23
+    learnset MOVE_SPIKES, 25
+    learnset MOVE_IRON_DEFENSE, 27
+    learnset MOVE_MIRROR_SHOT, 30
+    learnset MOVE_HEAVY_SLAM, 33
+    learnset MOVE_RAGE_POWDER, 35
+    learnset MOVE_STEAMROLLER, 38
+    learnset MOVE_EXPLOSION, 41
+    learnset MOVE_GYRO_BALL, 44
+    learnset MOVE_DOUBLE_EDGE, 47
+    learnset MOVE_ZAP_CANNON, 50
+    learnset MOVE_GIGA_IMPACT, 53
     learnset MOVE_MAGNET_RISE, 56
-    learnset MOVE_ZAP_CANNON, 60
-    learnset MOVE_HEAVY_SLAM, 64
+    learnset MOVE_IRON_HEAD, 60
+    learnset MOVE_FIRE_BLAST, 64
+    learnset MOVE_SPIN_OUT, 68
     terminatelearnset
 
 
@@ -11091,15 +11103,16 @@ levelup SPECIES_RHYPERIOR
 
 levelup SPECIES_TANGROWTH
     learnset MOVE_BIND, 1
-    learnset MOVE_VINE_WHIP, 5
-    learnset MOVE_CONSTRICT, 8
-    learnset MOVE_GROWTH, 11
-    learnset MOVE_GRASS_KNOT, 14
-    learnset MOVE_MIST, 17
-    learnset MOVE_VICE_GRIP, 20
-    learnset MOVE_GRASS_WHISTLE, 23
-    learnset MOVE_KNOCK_OFF, 25
-    learnset MOVE_WATER_SPORT, 27
+    learnset MOVE_VINE_WHIP, 4
+    learnset MOVE_CONSTRICT, 7
+    learnset MOVE_GROWTH, 10
+    learnset MOVE_GRASS_KNOT, 13
+    learnset MOVE_MIST, 16
+    learnset MOVE_VICE_GRIP, 18
+    learnset MOVE_GRASS_WHISTLE, 20
+    learnset MOVE_KNOCK_OFF, 22
+    learnset MOVE_WATER_SPORT, 25
+    learnset MOVE_GRASSY_TERRAIN, 27
     learnset MOVE_ANCIENT_POWER, 30
     learnset MOVE_SLAM, 33
     learnset MOVE_TICKLE, 36

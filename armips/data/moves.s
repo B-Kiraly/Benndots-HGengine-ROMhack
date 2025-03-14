@@ -9053,7 +9053,7 @@ movedata MOVE_MAT_BLOCK, "Mat Block"
 movedata MOVE_BELCH, "Belch"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 80
+    basepower 75
     type TYPE_POISON
     accuracy 95
     pp 16

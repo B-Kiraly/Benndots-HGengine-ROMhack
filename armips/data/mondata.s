@@ -1947,7 +1947,7 @@ mondata SPECIES_CLOYSTER, "Cloyster"
 
 
 mondata SPECIES_GASTLY, "Gastly"
-    basestats 108, 39, 39, 65, 95, 82
+    basestats 106, 37, 39, 65, 95, 79
     types TYPE_GHOST, TYPE_POISON
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -4289,7 +4289,7 @@ mondata SPECIES_GIRAFARIG, "Girafarig"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INNER_FOCUS, ABILITY_EARLY_BIRD
+    abilities ABILITY_CONTRARY, ABILITY_SYNCHRONIZE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_GIRAFARIG, "Its tail has a small brain of its\nown. Beware! If you get close, it\nmay react to your scent by biting."
@@ -4299,7 +4299,7 @@ mondata SPECIES_GIRAFARIG, "Girafarig"
 
 
 mondata SPECIES_PINECO, "Pineco"
-    basestats 44, 66, 77, 22, 33, 55
+    basestats 54, 71, 91, 30, 61, 81
     types TYPE_BUG, TYPE_BUG
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -4310,17 +4310,17 @@ mondata SPECIES_PINECO, "Pineco"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_STURDY, ABILITY_NONE
+    abilities ABILITY_STURDY, ABILITY_SAP_SIPPER
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_PINECO, "It likes to make its shell thicker\nby adding layers of tree bark. The\nadditional weight doesn’t bother it."
     mondexclassification SPECIES_PINECO, "Bagworm Pokémon"
-    mondexheight SPECIES_PINECO, "2’00”"
-    mondexweight SPECIES_PINECO, "15.9 lbs."
+    mondexheight SPECIES_PINECO, "2’11”"
+    mondexweight SPECIES_PINECO, "28.9 lbs."
 
 
 mondata SPECIES_FORRETRESS, "Forretress"
-    basestats 77, 99, 111, 33, 88, 77
+    basestats 66, 97, 155, 25, 89, 81
     types TYPE_BUG, TYPE_STEEL
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -4331,13 +4331,13 @@ mondata SPECIES_FORRETRESS, "Forretress"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_STURDY, ABILITY_NONE
+    abilities ABILITY_STURDY, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_FORRETRESS, "Its entire body is shielded by a\nsteel-hard shell. What lurks inside\nthis shell is a total mystery."
     mondexclassification SPECIES_FORRETRESS, "Bagworm Pokémon"
-    mondexheight SPECIES_FORRETRESS, "3’11”"
-    mondexweight SPECIES_FORRETRESS, "277.3 lbs."
+    mondexheight SPECIES_FORRETRESS, "3’07”"
+    mondexweight SPECIES_FORRETRESS, "177.3 lbs."
 
 
 mondata SPECIES_DUNSPARCE, "Dunsparce"
@@ -8773,7 +8773,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
 
 mondata SPECIES_PACHIRISU, "Pachirisu"
     basestats 58, 47, 56, 89, 74, 134
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_ELECTRIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0

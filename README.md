@@ -88,6 +88,10 @@ As of V16.0, I have added my first custom tree/headbutt encounters into the game
 -Drampa (via Dunsparse evolution)
 -Litwick
 -Cetoddle
+-Pachirisu
+-Chatot
+-Burmy
+-Kecleon
 
 ## Level Up Learnsets (My changes)
 
@@ -100,7 +104,6 @@ Few to no Pokemon in the game should possess any moves that aren't currently imp
 * Porygon
 * Hitmons
 * Fossil species
-* Pineco (revise)
 * Growlithe (revise)
 * Eeveelutions (revise)
 
@@ -147,6 +150,7 @@ Sableye: Rock / Ghost
 Masquerain: Bug / Water
 Seviper: Poison / Dark
 Nosepass & Probopass: Rock / Electric
+Pachirisu: Fairy / Electric
 
 ## Evolutions and evolution methods (My changes)
 
@@ -195,6 +199,8 @@ Magikarp: Now requires the use of a dragon scale in order to evolve. (at that ev
 Psyduck: Now requires level up while knowing the move Amnesia. 
 
 Nidoking & Nidoqueen: Now requires the use of a King's Rock (as a stone / held item) rather than the moon stone. 
+
+Pineco: Requires a metal coat to evolve into Forretress.
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
@@ -282,7 +288,7 @@ HG-Engine has some limits in its current form that effect gameplay in some small
 
 Currently it doesn't support evolution-trigger move learning, which means that I've had to hard code those moves to the expected level of evolution. For that reason I recommend evolving most Pokemon at their earliest level in order to not miss out on a potentially important move.
 
-I recommend Melon DS on Windows to emulate this game on. The Desmume emulation has some glitches with these ROMs. Usually it's relatively minor visual glitches, but occasionally they can be game breaking. 
+For Windows users, I recommend Melon DS to emulate this game on. Desmume emulation has some glitches with these ROMs, ranging from relatively minor visual bugs to occasionally game-breaking ones. 
 
 ## Base HG-Engine Features:
 * Dex Expansion (through Gen 6 almost entirely implemented)
