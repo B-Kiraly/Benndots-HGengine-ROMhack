@@ -8564,26 +8564,33 @@ levelup SPECIES_CASTFORM
     terminatelearnset
 
 
-levelup SPECIES_KECLEON
-    learnset MOVE_THIEF, 1
+levelup SPECIES_KECLEON  
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_ASTONISH, 1
     learnset MOVE_LICK, 1
-    learnset MOVE_SCRATCH, 1
-    learnset MOVE_BIND, 4
-    learnset MOVE_SHADOW_SNEAK, 7
-    learnset MOVE_FEINT, 10
-    learnset MOVE_FURY_SWIPES, 13
-    learnset MOVE_FEINT_ATTACK, 16
-    learnset MOVE_PSYBEAM, 18
-    learnset MOVE_ANCIENT_POWER, 21
-    learnset MOVE_SLASH, 25
+    learnset MOVE_SCRATCH, 4
+    learnset MOVE_BIND, 7
+    learnset MOVE_ASTONISH, 10
+    learnset MOVE_FEINT, 13
+    learnset MOVE_FURY_SWIPES, 16
+    learnset MOVE_THIEF, 19
+    learnset MOVE_HYPNOSIS, 21
+    learnset MOVE_SHADOW_SNEAK, 23
+    learnset MOVE_SLASH, 26
+    learnset MOVE_FEINT_ATTACK, 28
     learnset MOVE_CAMOUFLAGE, 30
     learnset MOVE_SHADOW_CLAW, 33
-    learnset MOVE_SCREECH, 38
-    learnset MOVE_SUBSTITUTE, 42
-    learnset MOVE_SUCKER_PUNCH, 46
-    learnset MOVE_SYNCHRONOISE, 50
+    learnset MOVE_NATURE_POWER, 36
+    learnset MOVE_CONFUSE_RAY, 39
+    learnset MOVE_ENERGY_BALL, 42
+    learnset MOVE_SIMPLE_BEAM, 45
+    learnset MOVE_EXTRASENSORY, 48
+    learnset MOVE_SUBSTITUTE, 51
+    learnset MOVE_HYPER_BEAM, 54
+    learnset MOVE_DRAIN_PUNCH, 57
+    learnset MOVE_BOUNCE, 60
+    learnset MOVE_SLUDGE_BOMB, 64
+    learnset MOVE_DRAGON_PULSE, 68
+    learnset MOVE_TRI_ATTACK, 72
     terminatelearnset
 
 
@@ -9959,21 +9966,28 @@ levelup SPECIES_VESPIQUEN
 
 
 levelup SPECIES_PACHIRISU
-    learnset MOVE_GROWL, 1
     learnset MOVE_BIDE, 1
-    learnset MOVE_QUICK_ATTACK, 5
-    learnset MOVE_CHARM, 9
-    learnset MOVE_SPARK, 13
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_NUZZLE, 5
+    learnset MOVE_TAIL_SLAP, 9
+    learnset MOVE_CHARM, 12
+    learnset MOVE_QUICK_ATTACK, 15
     learnset MOVE_ENDURE, 17
-    learnset MOVE_NUZZLE, 19
-    learnset MOVE_SWIFT, 21
-    learnset MOVE_ELECTRO_BALL, 25
-    learnset MOVE_SWEET_KISS, 29
-    learnset MOVE_THUNDER_WAVE, 33
-    learnset MOVE_SUPER_FANG, 37
+    learnset MOVE_SPARK, 20
+    learnset MOVE_SWIFT, 23
+    learnset MOVE_AGILITY, 26
+    learnset MOVE_ELECTRO_BALL, 29
+    learnset MOVE_SWEET_KISS, 32
+    learnset MOVE_THUNDER_WAVE, 35
+    learnset MOVE_NASTY_PLOT, 38
     learnset MOVE_DISCHARGE, 41
-    learnset MOVE_LAST_RESORT, 45
-    learnset MOVE_HYPER_FANG, 49
+    learnset MOVE_BATON_PASS, 44
+    learnset MOVE_SUPER_FANG, 47
+    learnset MOVE_PLAY_ROUGH, 50
+    learnset MOVE_THUNDERBOLT, 53
+    learnset MOVE_DRAINING_KISS, 56
+    learnset MOVE_THUNDER, 60
+    learnset MOVE_DAZZLING_GLEAM, 64
     terminatelearnset
 
 

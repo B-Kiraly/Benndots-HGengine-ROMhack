@@ -261,10 +261,11 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
 * Test expanded fossil revival options in Pewter city
 * Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species & learnsets that I haven't fully constructed (kecleon, pachirisu, porygon line(s), fossil species, seviper etc)
+* Work on more species & learnsets that I haven't fully constructed (porygon line(s), fossil species, seviper etc)
 * Complete Johto wild pokemon encounters (Mostly ponds and Mt. Mortar unfinalized)
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
+* Update to a more modern version of HG engine !!!
 
 ## Ideas
 
