@@ -973,7 +973,7 @@ trainerdata 31, "Morty"
     trainerclass CLASS_LEADER_0
     nummons 3
     item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
+    item ITEM_X_SP_DEF
     item ITEM_X_DEFENSE
     item ITEM_FULL_HEAL
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
@@ -982,9 +982,9 @@ trainerdata 31, "Morty"
 
     party 31
         // mon 0
-        ivs 160
+        ivs 90
         abilityslot 0
-        level 21
+        level 20
         pokemon SPECIES_GASTLY
         item ITEM_NONE
         move MOVE_BELCH
@@ -994,7 +994,7 @@ trainerdata 31, "Morty"
         ballseal 0
 
         // mon 1
-        ivs 110
+        ivs 120
         abilityslot 0
         level 23
         pokemon SPECIES_HAUNTER
@@ -1006,7 +1006,7 @@ trainerdata 31, "Morty"
         ballseal 0
 
         // mon 2
-        ivs 160
+        ivs 150
         abilityslot 0
         level 22
         pokemon SPECIES_MISDREAVUS
@@ -3881,9 +3881,9 @@ trainerdata 123, "Tully"
 
     party 123
         // mon 0
-        ivs 0
+        ivs 15
         abilityslot 0
-        level 19
+        level 21
         pokemon SPECIES_QWILFISH
         ballseal 0
     endparty
@@ -4067,7 +4067,7 @@ trainerdata 128, "Jonah"
 trainerdata 129, "Shane"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
-    nummons 2
+    nummons 1
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4078,17 +4078,10 @@ trainerdata 129, "Shane"
 
     party 129
         // mon 0
-        ivs 0
+        ivs 19
         abilityslot 0
-        level 17
-        pokemon SPECIES_NIDORINA
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 17
-        pokemon SPECIES_NIDORINO
+        level 22
+        pokemon SPECIES_RHYHORN
         ballseal 0
     endparty
 
@@ -4323,14 +4316,14 @@ trainerdata 137, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
-        level 28
-        pokemon SPECIES_HOOTHOOT
+        level 30
+        pokemon SPECIES_CHATOT
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 28
+        level 30
         pokemon SPECIES_PIDGEOTTO
         ballseal 0
     endparty
@@ -11002,7 +10995,7 @@ trainerdata 322, "Barney"
 trainerdata 323, "Tully"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -11013,10 +11006,17 @@ trainerdata 323, "Tully"
 
     party 323
         // mon 0
-        ivs 0
+        ivs 15
         abilityslot 0
-        level 33
+        level 34
         pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 1
+        ivs 25
+        abilityslot 0
+        level 32
+        pokemon SPECIES_SEAKING
         ballseal 0
     endparty
 
@@ -11034,23 +11034,23 @@ trainerdata 324, "Tully"
 
     party 324
         // mon 0
-        ivs 0
+        ivs 25
         abilityslot 0
-        level 30
-        pokemon SPECIES_GOLDEEN
+        level 38
+        pokemon SPECIES_SEAKING
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 10
         abilityslot 0
-        level 30
-        pokemon SPECIES_GOLDEEN
+        level 41
+        pokemon SPECIES_LUMINEON
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 15
         abilityslot 0
-        level 38
+        level 44
         pokemon SPECIES_QWILFISH
         ballseal 0
     endparty
@@ -17467,23 +17467,23 @@ trainerdata 517, "Tully"
 
     party 517
         // mon 0
-        ivs 0
+        ivs 10
         abilityslot 0
-        level 41
-        pokemon SPECIES_SEAKING
+        level 48
+        pokemon SPECIES_LUMINEON
         move MOVE_WATER_PULSE
-        move MOVE_RAIN_DANCE
-        move MOVE_WATERFALL
-        move MOVE_AQUA_RING
+        move MOVE_BOUNCE
+        move MOVE_U_TURN
+        move MOVE_CONFUSE_RAY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 50
+        level 52
         pokemon SPECIES_SEAKING
-        move MOVE_WATER_PULSE
-        move MOVE_RAIN_DANCE
+        move MOVE_DRILL_RUN
+        move MOVE_SOAK
         move MOVE_WATERFALL
         move MOVE_MEGAHORN
         ballseal 0
@@ -17491,10 +17491,10 @@ trainerdata 517, "Tully"
         // mon 2
         ivs 0
         abilityslot 0
-        level 53
+        level 54
         pokemon SPECIES_QWILFISH
         move MOVE_ROLLOUT
-        move MOVE_SURF
+        move MOVE_PIN_MISSILE
         move MOVE_AQUA_TAIL
         move MOVE_MINIMIZE
         ballseal 0
@@ -18256,17 +18256,17 @@ trainerdata 537, "Harrison"
 
     party 537
         // mon 0
-        ivs 0
+        ivs 15
         abilityslot 32
-        level 17
-        pokemon SPECIES_NIDOKING
+        level 20
+        pokemon SPECIES_NIDORINO
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 18
         abilityslot 0
-        level 17
-        pokemon SPECIES_NIDOQUEEN
+        level 20
+        pokemon SPECIES_NIDORINA
         ballseal 0
     endparty
 

@@ -92,6 +92,7 @@ As of V16.0, I have added my first custom tree/headbutt encounters into the game
 -Chatot
 -Burmy
 -Kecleon
+-Flamigo
 
 ## Level Up Learnsets (My changes)
 
@@ -121,6 +122,7 @@ Hoothoot & Noctowl: Mono Flying
 Zubat & Golbat & Crobat: Dark / Flying
 Azurill & Marill & Azumarill: Mono Water
 Oddish & Gloom: Mono Grass
+Nidoran (both kinds): Fighting / Poison
 Hypno: Psychic / Dark
 Psyduck & Golduck: Water / Psychic
 Venonat & Venomoth (renamed Nitenat & Nitemoth): Bug / Dark
@@ -204,6 +206,8 @@ Pineco: Requires a metal coat to evolve into Forretress.
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
+* Lots of Pokemon who previously evolved by level up still do but at a new level. (Sandshrew level 27, Nidorans level 24, etc.). A more exhaustive list documenting this should probably be made at some point.
+
 ### Special Evoluton Conditions Additional Level Requirement (Implemented, mostly!!)
 
 I think all evo methods should have some minimum level condition. 
@@ -262,6 +266,8 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 (Fossil Revival Options) For my expansions to the fossil-to-pokemon revival mechanic options: armips/asm/custom/scrcmd_fossils.c
 
+(Type Matchups) For my changes to type relationships in battle: src/battle/battle_pokemon.c
+
 ## TODO List
 
 * Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
@@ -271,6 +277,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Complete Johto wild pokemon encounters (Mostly ponds and Mt. Mortar unfinalized)
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
+* Figure out how to edit exp yields
 * Update to a more modern version of HG engine !!!
 
 ## Ideas
@@ -279,7 +286,7 @@ All the files I've edited and tweaked exist inside of this repository and can be
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
 * Add Swablu-Alteria (fairy / flying), castform (mt. silver?)
 * Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
-* Add an evolution with an upper bound, where beyond it they can't evolve (for Clamperl)
+* Add an evolution method with an upper bound, where beyond it they can't evolve (for Clamperl)
 * Remake slugma line as fire/ground?
 
 ## Important Notes / Limitations

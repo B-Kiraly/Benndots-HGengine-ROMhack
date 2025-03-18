@@ -582,7 +582,7 @@ mondata SPECIES_RAICHU, "Raichu"
 
 
 mondata SPECIES_SANDSHREW, "Sandshrew"
-    basestats 49, 68, 84, 48, 28, 34
+    basestats 49, 68, 84, 49, 29, 37
     types TYPE_GROUND, TYPE_GROUND
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -603,7 +603,7 @@ mondata SPECIES_SANDSHREW, "Sandshrew"
 
 
 mondata SPECIES_SANDSLASH, "Sandslash"
-    basestats 69, 105, 98, 78, 42, 72
+    basestats 66, 107, 97, 78, 42, 73
     types TYPE_GROUND, TYPE_GROUND
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -624,7 +624,7 @@ mondata SPECIES_SANDSLASH, "Sandslash"
 
 
 mondata SPECIES_NIDORAN_F, "Nidoran♀"
-    basestats 46, 49, 54, 45, 39, 44
+    basestats 50, 48, 50, 48, 39, 45
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -645,7 +645,7 @@ mondata SPECIES_NIDORAN_F, "Nidoran♀"
 
 
 mondata SPECIES_NIDORINA, "Nidorina"
-    basestats 61, 66, 71, 66, 55, 55
+    basestats 68, 70, 73, 54, 51, 54
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -666,7 +666,7 @@ mondata SPECIES_NIDORINA, "Nidorina"
 
 
 mondata SPECIES_NIDOQUEEN, "Nidoqueen"
-    basestats 82, 88, 94, 66, 72, 78
+    basestats 103, 93, 91, 64, 67, 79
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -677,7 +677,7 @@ mondata SPECIES_NIDOQUEEN, "Nidoqueen"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_STEADFAST, ABILITY_RIVALRY
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_NIDOQUEEN, "Its body is covered with needle-like\nscales. It never shows signs\nof shrinking from any attack."
@@ -687,7 +687,7 @@ mondata SPECIES_NIDOQUEEN, "Nidoqueen"
 
 
 mondata SPECIES_NIDORAN_M, "Nidoran♂"
-    basestats 46, 53, 54, 45, 38, 41
+    basestats 47, 54, 52, 45, 37, 45
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -708,7 +708,7 @@ mondata SPECIES_NIDORAN_M, "Nidoran♂"
 
 
 mondata SPECIES_NIDORINO, "Nidorino"
-    basestats 59, 82, 71, 61, 46, 57
+    basestats 62, 86, 75, 50, 45, 52
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -729,7 +729,7 @@ mondata SPECIES_NIDORINO, "Nidorino"
 
 
 mondata SPECIES_NIDOKING, "Nidoking"
-    basestats 90, 107, 94, 51, 60, 74
+    basestats 96, 106, 97, 56, 67, 71
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -740,7 +740,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOXIE, ABILITY_RIVALRY
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDOKING, "It swings its big tail around during\nbattle. If its foe flinches, it will\ncharge with its sturdy body."
@@ -1763,7 +1763,7 @@ mondata SPECIES_FARFETCHD, "Farfetch’d"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_LEEK
+    items ITEM_LEEK, ITEM_LEEK
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -2346,7 +2346,7 @@ mondata SPECIES_WEEZING, "Weezing"
 
 
 mondata SPECIES_RHYHORN, "Rhyhorn"
-    basestats 118, 114, 106, 46, 28, 46
+    basestats 113, 110, 110, 47, 28, 45
     types TYPE_NORMAL, TYPE_ROCK
     catchrate 120
     baseexp 0 // defined in baseexp.s
@@ -2357,12 +2357,12 @@ mondata SPECIES_RHYHORN, "Rhyhorn"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_LIGHTNING_ROD, ABILITY_ROCK_HEAD
+    abilities ABILITY_HUSTLE, ABILITY_ROCK_HEAD
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_RHYHORN, "It is inept at turning because of\nits four short legs. It can only\ncharge and run in one direction."
     mondexclassification SPECIES_RHYHORN, "Spikes Pokémon"
-    mondexheight SPECIES_RHYHORN, "5’03”"
+    mondexheight SPECIES_RHYHORN, "4’05”"
     mondexweight SPECIES_RHYHORN, "853.5 lbs."
 
 
@@ -2441,7 +2441,7 @@ mondata SPECIES_KANGASKHAN, "Kangaskhan"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_INNER_FOCUS, ABILITY_MOXIE
+    abilities ABILITY_SCRAPPY, ABILITY_MOXIE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_KANGASKHAN, "If it is safe, the young gets out of\nthe belly pouch to play. The adult\nkeeps a close eye on the youngster."
@@ -3911,7 +3911,7 @@ mondata SPECIES_SUDOWOODO, "Sudowoodo"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STURDY, ABILITY_ROCK_HEAD
+    abilities ABILITY_LIMBER, ABILITY_LIGHTNING_ROD
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_SUDOWOODO, "Although it always pretends to be a\ntree, its composition appears more\nsimilar to rock than to vegetation."
@@ -6305,7 +6305,7 @@ mondata SPECIES_NOSEPASS, "Nosepass"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STURDY, ABILITY_MAGNET_PULL
+    abilities ABILITY_ELECTRIC_SURGE, ABILITY_MAGNET_PULL
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_NOSEPASS, "If two of these meet, they cannot\nget too close because their noses\nrepel each other."
@@ -7785,12 +7785,12 @@ mondata SPECIES_RELICANTH, "Relicanth"
 
 
 mondata SPECIES_LUVDISC, "Luvdisc"
-    basestats 50, 30, 75, 75, 60, 150
+    basestats 40, 30, 90, 80, 60, 160
     types TYPE_WATER, TYPE_FAIRY
     catchrate 196
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_HEART_SCALE, ITEM_NONE
+    items ITEM_HEART_SCALE, ITEM_HEART_SCALE
     genderratio 159
     eggcycles 20
     basefriendship 70
@@ -10022,7 +10022,7 @@ mondata SPECIES_PROBOPASS, "Probopass"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STURDY, ABILITY_MAGNET_PULL
+    abilities ABILITY_ELECTRIC_SURGE, ABILITY_MAGNET_PULL
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_PROBOPASS, "It controls three units called Mini-Noses\nusing magnetic force. With them, it can\nattack the foe from three directions."
@@ -10493,7 +10493,7 @@ mondata SPECIES_DEOXYS_SPEED, "-----"
     mondexweight SPECIES_DEOXYS_SPEED, "????.? lbs."
 
 
-mondata SPECIES_WORMADAM_SANDY, "-----"
+mondata SPECIES_WORMADAM_SANDY, "Wormadam"
     basestats 68, 71, 101, 21, 71, 101
     types TYPE_BUG, TYPE_GROUND
     catchrate 45
@@ -10514,7 +10514,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
     mondexweight SPECIES_WORMADAM_SANDY, "????.? lbs."
 
 
-mondata SPECIES_WORMADAM_TRASHY, "-----"
+mondata SPECIES_WORMADAM_TRASHY, "Wormadam"
     basestats 68, 77, 129, 21, 65, 74
     types TYPE_BUG, TYPE_STEEL
     catchrate 45
@@ -21498,23 +21498,23 @@ mondata SPECIES_HOUNDSTONE, "Houndstone"
 
 
 mondata SPECIES_FLAMIGO, "Flamigo"
-    basestats 82, 115, 74, 90, 75, 64
+    basestats 101, 91, 41, 91, 121, 51
     types TYPE_FLYING, TYPE_FIGHTING
     catchrate 100
     baseexp 0 // defined in baseexp.s
-    evyields 0, 2, 0, 0, 0, 0
+    evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_SCRAPPY, ABILITY_TANGLED_FEET
+    abilities ABILITY_SYNCHRONIZE, ABILITY_SCRAPPY
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_FLAMIGO, "This Pokémon apparently ties the base of its\nneck into a knot so that the energy stored\nin its belly does not escape from its beak."
     mondexclassification SPECIES_FLAMIGO, "Synchronize Pokémon"
-    mondexheight SPECIES_FLAMIGO, "5’03”"
+    mondexheight SPECIES_FLAMIGO, "6’03”"
     mondexweight SPECIES_FLAMIGO, "81.6 lbs."
 
 

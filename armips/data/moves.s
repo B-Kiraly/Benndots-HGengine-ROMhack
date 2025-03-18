@@ -924,10 +924,10 @@ movedata MOVE_HYDRO_PUMP, "Hydro Pump"
 movedata MOVE_SURF, "Surf"
     battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_DIVE
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 100
     type TYPE_WATER
     accuracy 100
-    pp 10
+    pp 7
     effectchance 0
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
@@ -13485,11 +13485,11 @@ movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
 movedata MOVE_BARB_BARRAGE, "Barb Barrage"
     battleeffect MOVE_EFFECT_POISON_HIT_DOUBLE_POWER_ON_POISONED
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 75
     type TYPE_POISON
-    accuracy 100
-    pp 10
-    effectchance 50
+    accuracy 90
+    pp 8
+    effectchance 40
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

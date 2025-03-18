@@ -336,7 +336,7 @@ evodata SPECIES_RAICHU
     terminateevodata
 
 evodata SPECIES_SANDSHREW
-    evolution EVO_LEVEL, 24, SPECIES_SANDSLASH
+    evolution EVO_LEVEL, 27, SPECIES_SANDSLASH
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -360,7 +360,7 @@ evodata SPECIES_SANDSLASH
     terminateevodata
 
 evodata SPECIES_NIDORAN_F
-    evolution EVO_LEVEL, 22, SPECIES_NIDORINA
+    evolution EVO_LEVEL, 24, SPECIES_NIDORINA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -396,7 +396,7 @@ evodata SPECIES_NIDOQUEEN
     terminateevodata
 
 evodata SPECIES_NIDORAN_M
-    evolution EVO_LEVEL, 22, SPECIES_NIDORINO
+    evolution EVO_LEVEL, 24, SPECIES_NIDORINO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

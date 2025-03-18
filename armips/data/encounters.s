@@ -381,11 +381,11 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_SURSKIT, 12, 21
+encounter SPECIES_POLIWAG, 17, 25
+encounter SPECIES_SURSKIT, 17, 25
+encounter SPECIES_POLIWHIRL, 17, 25
+encounter SPECIES_POLIWHIRL, 17, 25
+encounter SPECIES_MASQUERAIN, 26, 26
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -485,11 +485,11 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_SURSKIT, 12, 21
+encounter SPECIES_POLIWAG, 17, 25
+encounter SPECIES_SURSKIT, 17, 25
+encounter SPECIES_POLIWHIRL, 17, 25
+encounter SPECIES_POLIWHIRL, 17, 25
+encounter SPECIES_MASQUERAIN, 26, 26
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -589,11 +589,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_SEEL, 14, 23
+encounter SPECIES_POLIWAG, 17, 25
+encounter SPECIES_SURSKIT, 17, 25
+encounter SPECIES_PSYDUCK, 17, 25
+encounter SPECIES_POLIWHIRL, 17, 25
+encounter SPECIES_MASQUERAIN, 26, 26
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -901,11 +901,11 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 16, 20
-encounter SPECIES_TENTACOOL, 21, 23
-encounter SPECIES_SEEL, 16, 24
-encounter SPECIES_TENTACRUEL, 22, 24
-encounter SPECIES_CORSOLA, 15, 25
+encounter SPECIES_WOOPER, 16, 22
+encounter SPECIES_TENTACOOL, 17, 25
+encounter SPECIES_SEEL, 17, 24
+encounter SPECIES_CORSOLA, 17, 25
+encounter SPECIES_TENTACRUEL, 31, 35
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -1005,11 +1005,11 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_WOOPER, 15, 25
-encounter SPECIES_SURSKIT, 15, 25
-encounter SPECIES_MAGNEMITE, 15, 25
-encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_POLIWHIRL, 24, 26
+encounter SPECIES_WOOPER, 17, 25
+encounter SPECIES_SURSKIT, 17, 25
+encounter SPECIES_MAGNEMITE, 17, 25
+encounter SPECIES_STARYU, 17, 25
+encounter SPECIES_LUVDISC, 20, 30
 
 // rock smash encounters
 encounter SPECIES_GEODUDE, 8, 12
@@ -2150,11 +2150,11 @@ pokemon SPECIES_BUDEW
 pokemon SPECIES_CARNIVINE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 12, 20
-encounter SPECIES_SURSKIT, 12, 20
-encounter SPECIES_PSYDUCK, 12, 20
-encounter SPECIES_POLIWAG, 12, 20
-encounter SPECIES_SURSKIT, 12, 20
+encounter SPECIES_POLIWAG, 16, 24
+encounter SPECIES_SURSKIT, 16, 24
+encounter SPECIES_PSYDUCK, 16, 24
+encounter SPECIES_POLIWAG, 16, 24
+encounter SPECIES_TOTODILE, 16, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -5425,7 +5425,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 13, 16, 16, 14, 14, 16, 16, 15, 18, 15, 17
+walklevels 16, 15, 16, 16, 17, 15, 17, 17, 15, 18, 15, 17
 
 // morning encounter slots
 pokemon SPECIES_MACHOP
@@ -13329,49 +13329,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 30, 25, 30, 25, 35, 35, 20, 20, 30, 28, 30, 28
+walklevels 31, 31, 35, 33, 34, 35, 36, 37, 37, 42, 42, 46
 
 // morning encounter slots
 pokemon SPECIES_TANGELA
+pokemon SPECIES_FLAMIGO
+pokemon SPECIES_FLAMIGO
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
+pokemon SPECIES_BAYLEEF
 pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGROWTH
+pokemon SPECIES_MEGANIUM
 
 // day encounter slots
 pokemon SPECIES_TANGELA
+pokemon SPECIES_FLAMIGO
+pokemon SPECIES_FLAMIGO
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
+pokemon SPECIES_BAYLEEF
 pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGROWTH
+pokemon SPECIES_MEGANIUM
 
 // night encounter slots
 pokemon SPECIES_TANGELA
+pokemon SPECIES_FLAMIGO
+pokemon SPECIES_FLAMIGO
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
+pokemon SPECIES_BAYLEEF
 pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGROWTH
+pokemon SPECIES_MEGANIUM
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
