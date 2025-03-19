@@ -13560,7 +13560,7 @@ mondata SPECIES_ALOMOMOLA, "Alomomola"
 
 
 mondata SPECIES_JOLTIK, "Joltik"
-    basestats 40, 44, 48, 67, 61, 56
+    basestats 39, 45, 48, 65, 61, 56
     types TYPE_BUG, TYPE_ELECTRIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -13576,12 +13576,12 @@ mondata SPECIES_JOLTIK, "Joltik"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_JOLTIK, "Joltik that live in cities have learned\na technique for sucking electricity\nfrom the outlets in houses."
     mondexclassification SPECIES_JOLTIK, "Attaching Pokémon"
-    mondexheight SPECIES_JOLTIK, "0’04”"
+    mondexheight SPECIES_JOLTIK, "0’06”"
     mondexweight SPECIES_JOLTIK, "1.3 lbs."
 
 
 mondata SPECIES_GALVANTULA, "Galvantula"
-    basestats 79, 81, 60, 83, 95, 87
+    basestats 73, 81, 64, 83, 95, 87
     types TYPE_BUG, TYPE_ELECTRIC
     catchrate 75
     baseexp 0 // defined in baseexp.s

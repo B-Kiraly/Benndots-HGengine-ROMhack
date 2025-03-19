@@ -2,8 +2,8 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V16.3
-Current Task: Test playthrough of V16.3
+Current version: V16.4
+Current Task: Test playthrough of V16.4
 
 Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~95% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely untouched.
 
@@ -272,19 +272,17 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrock department store, etc.)
+* Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrod department store, etc.)
 * Test expanded fossil revival options in Pewter city
-* Fix remaining level 0 moves in learnsets (not currently supported by HGengine, hitmons & a few others still need to be done)
-* Work on more species & learnsets that I haven't fully constructed (porygon line(s), fossil species, seviper etc)
-* Complete Johto wild pokemon encounters (Mostly ponds and Mt. Mortar unfinalized)
+* Work on more species & learnsets that I haven't fully constructed (joltik, mienfoo, porygon line(s), fossil species, seviper etc)
+* Complete Johto wild pokemon encounters (Mostly ponds unfinalized)
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
-* Figure out how to edit exp yields
 * Update to a more modern version of HG engine !!!
 
 ## Ideas
 
-* Add more aquatic species from other generations? Dhelmise, Mareanie, Pincurchin, Stunfisk, Feebas
+* Add more aquatic species from other generations? Dhelmise, Mareanie, Pincurchin, Stunfisk, Jellicent
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
 * Add Swablu-Alteria (fairy / flying), castform (mt. silver?)
 * Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
