@@ -12447,7 +12447,7 @@ mondata SPECIES_SWADLOON, "Swadloon"
 
 
 mondata SPECIES_LEAVANNY, "Leavanny"
-    basestats 75, 103, 80, 92, 70, 80
+    basestats 76, 84, 80, 103, 73, 84
     types TYPE_BUG, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s

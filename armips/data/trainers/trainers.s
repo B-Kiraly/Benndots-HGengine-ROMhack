@@ -4199,21 +4199,21 @@ trainerdata 134, "Benjamin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 15
-        pokemon SPECIES_DIGLETT
+        level 17
+        pokemon SPECIES_NIDORAN_M
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 15
+        level 16
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 17
+        level 18
         pokemon SPECIES_DUGTRIO
         ballseal 0
     endparty

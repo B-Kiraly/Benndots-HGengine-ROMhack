@@ -976,18 +976,18 @@ headbuttheader  37,   4,   0   // Route 33
 
 headbuttheader  38,  15,   1   // Route 34
     // normal slots
-    headbuttencounter SPECIES_HOOTHOOT, 9, 10
-    headbuttencounter SPECIES_PINECO, 9, 10
-    headbuttencounter SPECIES_PINECO, 9, 10
-    headbuttencounter SPECIES_EXEGGCUTE, 9, 10
-    headbuttencounter SPECIES_EXEGGCUTE, 9, 10
-    headbuttencounter SPECIES_EXEGGCUTE, 9, 10
-    headbuttencounter SPECIES_HOOTHOOT, 11, 12
-    headbuttencounter SPECIES_SPINARAK, 11, 12
-    headbuttencounter SPECIES_SPINARAK, 11, 12
-    headbuttencounter SPECIES_EXEGGCUTE, 11, 12
-    headbuttencounter SPECIES_EXEGGCUTE, 11, 12
-    headbuttencounter SPECIES_EXEGGCUTE, 11, 12
+    headbuttencounter SPECIES_PACHIRISU, 3, 9
+    headbuttencounter SPECIES_SPINARAK, 4, 10
+    headbuttencounter SPECIES_BURMY, 4, 9
+    headbuttencounter SPECIES_BURMY, 4, 9
+    headbuttencounter SPECIES_HOOTHOOT, 5, 10
+    headbuttencounter SPECIES_METAPOD, 3, 5
+    headbuttencounter SPECIES_KAKUNA, 6, 8
+    headbuttencounter SPECIES_PINECO, 6, 8
+    headbuttencounter SPECIES_PINECO, 6, 8
+    headbuttencounter SPECIES_PACHIRISU, 6, 8
+    headbuttencounter SPECIES_BURMY, 6, 8
+    headbuttencounter SPECIES_BURMY, 10, 20
     // special slots
     headbuttencounter SPECIES_NONE, 0, 0
     headbuttencounter SPECIES_NONE, 0, 0
@@ -2203,8 +2203,8 @@ headbuttheader 117,  56,   0   // Ilex Forest
     headbuttencounter SPECIES_HOOTHOOT, 6, 8
     headbuttencounter SPECIES_PINECO, 6, 8
     headbuttencounter SPECIES_PINECO, 6, 8
-    headbuttencounter SPECIES_KAKUNA, 6, 8
-    headbuttencounter SPECIES_KAKUNA, 6, 8
+    headbuttencounter SPECIES_PACHIRISU, 6, 8
+    headbuttencounter SPECIES_BURMY, 6, 8
     headbuttencounter SPECIES_CELEBI, 10, 20
     // special slots
     headbuttencounter SPECIES_NONE, 0, 0
