@@ -2010,7 +2010,7 @@ mondata SPECIES_GENGAR, "Gengar"
 
 
 mondata SPECIES_ONIX, "Onix"
-    basestats 132, 106, 104, 84, 32, 30
+    basestats 131, 107, 103, 84, 71, 30
     types TYPE_ROCK, TYPE_GROUND
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -2914,7 +2914,7 @@ mondata SPECIES_PORYGON, "Porygon"
 
 mondata SPECIES_OMANYTE, "Omanyte"
     basestats 37, 56, 103, 36, 61, 59
-    types TYPE_ROCK, TYPE_WATER
+    types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -2935,7 +2935,7 @@ mondata SPECIES_OMANYTE, "Omanyte"
 
 mondata SPECIES_OMASTAR, "Omastar"
     basestats 64, 87, 112, 49, 80, 81
-    types TYPE_ROCK, TYPE_WATER
+    types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -2956,7 +2956,7 @@ mondata SPECIES_OMASTAR, "Omastar"
 
 mondata SPECIES_KABUTO, "Kabuto"
     basestats 37, 51, 84, 46, 55, 73
-    types TYPE_ROCK, TYPE_WATER
+    types TYPE_BUG, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -2977,7 +2977,7 @@ mondata SPECIES_KABUTO, "Kabuto"
 
 mondata SPECIES_KABUTOPS, "Kabutops"
     basestats 66, 107, 93, 92, 55, 73
-    types TYPE_ROCK, TYPE_WATER
+    types TYPE_BUG, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -4383,7 +4383,7 @@ mondata SPECIES_GLIGAR, "Gligar"
 
 
 mondata SPECIES_STEELIX, "Steelix"
-    basestats 130, 133, 160, 55, 35, 50
+    basestats 155, 135, 155, 50, 45, 50
     types TYPE_STEEL, TYPE_GROUND
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -7512,7 +7512,7 @@ mondata SPECIES_DUSCLOPS, "Dusclops"
 
 
 mondata SPECIES_TROPIUS, "Tropius"
-    basestats 99, 68, 83, 51, 72, 87
+    basestats 121, 99, 66, 55, 77, 77
     types TYPE_GRASS, TYPE_FLYING
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -7523,7 +7523,7 @@ mondata SPECIES_TROPIUS, "Tropius"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER
+    abilities ABILITY_GALE_WINGS, ABILITY_SOLAR_POWER
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_TROPIUS, "The bunch of fruit around its neck\nripens twice a year and is delicious.\nIt’s a highly favored tropical snack."

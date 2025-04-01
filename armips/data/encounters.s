@@ -13121,7 +13121,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 28, 27, 28, 27, 29, 29, 30, 30, 29, 32, 29, 32
+walklevels 38, 37, 38, 37, 39, 37, 40, 40, 39, 42, 39, 42
 
 // morning encounter slots
 pokemon SPECIES_FEAROW
@@ -13129,7 +13129,7 @@ pokemon SPECIES_GRIMER
 pokemon SPECIES_FEAROW
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
+pokemon SPECIES_TROPIUS
 pokemon SPECIES_FEAROW
 pokemon SPECIES_FEAROW
 pokemon SPECIES_SLUGMA
@@ -13139,11 +13139,11 @@ pokemon SPECIES_MUK
 
 // day encounter slots
 pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
+pokemon SPECIES_GRIMER
 pokemon SPECIES_FEAROW
-pokemon SPECIES_SLUGMA
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
+pokemon SPECIES_TROPIUS
 pokemon SPECIES_FEAROW
 pokemon SPECIES_FEAROW
 pokemon SPECIES_SLUGMA
@@ -13152,14 +13152,14 @@ pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 
 // night encounter slots
+pokemon SPECIES_FEAROW
+pokemon SPECIES_GRIMER
+pokemon SPECIES_FEAROW
 pokemon SPECIES_GRIMER
 pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_GRIMER
-pokemon SPECIES_MUK
-pokemon SPECIES_MUK
+pokemon SPECIES_TROPIUS
+pokemon SPECIES_FEAROW
+pokemon SPECIES_FEAROW
 pokemon SPECIES_SLUGMA
 pokemon SPECIES_MUK
 pokemon SPECIES_SLUGMA

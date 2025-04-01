@@ -7868,8 +7868,8 @@ trainerdata 250, "Kenji"
         // mon 2
         ivs 30
         abilityslot 0
-        level 27
-        pokemon SPECIES_ONIX
+        level 30
+        pokemon SPECIES_DUGTRIO
         ballseal 0
 
         // mon 3
@@ -7960,61 +7960,61 @@ trainerdata 253, "Brock"
         // mon 0
         ivs 200
         abilityslot 32
-        level 51
+        level 52
         pokemon SPECIES_GRAVELER
         item ITEM_NONE
-        move MOVE_DEFENSE_CURL
+        move MOVE_SELF_DESTRUCT
         move MOVE_ROCK_SLIDE
-        move MOVE_ROLLOUT
-        move MOVE_EARTHQUAKE
+        move MOVE_BODY_SLAM
+        move MOVE_BULLDOZE
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 0
-        level 51
+        level 53
         pokemon SPECIES_RHYHORN
         item ITEM_NONE
-        move MOVE_SANDSTORM
+        move MOVE_HEAD_CHARGE
         move MOVE_SCARY_FACE
-        move MOVE_EARTHQUAKE
-        move MOVE_HORN_DRILL
+        move MOVE_MEGAHORN
+        move MOVE_YAWN
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 32
         level 53
-        pokemon SPECIES_OMASTAR
-        item ITEM_NONE
-        move MOVE_ANCIENT_POWER
-        move MOVE_BRINE
-        move MOVE_PROTECT
+        pokemon SPECIES_CORSOLA
+        item ITEM_LOADED_DICE
+        move MOVE_ROCK_BLAST
+        move MOVE_MIST_BALL
+        move MOVE_MIRROR_COAT
         move MOVE_SPIKE_CANNON
         ballseal 0
 
         // mon 3
-        ivs 200
+        ivs 250
         abilityslot 0
-        level 54
+        level 56
         pokemon SPECIES_ONIX
-        item ITEM_SITRUS_BERRY
+        item ITEM_PASSHO_BERRY
         move MOVE_IRON_TAIL
-        move MOVE_ROCK_SLIDE
-        move MOVE_SCREECH
-        move MOVE_SANDSTORM
+        move MOVE_DRAGON_RUSH
+        move MOVE_ACCELEROCK
+        move MOVE_DIG
         ballseal 0
 
         // mon 4
         ivs 200
         abilityslot 32
         level 52
-        pokemon SPECIES_KABUTOPS
+        pokemon SPECIES_NOSEPASS
         item ITEM_NONE
-        move MOVE_ROCK_SLIDE
-        move MOVE_AQUA_JET
-        move MOVE_ENDURE
-        move MOVE_GIGA_DRAIN
+        move MOVE_STONE_EDGE
+        move MOVE_LOCK_ON
+        move MOVE_ZAP_CANNON
+        move MOVE_THUNDER_WAVE
         ballseal 0
     endparty
 

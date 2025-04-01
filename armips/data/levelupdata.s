@@ -2323,11 +2323,16 @@ levelup SPECIES_ONIX
     learnset MOVE_STEALTH_ROCK, 28
     learnset MOVE_MAGNITUDE, 32
     learnset MOVE_SLAM, 35
-    learnset MOVE_DRAGON_RAGE, 38
+    learnset MOVE_DRAGON_BREATH, 38
     learnset MOVE_EARTHQUAKE, 42
-    learnset MOVE_DRAGON_RUSH, 46
-    learnset MOVE_STONE_EDGE, 50
-    learnset MOVE_FISSURE, 55
+    learnset MOVE_ACCELEROCK, 46
+    learnset MOVE_DRAGON_RUSH, 50
+    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_FISSURE, 58
+    learnset MOVE_HYPER_BEAM, 62
+    learnset MOVE_HEAD_SMASH, 66
+    learnset MOVE_FLAMETHROWER, 70
+    learnset MOVE_ICE_BEAM, 70
     terminatelearnset
 
 
