@@ -2115,7 +2115,7 @@ mondata SPECIES_KINGLER, "Kingler"
 
 
 mondata SPECIES_VOLTORB, "Voltorb"
-    basestats 50, 60, 35, 90, 60, 40
+    basestats 51, 61, 53, 89, 61, 37
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -2126,17 +2126,17 @@ mondata SPECIES_VOLTORB, "Voltorb"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    abilities ABILITY_VOLT_ABSORB, ABILITY_AFTERMATH
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_VOLTORB, "It rolls to move. If the ground is\nuneven, a sudden jolt from hitting\na bump can cause it to explode."
     mondexclassification SPECIES_VOLTORB, "Ball Pokémon"
-    mondexheight SPECIES_VOLTORB, "2’08”"
+    mondexheight SPECIES_VOLTORB, "2’01”"
     mondexweight SPECIES_VOLTORB, "22.9 lbs."
 
 
 mondata SPECIES_ELECTRODE, "Electrode"
-    basestats 80, 90, 50, 115, 110, 65
+    basestats 81, 95, 79, 113, 95, 61
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -2147,13 +2147,13 @@ mondata SPECIES_ELECTRODE, "Electrode"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    abilities ABILITY_VOLT_ABSORB, ABILITY_AFTERMATH
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ELECTRODE, "It is dangerous. If it has too much\nelectricity and has nothing to do,\nit amuses itself by exploding."
     mondexclassification SPECIES_ELECTRODE, "Ball Pokémon"
-    mondexheight SPECIES_ELECTRODE, "4’03”"
-    mondexweight SPECIES_ELECTRODE, "146.8 lbs."
+    mondexheight SPECIES_ELECTRODE, "3’10”"
+    mondexweight SPECIES_ELECTRODE, "126.8 lbs."
 
 
 mondata SPECIES_EXEGGCUTE, "Exeggcute"

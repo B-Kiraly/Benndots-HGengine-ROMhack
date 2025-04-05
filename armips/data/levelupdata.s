@@ -2444,50 +2444,65 @@ levelup SPECIES_KINGLER
 
 levelup SPECIES_VOLTORB
     learnset MOVE_LEER, 1
-    learnset MOVE_ROLLOUT, 1
-    learnset MOVE_TACKLE, 4
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_ROLLOUT, 4
     learnset MOVE_CHARGE, 7
     learnset MOVE_SPARK, 10
     learnset MOVE_SONIC_BOOM, 12
-    learnset MOVE_SCREECH, 15
-    learnset MOVE_CHARGE_BEAM, 17
-    learnset MOVE_RAPID_SPIN, 19
-    learnset MOVE_ELECTRO_BALL, 21
-    learnset MOVE_SELF_DESTRUCT, 25
-    learnset MOVE_HEADBUTT, 28
-    learnset MOVE_LIGHT_SCREEN, 31
-    learnset MOVE_DISCHARGE, 34
-    learnset MOVE_EXPLOSION, 37
-    learnset MOVE_GYRO_BALL, 40
-    learnset MOVE_MAGNET_RISE, 44
-    learnset MOVE_GIGA_IMPACT, 48
-    learnset MOVE_BOLT_STRIKE, 53
+    learnset MOVE_RAPID_SPIN, 15
+    learnset MOVE_SELF_DESTRUCT, 18
+    learnset MOVE_CHARGE_BEAM, 21
+    learnset MOVE_MIRROR_COAT, 24
+    learnset MOVE_FEINT, 26
+    learnset MOVE_TAUNT, 29
+    learnset MOVE_DISCHARGE, 31
+    learnset MOVE_FLASH, 34
+    learnset MOVE_EXPLOSION, 36
+    learnset MOVE_WILD_CHARGE, 39
+    learnset MOVE_GYRO_BALL, 41
+    learnset MOVE_CURSE, 44
+    learnset MOVE_STEAMROLLER, 46
+    learnset MOVE_ELECTRO_BALL, 50
+    learnset MOVE_EMBARGO, 52
+    learnset MOVE_GIGA_IMPACT, 55
+    learnset MOVE_MAGNET_RISE, 58
+    learnset MOVE_BOLT_STRIKE, 61
+    learnset MOVE_AGILITY, 64
+    learnset MOVE_STORED_POWER, 67
+    learnset MOVE_THUNDER, 70
     terminatelearnset
 
 
 levelup SPECIES_ELECTRODE
-    learnset MOVE_CHARGE, 1
-    learnset MOVE_SELF_DESTRUCT, 1
+    learnset MOVE_TAKE_DOWN, 1
+    learnset MOVE_HEADBUTT, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_ROLLOUT, 1
-    learnset MOVE_TACKLE, 4
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_ROLLOUT, 4
     learnset MOVE_CHARGE, 7
     learnset MOVE_SPARK, 10
     learnset MOVE_SONIC_BOOM, 12
-    learnset MOVE_SCREECH, 15
-    learnset MOVE_CHARGE_BEAM, 17
-    learnset MOVE_RAPID_SPIN, 19
-    learnset MOVE_ELECTRO_BALL, 21
-    learnset MOVE_SELF_DESTRUCT, 25
-    learnset MOVE_HEADBUTT, 28
-    learnset MOVE_LIGHT_SCREEN, 31
-    learnset MOVE_DISCHARGE, 34
-    learnset MOVE_EXPLOSION, 37
-    learnset MOVE_GYRO_BALL, 40
-    learnset MOVE_MAGNET_RISE, 44
-    learnset MOVE_GIGA_IMPACT, 48
-    learnset MOVE_BOLT_STRIKE, 53
-    learnset MOVE_THUNDER, 62
+    learnset MOVE_RAPID_SPIN, 15
+    learnset MOVE_SELF_DESTRUCT, 18
+    learnset MOVE_CHARGE_BEAM, 21
+    learnset MOVE_MIRROR_COAT, 24
+    learnset MOVE_FEINT, 26
+    learnset MOVE_TAUNT, 29
+    learnset MOVE_DISCHARGE, 31
+    learnset MOVE_FLASH, 34
+    learnset MOVE_EXPLOSION, 36
+    learnset MOVE_WILD_CHARGE, 39
+    learnset MOVE_GYRO_BALL, 41
+    learnset MOVE_CURSE, 44
+    learnset MOVE_STEAMROLLER, 46
+    learnset MOVE_ELECTRO_BALL, 50
+    learnset MOVE_EMBARGO, 52
+    learnset MOVE_GIGA_IMPACT, 55
+    learnset MOVE_MAGNET_RISE, 58
+    learnset MOVE_BOLT_STRIKE, 61
+    learnset MOVE_AGILITY, 64
+    learnset MOVE_STORED_POWER, 67
+    learnset MOVE_THUNDER, 70
     terminatelearnset
 
 
