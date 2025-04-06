@@ -267,7 +267,7 @@ mondata SPECIES_METAPOD, "Metapod"
 
 
 mondata SPECIES_BUTTERFREE, "Butterfree"
-    basestats 69, 41, 48, 76, 86, 88
+    basestats 79, 47, 51, 76, 88, 89
     types TYPE_BUG, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -666,7 +666,7 @@ mondata SPECIES_NIDORINA, "Nidorina"
 
 
 mondata SPECIES_NIDOQUEEN, "Nidoqueen"
-    basestats 103, 93, 91, 64, 67, 79
+    basestats 101, 95, 91, 64, 67, 79
     types TYPE_POISON, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -750,7 +750,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
 
 
 mondata SPECIES_CLEFAIRY, "Clefairy"
-    basestats 75, 45, 45, 42, 60, 91
+    basestats 72, 48, 48, 54, 64, 94
     types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 150
     baseexp 0 // defined in baseexp.s
@@ -766,12 +766,12 @@ mondata SPECIES_CLEFAIRY, "Clefairy"
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_CLEFAIRY, "The moonlight that it stores in the\nwings on its back apparently gives\nit the ability to float in midair."
     mondexclassification SPECIES_CLEFAIRY, "Fairy Pokémon"
-    mondexheight SPECIES_CLEFAIRY, "2’00”"
-    mondexweight SPECIES_CLEFAIRY, "16.5 lbs."
+    mondexheight SPECIES_CLEFAIRY, "2’07”"
+    mondexweight SPECIES_CLEFAIRY, "56.5 lbs."
 
 
 mondata SPECIES_CLEFABLE, "Clefable"
-    basestats 93, 71, 66, 63, 83, 122
+    basestats 94, 70, 66, 64, 86, 122
     types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -788,7 +788,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
     mondexentry SPECIES_CLEFABLE, "With its acute hearing, it can\npick up sounds from far away.\nIt usually hides in quiet places."
     mondexclassification SPECIES_CLEFABLE, "Fairy Pokémon"
     mondexheight SPECIES_CLEFABLE, "4’03”"
-    mondexweight SPECIES_CLEFABLE, "88.2 lbs."
+    mondexweight SPECIES_CLEFABLE, "118.2 lbs."
 
 
 mondata SPECIES_VULPIX, "Vulpix"
@@ -813,8 +813,8 @@ mondata SPECIES_VULPIX, "Vulpix"
 
 
 mondata SPECIES_NINETALES, "Ninetales"
-    basestats 74, 71, 64, 97, 97, 105
-    types TYPE_FIRE, TYPE_FIRE
+    basestats 74, 71, 64, 99, 100, 110
+    types TYPE_FIRE, TYPE_GHOST
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 1
@@ -5958,7 +5958,7 @@ mondata SPECIES_GARDEVOIR, "Gardevoir"
 
 
 mondata SPECIES_SURSKIT, "Surskit"
-    basestats 56, 46, 31, 65, 46, 51
+    basestats 56, 47, 37, 81, 43, 43
     types TYPE_BUG, TYPE_WATER
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -5979,7 +5979,7 @@ mondata SPECIES_SURSKIT, "Surskit"
 
 
 mondata SPECIES_MASQUERAIN, "Masquerain"
-    basestats 73, 62, 41, 84, 89, 83
+    basestats 68, 67, 51, 97, 83, 83
     types TYPE_BUG, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s

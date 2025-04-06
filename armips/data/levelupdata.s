@@ -908,6 +908,8 @@ levelup SPECIES_NINETALES
     learnset MOVE_FIERY_DANCE, 54
     learnset MOVE_PSYCHIC, 58
     learnset MOVE_CALM_MIND, 62
+    learnset MOVE_MOONBLAST, 66
+    learnset MOVE_DESTINY_BOND, 70
     terminatelearnset
 
 
