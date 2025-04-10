@@ -4234,7 +4234,7 @@ encounter SPECIES_WINGULL, 16, 22
 encounter SPECIES_TENTACOOL, 16, 22
 encounter SPECIES_CORSOLA, 16, 22
 encounter SPECIES_MANTINE, 16, 22
-encounter SPECIES_CORSOLA, 18, 24
+encounter SPECIES_CORSOLA, 16, 22
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4334,11 +4334,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 16, 19
-encounter SPECIES_TENTACRUEL, 20, 23
-encounter SPECIES_CORSOLA, 16, 24
-encounter SPECIES_MANTINE, 19, 24
-encounter SPECIES_CETODDLE, 19, 24
+encounter SPECIES_TENTACOOL, 17, 22
+encounter SPECIES_TENTACOOL, 17, 22
+encounter SPECIES_CORSOLA, 17, 22
+encounter SPECIES_MANTINE, 17, 22
+encounter SPECIES_CETODDLE, 17, 22
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4438,11 +4438,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 16, 19
-encounter SPECIES_TENTACRUEL, 20, 23
-encounter SPECIES_CETODDLE, 18, 24
-encounter SPECIES_MANTINE, 18, 24
-encounter SPECIES_CORSOLA, 18, 24
+encounter SPECIES_TENTACOOL, 17, 19
+encounter SPECIES_TENTACOOL, 20, 23
+encounter SPECIES_CETODDLE, 18, 23
+encounter SPECIES_MANTINE, 18, 23
+encounter SPECIES_CORSOLA, 18, 23
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4542,11 +4542,11 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_HORSEA, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+encounter SPECIES_TENTACOOL, 17, 24
+encounter SPECIES_TENTACOOL, 17, 24
+encounter SPECIES_HORSEA, 17, 24
+encounter SPECIES_CETODDLE, 17, 24
+encounter SPECIES_SQUIRTLE, 17, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4854,11 +4854,11 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_HORSEA, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_SEADRA, 15, 25
-encounter SPECIES_SEADRA, 15, 25
-encounter SPECIES_SEADRA, 30, 30
+encounter SPECIES_HORSEA, 17, 24
+encounter SPECIES_TENTACOOL, 17, 24
+encounter SPECIES_HORSEA, 17, 24
+encounter SPECIES_WARTORTLE, 20, 24
+encounter SPECIES_CETODDLE, 17, 24
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -5374,11 +5374,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 17, 24
-encounter SPECIES_TENTACOOL, 17, 24
-encounter SPECIES_MANTINE, 17, 24
-encounter SPECIES_CETODDLE, 17, 24
-encounter SPECIES_CORSOLA, 17, 24
+encounter SPECIES_WINGULL, 17, 22
+encounter SPECIES_TENTACOOL, 17, 22
+encounter SPECIES_MANTINE, 17, 22
+encounter SPECIES_CETODDLE, 17, 22
+encounter SPECIES_CORSOLA, 17, 22
 
 // rock smash encounters
 encounter SPECIES_KRABBY, 16, 26
@@ -5395,8 +5395,8 @@ encounter SPECIES_CLAMPERL, 14, 15
 encounter SPECIES_TENTACOOL, 17, 24
 encounter SPECIES_STARYU, 17, 24
 encounter SPECIES_KRABBY, 17, 24
-encounter SPECIES_CLAMPERL, 22, 27
-encounter SPECIES_MAREANIE, 22, 27
+encounter SPECIES_CLAMPERL, 17, 24
+encounter SPECIES_MAREANIE, 17, 24
 
 // super rod encounters
 encounter SPECIES_STARYU, 33, 45
