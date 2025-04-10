@@ -5517,7 +5517,7 @@ mondata SPECIES_POOCHYENA, "Poochyena"
 
 
 mondata SPECIES_MIGHTYENA, "Mightyena"
-    basestats 83, 97, 67, 97, 53, 63
+    basestats 79, 97, 74, 91, 57, 66
     types TYPE_DARK, TYPE_DARK
     catchrate 127
     baseexp 0 // defined in baseexp.s
@@ -5559,7 +5559,7 @@ mondata SPECIES_ZIGZAGOON, "Zigzagoon"
 
 
 mondata SPECIES_LINOONE, "Linoone"
-    basestats 78, 70, 61, 100, 50, 61
+    basestats 71, 86, 61, 104, 59, 67
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -5622,7 +5622,7 @@ mondata SPECIES_SILCOON, "Silcoon"
 
 
 mondata SPECIES_BEAUTIFLY, "Beautifly"
-    basestats 60, 70, 50, 65, 100, 50
+    basestats 70, 45, 50, 65, 80, 125
     types TYPE_BUG, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5664,7 +5664,7 @@ mondata SPECIES_CASCOON, "Cascoon"
 
 
 mondata SPECIES_DUSTOX, "Dustox"
-    basestats 60, 50, 70, 65, 50, 90
+    basestats 70, 45, 50, 65, 80, 125
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5853,7 +5853,7 @@ mondata SPECIES_SWELLOW, "Swellow"
 
 
 mondata SPECIES_WINGULL, "Wingull"
-    basestats 45, 40, 30, 65, 55, 35
+    basestats 51, 61, 41, 81, 51, 51
     types TYPE_WATER, TYPE_FLYING
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -5874,7 +5874,7 @@ mondata SPECIES_WINGULL, "Wingull"
 
 
 mondata SPECIES_PELIPPER, "Pelipper"
-    basestats 90, 70, 90, 65, 80, 70
+    basestats 91, 81, 91, 51, 81, 71
     types TYPE_WATER, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5885,7 +5885,7 @@ mondata SPECIES_PELIPPER, "Pelipper"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE, ABILITY_DRIZZLE
+    abilities ABILITY_DAMP, ABILITY_RAIN_DISH
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_PELIPPER, "It protects its young in its beak.\nIt bobs on waves, resting on them\non days when the waters are calm."
@@ -13497,7 +13497,7 @@ mondata SPECIES_AMOONGUSS, "Amoonguss"
 
 
 mondata SPECIES_FRILLISH, "Frillish"
-    basestats 55, 40, 50, 40, 65, 85
+    basestats 75, 47, 43, 57, 75, 75
     types TYPE_WATER, TYPE_GHOST
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -13518,7 +13518,7 @@ mondata SPECIES_FRILLISH, "Frillish"
 
 
 mondata SPECIES_JELLICENT, "Jellicent"
-    basestats 100, 60, 70, 60, 85, 105
+    basestats 125, 65, 47, 47, 93, 93
     types TYPE_WATER, TYPE_GHOST
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -13571,7 +13571,7 @@ mondata SPECIES_JOLTIK, "Joltik"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_COMPOUND_EYES, ABILITY_UNNERVE
+    abilities ABILITY_COMPOUND_EYES, ABILITY_STATIC
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_JOLTIK, "Joltik that live in cities have learned\na technique for sucking electricity\nfrom the outlets in houses."
@@ -13592,7 +13592,7 @@ mondata SPECIES_GALVANTULA, "Galvantula"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_COMPOUND_EYES, ABILITY_UNNERVE
+    abilities ABILITY_COMPOUND_EYES, ABILITY_STATIC
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_GALVANTULA, "When attacked, they create an electric\nbarrier by spitting out many\nelectrically charged threads."
@@ -14043,7 +14043,7 @@ mondata SPECIES_ACCELGOR, "Accelgor"
 
 
 mondata SPECIES_STUNFISK, "Stunfisk"
-    basestats 109, 66, 84, 32, 81, 99
+    basestats 64, 78, 84, 32, 76, 88
     types TYPE_GROUND, TYPE_ELECTRIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -14054,7 +14054,7 @@ mondata SPECIES_STUNFISK, "Stunfisk"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STATIC, ABILITY_LIMBER
+    abilities ABILITY_MULTISCALE, ABILITY_REGENERATOR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_STUNFISK, "When its opponent can’t be paralyzed,\nit contorts itself with unexpected speed\nand flops away."
@@ -16752,8 +16752,8 @@ mondata SPECIES_WISHIWASHI, "Wishiwashi"
 
 
 mondata SPECIES_MAREANIE, "Mareanie"
-    basestats 50, 53, 62, 45, 43, 52
-    types TYPE_POISON, TYPE_WATER
+    basestats 51, 67, 59, 39, 47, 53
+    types TYPE_POISON, TYPE_POISON
     catchrate 164
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -16763,7 +16763,7 @@ mondata SPECIES_MAREANIE, "Mareanie"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    abilities ABILITY_MERCILESS, ABILITY_LIMBER
+    abilities ABILITY_MERCILESS, ABILITY_POISON_POINT
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_MAREANIE, "Aside from its head, its body parts\nregenerate quickly if they’re cut off."
@@ -16773,18 +16773,18 @@ mondata SPECIES_MAREANIE, "Mareanie"
 
 
 mondata SPECIES_TOXAPEX, "Toxapex"
-    basestats 50, 63, 152, 35, 53, 142
-    types TYPE_POISON, TYPE_WATER
+    basestats 55, 95, 99, 47, 67, 99
+    types TYPE_POISON, TYPE_POISON
     catchrate 75
     baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 2, 0, 0, 0
+    evyields 0, 0, 1, 0, 0, 1
     items ITEM_NONE, ITEM_POISON_BARB
     genderratio 127
     eggcycles 20
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    abilities ABILITY_MERCILESS, ABILITY_LIMBER
+    abilities ABILITY_MERCILESS, ABILITY_POISON_POINT
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_TOXAPEX, "It crawls along the ocean floor on its\n12 legs. It leaves a trail of Corsola\nbits scattered in its wake."
@@ -17466,7 +17466,7 @@ mondata SPECIES_DRAMPA, "Drampa"
 
 
 mondata SPECIES_DHELMISE, "Dhelmise"
-    basestats 70, 131, 100, 40, 86, 90
+    basestats 87, 101, 101, 33, 71, 71
     types TYPE_GHOST, TYPE_GRASS
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -19944,7 +19944,7 @@ mondata SPECIES_CALYREX, "Calyrex"
 
 
 mondata SPECIES_WYRDEER, "Wyrdeer"
-    basestats 103, 105, 72, 65, 105, 75
+    basestats 117, 107, 79, 75, 87, 88
     types TYPE_NORMAL, TYPE_PSYCHIC
     catchrate 135
     baseexp 0 // defined in baseexp.s
@@ -26690,8 +26690,8 @@ mondata SPECIES_UNFEZANT_FEMALE, "-----"
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
 
-mondata SPECIES_FRILLISH_FEMALE, "-----"
-    basestats 55, 40, 50, 40, 65, 85
+mondata SPECIES_FRILLISH_FEMALE, "Frillish"
+    basestats 75, 47, 43, 57, 75, 75
     types TYPE_WATER, TYPE_GHOST
     catchrate 164
     baseexp 43
@@ -26706,8 +26706,8 @@ mondata SPECIES_FRILLISH_FEMALE, "-----"
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
 
-mondata SPECIES_JELLICENT_FEMALE, "-----"
-    basestats 100, 60, 70, 60, 85, 105
+mondata SPECIES_JELLICENT_FEMALE, "Jellicent"
+    basestats 125, 65, 47, 47, 93, 93
     types TYPE_WATER, TYPE_GHOST
     catchrate 60
     baseexp 109

@@ -2,10 +2,10 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V16.4
-Current Task: Test playthrough of V16.4
+Current version: V17.0
+Current Task: Test playthrough
 
-Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~95% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely untouched.
+Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~99% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely unedited.
 
 ## About HG-Engine
 HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
@@ -178,7 +178,7 @@ Since I have multiple items (Twisted Spoons, Macho Brace, King's Rock, Metal Coa
 
 Ekans: Branching evolutions to Arbok and Seviper. (implemented. Untested.)
 
-Geodude: Branching evolutions to Graveler and Carkol.  (implemented. Untested.)
+Geodude: Branching evolutions to Graveler and Carkol.
 
 Dunsparse: Special condition evoluton into Drampa (implemented. Untested.)
 
@@ -190,9 +190,9 @@ Drowzee: Evolves by holding a metronome
 
 Gengar: Haunter evolves via Dusk Stone. Gastly is now a separate species with no evolution. 
 
-Pikachu: Added a 'metal coat' induced evolution into a reworked version of Togedemaru
+Pikachu: Added a 'metal coat' induced evolution into a reworked version of Togedemaru (Untested)
 
-Rhyhorn: Is mostly intended to be a non-evolving Pokemon (I'm a bit of a Rhydon-Rhyperior, but they're still accessible by evolving Rhyhorn with a moon stone)
+Rhyhorn: Is mostly intended to be a single-stage, non-evolving Pokemon (Rhydon-Rhyperior are still accessible by evolving Rhyhorn with a moon stone)
 
 Shellder: Now evolves via normal level up at 36. 
 
@@ -205,6 +205,10 @@ Nidoking & Nidoqueen: Now requires the use of a King's Rock (as a stone / held i
 Sunkern: Evolves by level up while knowing the move Sunny Day.
 
 Pineco: Requires a metal coat to evolve into Forretress.
+
+Bonsly: Evolves at level 18 instead of requiring mimic. 
+
+Wingull: Now evolves on level up only if it knows Stockpile. 
 
 Trade Evolutions: Most have been converted to stone or held item evolutions. The ones that were previous held item trades are now more or less all held item trades.
 
@@ -272,22 +276,21 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Test all added evos. Test new item locations and unlocks (main pokemart, fossils in the goldenrod department store, etc.)
+* Test all added evos. Test new item locations and unlocks (main pokemart, celadon department store, etc.)
 * Test expanded fossil revival options in Pewter city
-* Work on more species & learnsets that I haven't fully constructed (joltik, mienfoo, porygon line(s), fossil species, seviper etc)
-* Complete Johto wild pokemon encounters (Mostly ponds unfinalized)
+* Work on more species & learnsets that I haven't fully constructed (mienfoo, porygon line(s), fossil species, seviper etc)
+* Test Johto wild pokemon encounters 
+* Edited trainers and gym for balance
 * Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
 * Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
 * Update to a more modern version of HG engine !!!
 
 ## Ideas
 
-* Add more aquatic species from other generations? Dhelmise, Mareanie, Pincurchin, Stunfisk, Jellicent
 * Dodrio special evo into Espathra (confirmed modeled, but its pre-evo isn't)
 * Add Swablu-Alteria (fairy / flying), castform (mt. silver?)
 * Add wild fossil pokemon all around the Cinnabar Island or Pewter area, whichever makes more sense. 
 * Add an evolution method with an upper bound, where beyond it they can't evolve (for Clamperl)
-* Remake slugma line as fire/ground?
 
 ## Important Notes / Limitations
 

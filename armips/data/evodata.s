@@ -3348,7 +3348,7 @@ evodata SPECIES_SWELLOW
     terminateevodata
 
 evodata SPECIES_WINGULL
-    evolution EVO_LEVEL, 25, SPECIES_PELIPPER
+    evolution EVO_HAS_MOVE, MOVE_STOCKPILE, SPECIES_PELIPPER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5268,7 +5268,7 @@ evodata SPECIES_BRONZONG
     terminateevodata
 
 evodata SPECIES_BONSLY
-    evolution EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_SUDOWOODO
+    evolution EVO_LEVEL, 18, SPECIES_SUDOWOODO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9581,7 +9581,7 @@ evodata SPECIES_WISHIWASHI
 terminateevodata
 
 evodata SPECIES_MAREANIE
-    evolution EVO_LEVEL, 38, SPECIES_TOXAPEX
+    evolution EVO_LEVEL, 33, SPECIES_TOXAPEX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
