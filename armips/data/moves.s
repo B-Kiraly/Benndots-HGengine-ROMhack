@@ -1580,9 +1580,9 @@ movedata MOVE_AGILITY, "Agility"
 movedata MOVE_QUICK_ATTACK, "Quick Attack"
     battleeffect MOVE_EFFECT_PRIORITY_1
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 50
     type TYPE_NORMAL
-    accuracy 90
+    accuracy 85
     pp 25
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -4012,10 +4012,10 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect MOVE_EFFECT_WHIRLPOOL
     pss SPLIT_SPECIAL
-    basepower 35
+    basepower 70
     type TYPE_WATER
     accuracy 85
-    pp 15
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -7260,9 +7260,9 @@ movedata MOVE_WOOD_HAMMER, "Wood Hammer"
 movedata MOVE_AQUA_JET, "Aqua Jet"
     battleeffect MOVE_EFFECT_PRIORITY_1
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 55
     type TYPE_WATER
-    accuracy 90
+    accuracy 80
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -11405,9 +11405,9 @@ movedata MOVE_SHADOW_BONE, "Shadow Bone"
 movedata MOVE_ACCELEROCK, "Accelerock"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 75
     type TYPE_ROCK
-    accuracy 100
+    accuracy 75
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED

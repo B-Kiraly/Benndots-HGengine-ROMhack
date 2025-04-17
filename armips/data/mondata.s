@@ -3879,7 +3879,7 @@ mondata SPECIES_MARILL, "Marill"
 
 
 mondata SPECIES_AZUMARILL, "Azumarill"
-    basestats 97, 62, 62, 83, 79, 88
+    basestats 98, 66, 60, 82, 78, 88
     types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -3895,8 +3895,8 @@ mondata SPECIES_AZUMARILL, "Azumarill"
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_AZUMARILL, "By keeping still and listening\nintently, it can tell what is in even\nwild, fast-moving rivers."
     mondexclassification SPECIES_AZUMARILL, "Aqua Rabbit Pokémon"
-    mondexheight SPECIES_AZUMARILL, "2’07”"
-    mondexweight SPECIES_AZUMARILL, "62.8 lbs."
+    mondexheight SPECIES_AZUMARILL, "3’07”"
+    mondexweight SPECIES_AZUMARILL, "72.8 lbs."
 
 
 mondata SPECIES_SUDOWOODO, "Sudowoodo"
@@ -4341,7 +4341,7 @@ mondata SPECIES_FORRETRESS, "Forretress"
 
 
 mondata SPECIES_DUNSPARCE, "Dunsparce"
-    basestats 83, 72, 66, 31, 78, 72
+    basestats 78, 73, 82, 38, 76, 86
     types TYPE_NORMAL, TYPE_DRAGON
     catchrate 164
     baseexp 0 // defined in baseexp.s
@@ -4357,7 +4357,7 @@ mondata SPECIES_DUNSPARCE, "Dunsparce"
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DUNSPARCE, "When spotted, this Pokémon escapes\nbackward by furiously boring into\nthe ground with its tail."
     mondexclassification SPECIES_DUNSPARCE, "Land Snake Pokémon"
-    mondexheight SPECIES_DUNSPARCE, "1’11”"
+    mondexheight SPECIES_DUNSPARCE, "2’11”"
     mondexweight SPECIES_DUNSPARCE, "44.9 lbs."
 
 
@@ -4782,7 +4782,7 @@ mondata SPECIES_MANTINE, "Mantine"
 
 
 mondata SPECIES_SKARMORY, "Skarmory"
-    basestats 75, 96, 134, 96, 36, 52
+    basestats 72, 102, 122, 78, 38, 52
     types TYPE_STEEL, TYPE_FLYING
     catchrate 25
     baseexp 0 // defined in baseexp.s
@@ -4798,7 +4798,7 @@ mondata SPECIES_SKARMORY, "Skarmory"
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_SKARMORY, "Its sturdy wings look heavy, but\nthey are actually hollow and light,\nallowing it to fly freely in the sky."
     mondexclassification SPECIES_SKARMORY, "Armor Bird Pokémon"
-    mondexheight SPECIES_SKARMORY, "5’07”"
+    mondexheight SPECIES_SKARMORY, "4’07”"
     mondexweight SPECIES_SKARMORY, "111.3 lbs."
 
 

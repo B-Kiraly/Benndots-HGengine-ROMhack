@@ -4073,7 +4073,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 15, 15, 15, 15, 16, 16, 20, 18, 15, 15, 20, 12
+walklevels 15, 15, 15, 15, 16, 16, 20, 18, 15, 15, 20, 14
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -4334,11 +4334,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 17, 22
-encounter SPECIES_TENTACOOL, 17, 22
-encounter SPECIES_CORSOLA, 17, 22
-encounter SPECIES_MANTINE, 17, 22
-encounter SPECIES_CETODDLE, 17, 22
+encounter SPECIES_TENTACOOL, 17, 21
+encounter SPECIES_WINGULL, 17, 21
+encounter SPECIES_CORSOLA, 17, 21
+encounter SPECIES_MANTINE, 17, 21
+encounter SPECIES_CETODDLE, 17, 21
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4438,11 +4438,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 17, 19
-encounter SPECIES_TENTACOOL, 20, 23
-encounter SPECIES_CETODDLE, 18, 23
-encounter SPECIES_MANTINE, 18, 23
-encounter SPECIES_CORSOLA, 18, 23
+encounter SPECIES_TENTACOOL, 17, 21
+encounter SPECIES_WINGULL, 17, 21
+encounter SPECIES_CETODDLE, 17, 21
+encounter SPECIES_MANTINE, 17, 21
+encounter SPECIES_CORSOLA, 17, 21
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -10625,13 +10625,13 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 23, 20, 20, 21, 25, 24, 23, 20, 21, 24, 17, 19
+walklevels 23, 20, 20, 22, 25, 24, 23, 20, 21, 24, 17, 19
 
 // morning encounter slots
 pokemon SPECIES_SKARMORY
 pokemon SPECIES_DIGLETT
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
+pokemon SPECIES_SKIPLOOM
 pokemon SPECIES_FEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_GLOOM
@@ -10645,7 +10645,7 @@ pokemon SPECIES_TYROGUE
 pokemon SPECIES_SKARMORY
 pokemon SPECIES_DIGLETT
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
+pokemon SPECIES_SKIPLOOM
 pokemon SPECIES_FEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_GLOOM
@@ -10659,7 +10659,7 @@ pokemon SPECIES_TYROGUE
 pokemon SPECIES_SKARMORY
 pokemon SPECIES_DIGLETT
 pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
+pokemon SPECIES_SKIPLOOM
 pokemon SPECIES_FEAROW
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_GLOOM
