@@ -5983,7 +5983,7 @@ mondata SPECIES_MASQUERAIN, "Masquerain"
     types TYPE_BUG, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 0, 1, 1
+    evyields 0, 0, 0, 1, 0, 1
     items ITEM_NONE, ITEM_SILVER_POWDER
     genderratio 127
     eggcycles 15

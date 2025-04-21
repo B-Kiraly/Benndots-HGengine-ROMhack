@@ -1121,10 +1121,10 @@ trainerdata 33, "Jasmine"
 trainerdata 34, "Chuck"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_3
-    nummons 2
+    nummons 3
     item ITEM_HYPER_POTION
-    item ITEM_HYPER_POTION
-    item ITEM_NONE
+    item ITEM_X_SP_DEF
+    item ITEM_FULL_HEAL
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
@@ -1132,27 +1132,39 @@ trainerdata 34, "Chuck"
 
     party 34
         // mon 0
-        ivs 150
+        ivs 120
         abilityslot 0
-        level 29
+        level 28
         pokemon SPECIES_PRIMEAPE
         item ITEM_NONE
-        move MOVE_LEER
-        move MOVE_DOUBLE_TEAM
-        move MOVE_FOCUS_PUNCH
-        move MOVE_ROCK_SLIDE
+        move MOVE_SWAGGER
+        move MOVE_SNARL
+        move MOVE_PURSUIT
+        move MOVE_WAKE_UP_SLAP
         ballseal 0
 
         // mon 1
-        ivs 180
+        ivs 120
         abilityslot 0
-        level 31
-        pokemon SPECIES_POLIWRATH
+        level 26
+        pokemon SPECIES_NIDORINO
         item ITEM_SITRUS_BERRY
-        move MOVE_HYPNOSIS
-        move MOVE_SURF
+        move MOVE_BRICK_BREAK
+        move MOVE_BULK_UP
+        move MOVE_HORN_ATTACK
+        move MOVE_POISON_STING
+        ballseal 0
+
+        // mon 2
+        ivs 150
+        abilityslot 0
+        level 28
+        pokemon SPECIES_ELECTABUZZ
+        item ITEM_PAYAPA_BERRY
+        move MOVE_ARM_THRUST
+        move MOVE_SHOCK_WAVE
+        move MOVE_BULK_UP
         move MOVE_FOCUS_PUNCH
-        move MOVE_BODY_SLAM
         ballseal 0
     endparty
 
@@ -16741,10 +16753,10 @@ trainerdata 498, "Eusine"
         abilityslot 0
         level 25
         pokemon SPECIES_DROWZEE
-        move MOVE_DREAM_EATER
+        move MOVE_NIGHTMARE
         move MOVE_HYPNOSIS
         move MOVE_DISABLE
-        move MOVE_CONFUSION
+        move MOVE_WAKE_UP_SLAP
         ballseal 0
 
         // mon 1
@@ -16752,21 +16764,21 @@ trainerdata 498, "Eusine"
         abilityslot 0
         level 25
         pokemon SPECIES_HAUNTER
-        move MOVE_LICK
-        move MOVE_HYPNOSIS
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
+        move MOVE_BITE
+        move MOVE_HOWL
+        move MOVE_SHADOW_CLAW
+        move MOVE_SCARY_FACE
         ballseal 0
 
         // mon 2
         ivs 150
         abilityslot 32
         level 27
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SCREECH
-        move MOVE_SONIC_BOOM
+        pokemon SPECIES_PACHIRISU
+        move MOVE_SWIFT
+        move MOVE_CHARM
         move MOVE_THUNDER
-        move MOVE_ROLLOUT
+        move MOVE_AGILITY
         ballseal 0
     endparty
 

@@ -10046,7 +10046,7 @@ levelup SPECIES_PACHIRISU
     learnset MOVE_TAIL_SLAP, 9
     learnset MOVE_CHARM, 12
     learnset MOVE_QUICK_ATTACK, 15
-    learnset MOVE_ENDURE, 17
+    learnset MOVE_NATURAL_GIFT, 17
     learnset MOVE_SPARK, 20
     learnset MOVE_SWIFT, 23
     learnset MOVE_AGILITY, 26
@@ -10061,8 +10061,9 @@ levelup SPECIES_PACHIRISU
     learnset MOVE_PLAY_ROUGH, 50
     learnset MOVE_THUNDERBOLT, 53
     learnset MOVE_DRAINING_KISS, 56
-    learnset MOVE_THUNDER, 60
-    learnset MOVE_DAZZLING_GLEAM, 64
+    learnset MOVE_STORED_POWER, 59
+    learnset MOVE_THUNDER, 62
+    learnset MOVE_DAZZLING_GLEAM, 65
     terminatelearnset
 
 
