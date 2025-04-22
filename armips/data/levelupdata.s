@@ -4022,50 +4022,60 @@ levelup SPECIES_FURRET
 levelup SPECIES_HOOTHOOT
     learnset MOVE_GROWL, 1
     learnset MOVE_PECK, 1
-    learnset MOVE_TACKLE, 3
-    learnset MOVE_GUST, 6
-    learnset MOVE_CONFUSION, 9
-    learnset MOVE_REFLECT, 12
-    learnset MOVE_DEFOG, 15
-    learnset MOVE_AIR_SLASH, 18
-    learnset MOVE_EXTRASENSORY, 21
-    learnset MOVE_TAKE_DOWN, 24
-    learnset MOVE_UPROAR, 27
-    learnset MOVE_ROOST, 30
-    learnset MOVE_HYPER_VOICE, 33
-    learnset MOVE_HAZE, 36
-    learnset MOVE_HYPNOSIS, 39
-    learnset MOVE_DREAM_EATER, 39
-    learnset MOVE_ICY_WIND, 42
-    learnset MOVE_MOONBLAST, 45
-    learnset MOVE_PSYCHIC, 48
-    learnset MOVE_MOONLIGHT, 51
-    learnset MOVE_PERISH_SONG, 55
+    learnset MOVE_SCRATCH, 4
+    learnset MOVE_HYPNOSIS, 7
+    learnset MOVE_GUST, 10
+    learnset MOVE_MIND_READER, 12
+    learnset MOVE_CONFUSION, 14
+    learnset MOVE_MIRROR_MOVE, 17
+    learnset MOVE_HEADBUTT, 19
+    learnset MOVE_ASTONISH, 22
+    learnset MOVE_SAFEGUARD, 25
+    learnset MOVE_AIR_CUTTER, 28
+    learnset MOVE_EXTRASENSORY, 31
+    learnset MOVE_NIGHT_SHADE, 34
+    learnset MOVE_CONFUSE_RAY, 36
+    learnset MOVE_HYPER_VOICE, 39
+    learnset MOVE_HAZE, 41
+    learnset MOVE_DREAM_EATER, 44
+    learnset MOVE_CALM_MIND, 47
+    learnset MOVE_ICY_WIND, 50
+    learnset MOVE_MOONBLAST, 53
+    learnset MOVE_PSYCHIC, 56
+    learnset MOVE_MOONLIGHT, 60
+    learnset MOVE_PERISH_SONG, 65
     terminatelearnset
 
 
 levelup SPECIES_NOCTOWL
+    learnset MOVE_WING_ATTACK, 1
+    learnset MOVE_FLY, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_SHADOW_SNEAK, 1
+    learnset MOVE_MEMENTO, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_PECK, 1
-    learnset MOVE_SKY_ATTACK, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_GUST, 6
-    learnset MOVE_CONFUSION, 9
-    learnset MOVE_REFLECT, 12
-    learnset MOVE_DEFOG, 15
-    learnset MOVE_AIR_SLASH, 18
-    learnset MOVE_EXTRASENSORY, 23
-    learnset MOVE_TAKE_DOWN, 28
-    learnset MOVE_UPROAR, 33
-    learnset MOVE_ROOST, 38
-    learnset MOVE_HYPER_VOICE, 41
-    learnset MOVE_HAZE, 44
-    learnset MOVE_HYPNOSIS, 48
-    learnset MOVE_DREAM_EATER, 48
-    learnset MOVE_ICY_WIND, 51
-    learnset MOVE_MOONBLAST, 55
-    learnset MOVE_PSYCHIC, 59
-    learnset MOVE_MOONLIGHT, 62
+    learnset MOVE_SCRATCH, 4
+    learnset MOVE_HYPNOSIS, 7
+    learnset MOVE_GUST, 10
+    learnset MOVE_MIND_READER, 12
+    learnset MOVE_CONFUSION, 14
+    learnset MOVE_MIRROR_MOVE, 17
+    learnset MOVE_HEADBUTT, 19
+    learnset MOVE_ASTONISH, 22
+    learnset MOVE_SAFEGUARD, 25
+    learnset MOVE_AIR_CUTTER, 28
+    learnset MOVE_EXTRASENSORY, 31
+    learnset MOVE_NIGHT_SHADE, 34
+    learnset MOVE_CONFUSE_RAY, 36
+    learnset MOVE_HYPER_VOICE, 39
+    learnset MOVE_HAZE, 41
+    learnset MOVE_DREAM_EATER, 44
+    learnset MOVE_CALM_MIND, 47
+    learnset MOVE_ICY_WIND, 50
+    learnset MOVE_MOONBLAST, 53
+    learnset MOVE_PSYCHIC, 56
+    learnset MOVE_MOONLIGHT, 60
     learnset MOVE_PERISH_SONG, 65
     terminatelearnset
 

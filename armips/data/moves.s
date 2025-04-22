@@ -316,10 +316,10 @@ movedata MOVE_WHIRLWIND, "Whirlwind"
 movedata MOVE_FLY, "Fly"
     battleeffect MOVE_EFFECT_FLY
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 110
     type TYPE_FLYING
-    accuracy 95
-    pp 15
+    accuracy 90
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0

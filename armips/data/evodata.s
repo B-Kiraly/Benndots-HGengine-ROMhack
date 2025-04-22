@@ -1968,7 +1968,7 @@ evodata SPECIES_FURRET
     terminateevodata
 
 evodata SPECIES_HOOTHOOT
-    evolution EVO_LEVEL, 20, SPECIES_NOCTOWL
+    evolution EVO_LEVEL, 33, SPECIES_NOCTOWL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2208,7 +2208,7 @@ evodata SPECIES_BELLOSSOM
     terminateevodata
 
 evodata SPECIES_MARILL
-    evolution EVO_LEVEL, 18, SPECIES_AZUMARILL
+    evolution EVO_LEVEL, 21, SPECIES_AZUMARILL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

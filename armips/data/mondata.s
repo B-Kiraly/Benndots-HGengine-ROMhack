@@ -3438,7 +3438,7 @@ mondata SPECIES_FURRET, "Furret"
 
 
 mondata SPECIES_HOOTHOOT, "Hoothoot"
-    basestats 60, 33, 33, 46, 45, 60
+    basestats 61, 39, 39, 45, 51, 71
     types TYPE_FLYING, TYPE_FLYING
     catchrate 196
     baseexp 0 // defined in baseexp.s
@@ -3459,7 +3459,7 @@ mondata SPECIES_HOOTHOOT, "Hoothoot"
 
 
 mondata SPECIES_NOCTOWL, "Noctowl"
-    basestats 101, 74, 66, 80, 87, 93
+    basestats 101, 79, 65, 83, 89, 95
     types TYPE_FLYING, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -4131,7 +4131,7 @@ mondata SPECIES_QUAGSIRE, "Quagsire"
 
 
 mondata SPECIES_ESPEON, "Espeon"
-    basestats 65, 55, 60, 80, 120, 100
+    basestats 65, 54, 60, 81, 117, 103
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -6378,7 +6378,7 @@ mondata SPECIES_SABLEYE, "Sableye"
 
 
 mondata SPECIES_MAWILE, "Mawile"
-    basestats 50, 100, 80, 80, 60, 80
+    basestats 54, 104, 74, 74, 64, 84
     types TYPE_STEEL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9906,7 +9906,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
 
 
 mondata SPECIES_GLACEON, "Glaceon"
-    basestats 66, 62, 102, 71, 98, 81
+    basestats 66, 66, 102, 72, 96, 78
     types TYPE_ICE, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
