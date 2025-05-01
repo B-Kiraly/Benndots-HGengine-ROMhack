@@ -3218,14 +3218,14 @@ levelup SPECIES_MAGIKARP
 
 
 levelup SPECIES_GYARADOS
-    learnset MOVE_BITE, 0
+    learnset MOVE_BITE, 1
     learnset MOVE_DRAGON_BREATH, 1
     learnset MOVE_TWISTER, 1
     learnset MOVE_WHIRLPOOL, 1
     learnset MOVE_BRINE, 1
-    learnset MOVE_BITE, 25
-    learnset MOVE_SCARY_FACE, 25
-    learnset MOVE_TWISTER, 25
+    learnset MOVE_BITE, 20
+    learnset MOVE_SCARY_FACE, 23
+    learnset MOVE_TWISTER, 26
     learnset MOVE_DRAGON_RAGE, 29
     learnset MOVE_AQUA_TAIL, 33
     learnset MOVE_CRUNCH, 36

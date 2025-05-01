@@ -5945,7 +5945,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 16, 15, 15, 15, 18, 16, 15, 19, 20, 17, 18, 16
+walklevels 19, 18, 19, 18, 20, 18, 15, 19, 19, 19, 21, 16
 
 // morning encounter slots
 pokemon SPECIES_RHYHORN
@@ -5956,7 +5956,7 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
 pokemon SPECIES_KADABRA
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_VENONAT
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_TOGETIC
 pokemon SPECIES_TOGEPI
@@ -5970,7 +5970,7 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
 pokemon SPECIES_KADABRA
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_VENONAT
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_TOGETIC
 pokemon SPECIES_TOGEPI
@@ -5984,7 +5984,7 @@ pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_ABRA
 pokemon SPECIES_KADABRA
-pokemon SPECIES_VENOMOTH
+pokemon SPECIES_VENONAT
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_TOGETIC
 pokemon SPECIES_TOGEPI
@@ -10625,7 +10625,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 23, 20, 20, 22, 25, 24, 23, 20, 21, 24, 17, 19
+walklevels 23, 20, 20, 22, 24, 23, 23, 20, 21, 23, 19, 21
 
 // morning encounter slots
 pokemon SPECIES_SKARMORY
@@ -10637,7 +10637,7 @@ pokemon SPECIES_SPEAROW
 pokemon SPECIES_GLOOM
 pokemon SPECIES_GLOOM
 pokemon SPECIES_DIGLETT
-pokemon SPECIES_SKIPLOOM
+pokemon SPECIES_SNOVER
 pokemon SPECIES_TYROGUE
 pokemon SPECIES_TYROGUE
 
@@ -10651,7 +10651,7 @@ pokemon SPECIES_SPEAROW
 pokemon SPECIES_GLOOM
 pokemon SPECIES_GLOOM
 pokemon SPECIES_DIGLETT
-pokemon SPECIES_SKIPLOOM
+pokemon SPECIES_SNOVER
 pokemon SPECIES_TYROGUE
 pokemon SPECIES_TYROGUE
 
@@ -10665,7 +10665,7 @@ pokemon SPECIES_SPEAROW
 pokemon SPECIES_GLOOM
 pokemon SPECIES_GLOOM
 pokemon SPECIES_DIGLETT
-pokemon SPECIES_SKIPLOOM
+pokemon SPECIES_SNOVER
 pokemon SPECIES_TYROGUE
 pokemon SPECIES_TYROGUE
 

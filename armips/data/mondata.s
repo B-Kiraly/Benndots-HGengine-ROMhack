@@ -3123,7 +3123,7 @@ mondata SPECIES_DRATINI, "Dratini"
 
 
 mondata SPECIES_DRAGONAIR, "Dragonair"
-    basestats 88, 65, 67, 108, 100, 103
+    basestats 88, 65, 67, 107, 100, 103
     types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3144,7 +3144,7 @@ mondata SPECIES_DRAGONAIR, "Dragonair"
 
 
 mondata SPECIES_DRAGONITE, "Dragonite"
-    basestats 134, 103, 74, 88, 109, 92
+    basestats 135, 106, 73, 87, 108, 91
     types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s

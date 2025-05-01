@@ -2256,7 +2256,7 @@ evodata SPECIES_POLITOED
     terminateevodata
 
 evodata SPECIES_HOPPIP
-    evolution EVO_LEVEL, 18, SPECIES_SKIPLOOM
+    evolution EVO_LEVEL, 17, SPECIES_SKIPLOOM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2268,7 +2268,7 @@ evodata SPECIES_HOPPIP
     terminateevodata
 
 evodata SPECIES_SKIPLOOM
-    evolution EVO_LEVEL, 27, SPECIES_JUMPLUFF
+    evolution EVO_LEVEL, 31, SPECIES_JUMPLUFF
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2844,9 +2844,9 @@ evodata SPECIES_SMEARGLE
     terminateevodata
 
 evodata SPECIES_TYROGUE
-    evolution EVO_LEVEL_ATK_LT_DEF, 20, SPECIES_HITMONCHAN
-    evolution EVO_LEVEL_ATK_GT_DEF, 20, SPECIES_HITMONLEE
-    evolution EVO_LEVEL_ATK_EQ_DEF, 20, SPECIES_HITMONTOP
+    evolution EVO_LEVEL_ATK_LT_DEF, 25, SPECIES_HITMONCHAN
+    evolution EVO_LEVEL_ATK_GT_DEF, 25, SPECIES_HITMONLEE
+    evolution EVO_LEVEL_ATK_EQ_DEF, 25, SPECIES_HITMONTOP
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

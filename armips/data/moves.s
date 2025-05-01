@@ -5452,11 +5452,11 @@ movedata MOVE_BULK_UP, "Bulk Up"
 movedata MOVE_BOUNCE, "Bounce"
     battleeffect MOVE_EFFECT_BOUNCE
     pss SPLIT_PHYSICAL
-    basepower 85
+    basepower 95
     type TYPE_FLYING
-    accuracy 85
-    pp 8
-    effectchance 30
+    accuracy 80
+    pp 14
+    effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
