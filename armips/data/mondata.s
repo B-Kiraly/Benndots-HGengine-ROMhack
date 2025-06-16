@@ -519,7 +519,7 @@ mondata SPECIES_EKANS, "Ekans"
 
 
 mondata SPECIES_ARBOK, "Arbok"
-    basestats 79, 87, 74, 92, 71, 71
+    basestats 79, 91, 74, 92, 71, 71
     types TYPE_POISON, TYPE_POISON
     catchrate 90
     baseexp 0 // defined in baseexp.s

@@ -5100,11 +5100,11 @@ movedata MOVE_ROCK_TOMB, "Rock Tomb"
 movedata MOVE_SILVER_WIND, "Silver Wind"
     battleeffect MOVE_EFFECT_RAISE_ALL_STATS_HIT
     pss SPLIT_SPECIAL
-    basepower 50
+    basepower 55
     type TYPE_BUG
     accuracy 100
-    pp 7
-    effectchance 15
+    pp 10
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT

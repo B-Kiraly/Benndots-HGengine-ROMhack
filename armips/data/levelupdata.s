@@ -13796,23 +13796,24 @@ levelup SPECIES_SCRAFTY
 
 levelup SPECIES_SIGILYPH
     learnset MOVE_GUST, 1
-    learnset MOVE_CONFUSION, 1
-    learnset MOVE_MIRACLE_EYE, 1
-    learnset MOVE_HYPNOSIS, 7
-    learnset MOVE_PSYWAVE, 8
+    learnset MOVE_HYPNOSIS, 4
+    learnset MOVE_CONFUSION, 7
+    learnset MOVE_MIRACLE_EYE, 10
+    learnset MOVE_HEX, 14
     learnset MOVE_AIR_CUTTER, 17
-    learnset MOVE_PSYBEAM, 19
-    learnset MOVE_WHIRLWIND, 19
-    learnset MOVE_GRAVITY, 20
-    learnset MOVE_TAILWIND, 29
-    learnset MOVE_SYNCHRONOISE, 31
-    learnset MOVE_MIRROR_MOVE, 34
-    learnset MOVE_AIR_SLASH, 37
-    learnset MOVE_LIGHT_SCREEN, 37
-    learnset MOVE_COSMIC_POWER, 38
-    learnset MOVE_REFLECT, 39
-    learnset MOVE_PSYCHIC, 41
-    learnset MOVE_SKY_ATTACK, 52
+    learnset MOVE_PSYBEAM, 20
+    learnset MOVE_WHIRLWIND, 22
+    learnset MOVE_WING_ATTACK, 25
+    learnset MOVE_IMPRISON, 27
+    learnset MOVE_TWISTER, 30
+    learnset MOVE_LIGHT_SCREEN, 33
+    learnset MOVE_EXTRASENSORY, 36
+    learnset MOVE_TAILWIND, 39
+    learnset MOVE_COSMIC_POWER, 43
+    learnset MOVE_HIDDEN_POWER, 45
+    learnset MOVE_SECRET_POWER, 48
+    learnset MOVE_SYNCHRONOISE, 51
+    learnset MOVE_AEROBLAST, 55
     learnset MOVE_SKILL_SWAP, 60
     terminatelearnset
 

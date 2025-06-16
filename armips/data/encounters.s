@@ -6153,7 +6153,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 23, 23, 26, 24, 25, 24, 24, 24, 26, 30, 26
+walklevels 24, 25, 25, 28, 26, 27, 26, 26, 26, 28, 30, 27
 
 // morning encounter slots
 pokemon SPECIES_DODUO
@@ -6207,28 +6207,28 @@ pokemon SPECIES_BIDOOF
 
 // surf encounters
 encounter SPECIES_POLIWAG, 17, 23
-encounter SPECIES_POLIWAG, 24, 28
+encounter SPECIES_POLIWAG, 24, 27
 encounter SPECIES_POLIWHIRL, 25, 30
-encounter SPECIES_MASQUERAIN, 25, 30
-encounter SPECIES_YANMA, 20, 22
+encounter SPECIES_MASQUERAIN, 24, 30
+encounter SPECIES_YANMA, 24, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_REMORAID, 10, 10
-encounter SPECIES_REMORAID, 10, 10
-encounter SPECIES_LUVDISC, 10, 10
+encounter SPECIES_GOLDEEN, 13, 21
+encounter SPECIES_GOLDEEN, 13, 21
+encounter SPECIES_REMORAID, 13, 21
+encounter SPECIES_REMORAID, 13, 21
+encounter SPECIES_LUVDISC, 13, 21
 
 // good rod encounters
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_REMORAID, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_LUVDISC, 20, 20
-encounter SPECIES_LUVDISC, 20, 20
+encounter SPECIES_GOLDEEN, 19, 27
+encounter SPECIES_REMORAID, 19, 27
+encounter SPECIES_GOLDEEN, 19, 27
+encounter SPECIES_LUVDISC, 19, 27
+encounter SPECIES_LUVDISC, 19, 27
 
 // super rod encounters
 encounter SPECIES_REMORAID, 29, 37
