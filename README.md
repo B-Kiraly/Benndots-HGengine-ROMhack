@@ -2,10 +2,10 @@
 
 This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
 
-Current version: V17.2
+Current version: V17.6
 Current Task: Test playthrough
 
-Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~99% done, and most Pokemon have had their stats and movesets overhauled. Some trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely unedited.
+Current State: The game should function and play perfectly fine! Most of what I wanted to add/change should be present, though much of it is still untested. Encounters in Johto are ~99% done, and most Pokemon have had their stats and movesets overhauled. Most trainers and all gym leaders have received some tweaks/reworks. Kanto and Mt.Silver are still largely unedited.
 
 ## About HG-Engine
 HG-Engine is a community-made upgrade to the battle engine in Pokemon HeartGold. It gives the DS an updated roster of Pokemon, abilities, moves and more to bring the 2010 DS game in line with the features of more recent releases in the series. 
@@ -276,13 +276,12 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Test all added evos. Test new item locations and unlocks (main pokemart, celadon department store, etc.)
+* Test all added evos. Test new item locations and unlocks (celadon department store, etc.)
 * Test expanded fossil revival options in Pewter city
-* Work on more species & learnsets that I haven't fully constructed (mienfoo, porygon line(s), fossil species, seviper etc)
-* Test Johto wild pokemon encounters 
-* Edited trainers and gym for balance
-* Continue custom trainer editing (Elite four, leader and elite four rematches, regular trainers)
-* Work on the post game. Kanto encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
+* Work on more species & learnsets that I haven't fully constructed (mienfoo, horsea, porygon line(s), fossil species, seviper etc)
+* Test Kanto wild pokemon encounters 
+* Rework dragon's den and route 45 trainer encounters
+* Work on the post game. Change/test Kanto wild encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
 * Update to a more modern version of HG engine !!!
 
 ## Ideas
