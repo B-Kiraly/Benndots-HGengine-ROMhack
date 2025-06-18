@@ -1132,10 +1132,10 @@ movedata MOVE_SEISMIC_TOSS, "Seismic Toss"
 movedata MOVE_STRENGTH, "Strength"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 100
     type TYPE_NORMAL
-    accuracy 100
-    pp 15
+    accuracy 85
+    pp 12
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -2206,8 +2206,8 @@ movedata MOVE_GLARE, "Glare"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
-    accuracy 97
-    pp 30
+    accuracy 95
+    pp 6
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9293,10 +9293,10 @@ movedata MOVE_TOPSY_TURVY, "Topsy-Turvy"
 movedata MOVE_DRAINING_KISS, "Draining Kiss"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 46
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 95
-    pp 20
+    accuracy 92
+    pp 25
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9304,7 +9304,7 @@ movedata MOVE_DRAINING_KISS, "Draining Kiss"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_DRAINING_KISS, "The user steals the target's energy with a kiss. The user's HP is restored by over half of the damage taken by the target."
+    movedescription MOVE_DRAINING_KISS, "The user steals the\ntarget's energy with\na kiss, restoring the\nuser's HP."
 
 movedata MOVE_CRAFTY_SHIELD, "Crafty Shield"
     battleeffect MOVE_EFFECT_HIT

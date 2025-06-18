@@ -6257,49 +6257,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 23, 24, 24, 23, 24, 24, 25, 25, 24, 24, 24, 24
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // night encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6361,49 +6361,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 23, 24, 24, 23, 24, 24, 25, 25, 24, 24, 24, 24
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // night encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6465,49 +6465,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 23, 24, 24, 23, 24, 24, 25, 25, 24, 24, 24, 24
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // night encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6569,49 +6569,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 23, 24, 24, 23, 24, 24, 25, 25, 24, 24, 24, 24
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // night encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNORUNT
 pokemon SPECIES_JYNX
-pokemon SPECIES_DELIBIRD
-pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CRYOGONAL
+pokemon SPECIES_SMOOCHUM
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6830,36 +6830,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
+encounter SPECIES_MAGIKARP, 17, 26
+encounter SPECIES_POLIWAG, 17, 26
+encounter SPECIES_HORSEA, 17, 26
+encounter SPECIES_POLIWHIRL, 25, 28
+encounter SPECIES_SQUIRTLE, 17, 26
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 12, 18
+encounter SPECIES_MAGIKARP, 12, 18
+encounter SPECIES_POLIWAG, 12, 18
+encounter SPECIES_HORSEA, 12, 18
+encounter SPECIES_LUVDISC, 12, 18
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 18, 27
+encounter SPECIES_HORSEA, 18, 27
+encounter SPECIES_POLIWAG, 18, 27
+encounter SPECIES_LUVDISC, 18, 27
+encounter SPECIES_MUDKIP, 18, 27
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_SEADRA, 32, 37
+encounter SPECIES_SEADRA, 38, 43
+encounter SPECIES_LUVDISC, 32, 60
+encounter SPECIES_MARSHTOMP, 32, 39
+encounter SPECIES_SWAMPERT, 42, 48
 
 // swarm grass
 pokemon SPECIES_NONE

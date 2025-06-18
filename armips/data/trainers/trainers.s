@@ -1162,7 +1162,7 @@ trainerdata 35, "Clair"
     nummons 4
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item ITEM_FULL_HEAL
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
@@ -1170,7 +1170,7 @@ trainerdata 35, "Clair"
 
     party 35
         // mon 0
-        ivs 200
+        ivs 170
         abilityslot 0
         level 38
         pokemon SPECIES_DRAGONAIR
@@ -1194,7 +1194,7 @@ trainerdata 35, "Clair"
         ballseal 0
 
         // mon 2
-        ivs 200
+        ivs 190
         abilityslot 0
         level 38
         pokemon SPECIES_DRAGONAIR
@@ -1206,12 +1206,12 @@ trainerdata 35, "Clair"
         ballseal 0
 
         // mon 3
-        ivs 220
+        ivs 210
         abilityslot 32
-        level 41
+        level 40
         pokemon SPECIES_KINGDRA
         item ITEM_SITRUS_BERRY
-        move MOVE_SMOKESCREEN
+        move MOVE_REFRESH
         move MOVE_HYDRO_PUMP
         move MOVE_HYPER_BEAM
         move MOVE_DRAGON_PULSE
@@ -3412,7 +3412,7 @@ trainerdata 109, "Alton"
 trainerdata 110, "Paulo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
-    nummons 3
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3425,18 +3425,11 @@ trainerdata 110, "Paulo"
         // mon 0
         ivs 60
         abilityslot 0
-        level 35
-        pokemon SPECIES_DRATINI
+        level 34
+        pokemon SPECIES_CHARMELEON
         ballseal 0
 
         // mon 1
-        ivs 60
-        abilityslot 32
-        level 35
-        pokemon SPECIES_SEADRA
-        ballseal 0
-
-        // mon 2
         ivs 60
         abilityslot 0
         level 35
@@ -3479,17 +3472,17 @@ trainerdata 112, "Cody"
 
     party 112
         // mon 0
-        ivs 60
+        ivs 90
         abilityslot 0
-        level 35
-        pokemon SPECIES_HORSEA
+        level 36
+        pokemon SPECIES_SEADRA
         ballseal 0
 
         // mon 1
-        ivs 60
+        ivs 90
         abilityslot 32
-        level 37
-        pokemon SPECIES_SEADRA
+        level 36
+        pokemon SPECIES_GRAVELER
         ballseal 0
     endparty
 
@@ -3664,14 +3657,14 @@ trainerdata 117, "Lola"
         ivs 60
         abilityslot 0
         level 35
-        pokemon SPECIES_DRATINI
+        pokemon SPECIES_DUNSPARCE
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 0
         level 37
-        pokemon SPECIES_DRAGONAIR
+        pokemon SPECIES_DUNSPARCE
         ballseal 0
     endparty
 
@@ -3719,8 +3712,8 @@ trainerdata 119, "Fran"
         // mon 0
         ivs 60
         abilityslot 32
-        level 38
-        pokemon SPECIES_SEADRA
+        level 37
+        pokemon SPECIES_GYARADOS
         ballseal 0
     endparty
 

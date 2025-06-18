@@ -4845,7 +4845,7 @@ mondata SPECIES_HOUNDOOM, "Houndoom"
 
 
 mondata SPECIES_KINGDRA, "Kingdra"
-    basestats 77, 87, 97, 87, 87, 87
+    basestats 88, 88, 99, 77, 99, 88
     types TYPE_WATER, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
