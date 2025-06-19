@@ -276,7 +276,6 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Rework route 45 trainers, test encounters
 * Test added pokemon evolutions. 
 * Test new item locations and unlocks (celadon department store, etc.)
 * Test expanded fossil revival options in Pewter city

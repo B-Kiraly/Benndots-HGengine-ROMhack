@@ -6380,9 +6380,9 @@ movedata MOVE_ROCK_POLISH, "Rock Polish"
 movedata MOVE_POISON_JAB, "Poison Jab"
     battleeffect MOVE_EFFECT_POISON_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 85
     type TYPE_POISON
-    accuracy 100
+    accuracy 85
     pp 20
     effectchance 30
     target MOVE_TARGET_SELECTED
