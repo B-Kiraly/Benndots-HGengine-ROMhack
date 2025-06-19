@@ -6399,7 +6399,7 @@ mondata SPECIES_MAWILE, "Mawile"
 
 
 mondata SPECIES_ARON, "Aron"
-    basestats 50, 70, 100, 30, 40, 40
+    basestats 43, 75, 119, 37, 31, 43
     types TYPE_STEEL, TYPE_ROCK
     catchrate 180
     baseexp 0 // defined in baseexp.s
@@ -6420,7 +6420,7 @@ mondata SPECIES_ARON, "Aron"
 
 
 mondata SPECIES_LAIRON, "Lairon"
-    basestats 60, 90, 140, 40, 50, 50
+    basestats 67, 99, 145, 49, 51, 63
     types TYPE_STEEL, TYPE_ROCK
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -6436,12 +6436,12 @@ mondata SPECIES_LAIRON, "Lairon"
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_LAIRON, "It loves iron ore. Groups of them\nfight for territory by bashing one\nanother with their steel bodies."
     mondexclassification SPECIES_LAIRON, "Iron Armor Pokémon"
-    mondexheight SPECIES_LAIRON, "2’11”"
+    mondexheight SPECIES_LAIRON, "3’11”"
     mondexweight SPECIES_LAIRON, "264.6 lbs."
 
 
 mondata SPECIES_AGGRON, "Aggron"
-    basestats 70, 110, 180, 50, 60, 60
+    basestats 107, 129, 145, 43, 81, 63
     types TYPE_STEEL, TYPE_ROCK
     catchrate 45
     baseexp 0 // defined in baseexp.s

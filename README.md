@@ -276,11 +276,12 @@ All the files I've edited and tweaked exist inside of this repository and can be
 
 ## TODO List
 
-* Test all added evos. Test new item locations and unlocks (celadon department store, etc.)
+* Rework route 45 trainers, test encounters
+* Test added pokemon evolutions. 
+* Test new item locations and unlocks (celadon department store, etc.)
 * Test expanded fossil revival options in Pewter city
 * Work on more species & learnsets that I haven't fully constructed (mienfoo, horsea, porygon line(s), fossil species, seviper etc)
 * Test Kanto wild pokemon encounters 
-* Rework dragon's den and route 45 trainer encounters
 * Work on the post game. Change/test Kanto wild encounters. Make Kanto endgame trainer battles more interesting/challenging. Add friends to mt.Silver.
 * Update to a more modern version of HG engine !!!
 

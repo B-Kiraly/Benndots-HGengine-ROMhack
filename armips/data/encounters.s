@@ -6368,7 +6368,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6382,7 +6382,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6396,7 +6396,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6472,7 +6472,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6486,7 +6486,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6500,7 +6500,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6576,7 +6576,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6590,7 +6590,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6604,7 +6604,7 @@ pokemon SPECIES_SWINUB
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
 pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_ARON
 pokemon SPECIES_DELIBIRD
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SWINUB
@@ -6934,36 +6934,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 12, 20
-encounter SPECIES_HORSEA, 12, 20
-encounter SPECIES_DRATINI, 12, 20
-encounter SPECIES_DRATINI, 12, 20
-encounter SPECIES_GYARADOS, 20, 25
+encounter SPECIES_MAGIKARP, 21, 28
+encounter SPECIES_HORSEA, 24, 31
+encounter SPECIES_DRATINI, 24, 28
+encounter SPECIES_DRATINI, 29, 32
+encounter SPECIES_GYARADOS, 32, 33
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_HORSEA, 5, 15
-encounter SPECIES_HORSEA, 5, 15
+encounter SPECIES_MAGIKARP, 13, 19
+encounter SPECIES_HORSEA, 13, 19
+encounter SPECIES_MAGIKARP, 13, 19
+encounter SPECIES_HORSEA, 13, 19
+encounter SPECIES_HORSEA, 13, 19
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_HORSEA, 18, 24
-encounter SPECIES_DRATINI, 18, 24
-encounter SPECIES_HORSEA, 18, 24
+encounter SPECIES_HORSEA, 21, 28
+encounter SPECIES_MAGIKARP, 21, 28
+encounter SPECIES_HORSEA, 21, 28
+encounter SPECIES_DRATINI, 21, 28
+encounter SPECIES_GYARADOS, 29, 35
 
 // super rod encounters
 encounter SPECIES_SEADRA, 36, 44
 encounter SPECIES_DRATINI, 36, 44
 encounter SPECIES_GYARADOS, 36, 44
 encounter SPECIES_DRAGONAIR, 36, 44
-encounter SPECIES_MAGIKARP, 36, 44
+encounter SPECIES_KINGDRA, 36, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7203,11 +7203,11 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_MAWILE
 pokemon SPECIES_SABLEYE
+pokemon SPECIES_WYNAUT
+pokemon SPECIES_CARBINK
 
 // day encounter slots
 pokemon SPECIES_GEODUDE
@@ -7217,11 +7217,11 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_MAWILE
 pokemon SPECIES_SABLEYE
+pokemon SPECIES_WYNAUT
+pokemon SPECIES_CARBINK
 
 // night encounter slots
 pokemon SPECIES_GEODUDE
@@ -7231,11 +7231,11 @@ pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
 pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_MAWILE
 pokemon SPECIES_SABLEYE
+pokemon SPECIES_WYNAUT
+pokemon SPECIES_CARBINK
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -7297,7 +7297,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 29, 28, 22, 22, 25, 25, 25, 25, 24, 25, 20, 40
+walklevels 29, 28, 23, 23, 25, 25, 25, 25, 24, 25, 21, 39
 
 // morning encounter slots
 pokemon SPECIES_GRAVELER
@@ -7350,36 +7350,36 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
+encounter SPECIES_BARBOACH, 21, 29
+encounter SPECIES_GOLBAT, 21, 29
+encounter SPECIES_HAUNTER, 21, 29
+encounterwithform SPECIES_FRILLISH, 0, 21, 29
+encounter SPECIES_MARSHTOMP, 21, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_BARBOACH, 13, 19
+encounter SPECIES_BARBOACH, 13, 19
+encounter SPECIES_FRILLISH, 13, 19
+encounter SPECIES_RELICANTH, 13, 19
+encounter SPECIES_CLAMPERL, 13, 19
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_BARBOACH, 21, 29
+encounterwithform SPECIES_FRILLISH, 1, 21, 29
+encounter SPECIES_RELICANTH, 21, 29
+encounter SPECIES_CLAMPERL, 21, 29
+encounter SPECIES_FEEBAS, 21, 29
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounterwithform SPECIES_FRILLISH, 0, 30, 40
+encounterwithform SPECIES_FRILLISH, 1, 30, 40
+encounter SPECIES_CLAMPERL, 35, 48
+encounter SPECIES_RELICANTH, 35, 48
+encounter SPECIES_MILOTIC, 45, 55
 
 // swarm grass
 pokemon SPECIES_GEODUDE
