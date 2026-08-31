@@ -4800,7 +4800,7 @@ evodata SPECIES_STARAPTOR
     terminateevodata
 
 evodata SPECIES_BIDOOF
-    evolution EVO_LEVEL, 15, SPECIES_BIBAREL
+    evolution EVO_LEVEL, 25, SPECIES_BIBAREL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4824,7 +4824,7 @@ evodata SPECIES_BIBAREL
     terminateevodata
 
 evodata SPECIES_KRICKETOT
-    evolution EVO_LEVEL, 10, SPECIES_KRICKETUNE
+    evolution EVO_LEVEL, 23, SPECIES_KRICKETUNE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4848,7 +4848,7 @@ evodata SPECIES_KRICKETUNE
     terminateevodata
 
 evodata SPECIES_SHINX
-    evolution EVO_LEVEL, 15, SPECIES_LUXIO
+    evolution EVO_LEVEL, 18, SPECIES_LUXIO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4860,7 +4860,7 @@ evodata SPECIES_SHINX
     terminateevodata
 
 evodata SPECIES_LUXIO
-    evolution EVO_LEVEL, 30, SPECIES_LUXRAY
+    evolution EVO_LEVEL, 33, SPECIES_LUXRAY
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5076,7 +5076,7 @@ evodata SPECIES_CHERRIM
     terminateevodata
 
 evodata SPECIES_SHELLOS
-    evolution EVO_LEVEL, 30, SPECIES_GASTRODON
+    evolution EVO_LEVEL, 32, SPECIES_GASTRODON
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
