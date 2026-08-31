@@ -1,6 +1,6 @@
 # Benndot's Pokemon Heartgold and Soulsilver
 
-This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me, Benndot. Hi!
+This is a ROM-hacked (custom) version of the Pokemon game Heartgold for Nintendo DS made by me! Hi!
 
 Current version: V17.6
 Current Task: Test playthrough
